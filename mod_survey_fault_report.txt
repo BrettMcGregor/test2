@@ -1,0 +1,247 @@
+
+2D MAPPING AND MODELLING - GRID ARITHMETIC AND INSPECTION
+              GDCALC : Version : Vulcan 12.0.2.358 : 02-Dec-2019
+                          Copyright (C) 2019 Maptek
+GDCALC Vulcan 12.0.2.358 (VUL-80000_12.0.2) Dec 2 2019                                                                                                                                                       
+ gdc>  gdc> All point, string and triangle data removed
+ gdc> Specifications loaded for area: v10r
+ gdc> Specifications used to determine window
+Specifications used to determine grid size
+Loading map file
+Area name: TP3_Z
+Using DSR info if available
+Loading map file: vk_tp3_z.map
+Number of points: 1370 (out of 1632)
+ gdc> Loading fault information
+Using database: VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object: (MODEL_FAULTS_W,CANYON_S)
+Loading layer and object: (MODEL_FAULTS_W,BLUEVALE)
+Loading layer and object: (MODEL_FAULTS_W,ROSEBERRY)
+Loading layer and object: (MODEL_FAULTS_W,BIG_ONE)
+Loading layer and object: (MODEL_FAULTS_W,CANYON_W)
+Loading layer and object: (MODEL_FAULTS_W,GOMEZ_JNR)
+Loading layer and object: (MODEL_FAULTS_W,BLUEVALE)
+Loading layer and object: (MODEL_FAULTS_W,LINE_4)
+Loading layer and object: (MODEL_FAULTS_W,LINE_3)
+Loading layer and object: (MODEL_FAULTS_W,WAMF)
+Loading layer and object: (MODEL_FAULTS_W,KARU)
+Loading layer and object: (MODEL_FAULTS_W,WOODLANDS)
+Loading layer and object: (MODEL_FAULTS_W,LINE_5)
+Loading layer and object: (MODEL_FAULTS_W,LINE_6)
+Loading layer and object: (MODEL_FAULTS_W,GOMEZ)
+Loading layer and object: (MODEL_FAULTS_W,LINE_1)
+Loading layer and object: (MODEL_FAULTS_W,LINE_1)
+Total points : 1555
+ gdc> Specifications used to determine window
+Design DB area : MODEL_INPUTS
+Layer and object: MODEL_TP3_SR *
+Using database: VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object: (MODEL_TP3_SR,POINT_1)
+Loading layer and object: (MODEL_TP3_SR,POINT_2)
+Loading layer and object: (MODEL_TP3_SR,POINT_1)
+Loading layer and object: (MODEL_TP3_SR,POINT_2)
+Loading layer and object: (MODEL_TP3_SR,POINT_3)
+Total points : 1563
+ gdc> Base method is triangulation
+Smoothing passes : 9
+Specifications used to determine window and grid size
+Delaunay triangulation for 1563 points
+Total number of triangles: 3598/100000000
+Linear Triangular modeling method
+Number of zero area triangles : 0
+Longest triangle side : 2485.710595
+Number of active points : 411217
+Generated data range : -94.998085 to 288.116180
+Least-squares smoothing, data honouring
+  Honouring all data points
+... breaklines found, these will be honoured
+ gdc>  gdc> Saving buffered grid as VK_TP3_REF.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> 
+2D MAPPING AND MODELLING - GRID ARITHMETIC AND INSPECTION
+              GDCALC : Version : Vulcan 12.0.2.358 : 02-Dec-2019
+                          Copyright (C) 2019 Maptek
+GDCALC Vulcan 12.0.2.358 (VUL-80000_12.0.2) Dec 2 2019                                                                                                                                                       
+ gdc>  gdc> All point, string and triangle data removed
+ gdc> Specifications loaded for area: v10r
+ gdc>  Generating grid - TP3_REF.SR
+Saving buffered grid as VK_TP3.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TP3.SR - TP3.ST
+Saving buffered grid as VK_TP3.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - TP3.SF - TP4.MD
+Saving buffered grid as VK_TP4.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TP4.SR - TP4.ST
+Saving buffered grid as VK_TP4.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - TP4.SF - CN1.MD
+Saving buffered grid as VK_CN1.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CN1.SR - CN1.ST
+Saving buffered grid as VK_CN1.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - CN1.SF - CN2.MD
+Saving buffered grid as VK_CN2.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CN2.SR - CN2.ST
+Saving buffered grid as VK_CN2.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - CN2.SF - CN3U.MD
+Saving buffered grid as VK_CN3U.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CN3U.SR - CN3U.ST
+Saving buffered grid as VK_CN3U.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - CN3U.SF - CN3L.MD
+Saving buffered grid as VK_CN3L.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CN3L.SR - CN3L.ST
+Saving buffered grid as VK_CN3L.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - CN3L.SF - WAA.MD
+Saving buffered grid as VK_WAA.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - WAA.SR - WAA.ST
+Saving buffered grid as VK_WAA.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - WAA.SF - BN1.MD
+Saving buffered grid as VK_BN1.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - BN1.SR - BN1.ST
+Saving buffered grid as VK_BN1.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - BN1.SF - BN2.MD
+Saving buffered grid as VK_BN2.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - BN2.SR - BN2.ST
+Saving buffered grid as VK_BN2.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - TP3_REF.SR + TP3.MD
+Saving buffered grid as VK_TP2.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TP2.SF + TP2.ST
+Saving buffered grid as VK_TP2.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - TP2.SR + TP2.MD
+Saving buffered grid as VK_TP1.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TP1.SF + TP1.ST
+Saving buffered grid as VK_TP1.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - TP1.SR + TP1.MD
+Saving buffered grid as VK_ST2.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - ST2.SF + ST2.ST
+Saving buffered grid as VK_ST2.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - ST2.SR + ST2.MD
+Saving buffered grid as VK_ST1.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - ST1.SF + ST1.ST
+Saving buffered grid as VK_ST1.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - ST1.SR + ST1.MD
+Saving buffered grid as VK_TA8.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TA8.SF + TA8.ST
+Saving buffered grid as VK_TA8.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - TA8.SR + TA8.MD
+Saving buffered grid as VK_TA6.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TA6.SF + TA6.ST
+Saving buffered grid as VK_TA6.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - TA6.SR + TA6.MD
+Saving buffered grid as VK_TA4.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TA4.SF + TA4.ST
+Saving buffered grid as VK_TA4.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - TA4.SR + TA4.MD
+Saving buffered grid as VK_TA3.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TA3.SF + TA3.ST
+Saving buffered grid as VK_TA3.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - TA3.SR + TA3.MD
+Saving buffered grid as VK_TA2.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TA2.SF + TA2.ST
+Saving buffered grid as VK_TA2.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - TA2.SR + TA2.MD
+Saving buffered grid as VK_TA1.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TA1.SF + TA1.ST
+Saving buffered grid as VK_TA1.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - TA1.SR + TA1.MD
+Saving buffered grid as VK_FX1.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - FX1.SF + FX1.ST
+Saving buffered grid as VK_FX1.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - FX1.SR + FX1.MD
+Saving buffered grid as VK_TH1.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TH1.SF + TH1.ST
+Saving buffered grid as VK_TH1.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - TH1.SR + TH1.MD
+Saving buffered grid as VK_NT5.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - NT5.SF + NT5.ST
+Saving buffered grid as VK_NT5.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - NT5.SR + NT5.MD
+Saving buffered grid as VK_NT3.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - NT3.SF + NT3.ST
+Saving buffered grid as VK_NT3.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - NT3.SR + NT3.MD
+Saving buffered grid as VK_NT2.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - NT2.SF + NT2.ST
+Saving buffered grid as VK_NT2.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - NT2.SR + NT2.MD
+Saving buffered grid as VK_NT1.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - NT1.SF + NT1.ST
+Saving buffered grid as VK_NT1.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - NT1.SR + NT1.MD
+Saving buffered grid as VK_NG3.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - NG3.SF + NG3.ST
+Saving buffered grid as VK_NG3.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - NG3.SR + NG3.MD
+Saving buffered grid as VK_NG1.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - NG1.SF + NG1.ST
+Saving buffered grid as VK_NG1.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - NG1.SR + NG1.MD
+Saving buffered grid as VK_VY3.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - VY3.SF + VY3.ST
+Saving buffered grid as VK_VY3.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - VY3.SR + VY3.MD
+Saving buffered grid as VK_VY2.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - VY2.SF + VY2.ST
+Saving buffered grid as VK_VY2.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - VY2.SR + VY2.MD
+Saving buffered grid as VK_VY1.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - VY1.SF + VY1.ST
+Saving buffered grid as VK_VY1.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> 

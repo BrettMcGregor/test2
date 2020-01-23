@@ -1,0 +1,49 @@
+BEGIN$DEF MAP_WINDOW                    
+   X_minimum=229160.000
+   Y_minimum=6589800.000
+   X_maximum=234160.000
+   Y_maximum=6595240.000
+   Grid_Size=100.000
+   Units='m'
+   Design_DB_Area='masks'
+END$DEF MAP_WINDOW                    
+BEGIN$DEF GRID_TABLE                    
+   BEGIN$TAB VARIABLES
+   END$TAB VARIABLES
+   BEGIN$TAB DEFAULT_METHOD
+   END$TAB DEFAULT_METHOD
+   BEGIN$TAB HORIZONS
+   END$TAB HORIZONS
+   BEGIN$TAB MFI
+   END$TAB MFI
+END$DEF GRID_TABLE                    
+BEGIN$DEF QUALITY_PARAMS                
+   BEGIN$TAB QUALITIES
+   END$TAB QUALITIES
+   BEGIN$TAB HORIZONS
+   END$TAB HORIZONS
+END$DEF QUALITY_PARAMS                
+BEGIN$DEF MINING_PARAMETERS             
+   BEGIN$TAB ROOF_LOSS
+   END$TAB ROOF_LOSS
+   BEGIN$TAB FLOOR_LOSS
+   END$TAB FLOOR_LOSS
+   BEGIN$TAB ROOF_GAIN
+   END$TAB ROOF_GAIN
+   BEGIN$TAB FLOOR_GAIN
+   END$TAB FLOOR_GAIN
+   BEGIN$TAB RECOVERY
+   END$TAB RECOVERY
+   NO_Adjust_SR_SF     
+   NO_Move_Roof        
+   NO_Move_Floor       
+   NO_Remove_Mask      
+   NO_Accomodate_Change
+   NO_Weight_Diff      
+   Roof_Weight=1.000
+   Floor_Weight=1.000
+   NO_Apply_Loss       
+   NO_Apply_LossGain   
+   NO_Adjust_Coal      
+   NO_Push_Down        
+END$DEF MINING_PARAMETERS             

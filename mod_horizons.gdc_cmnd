@@ -1,0 +1,29 @@
+access_specs/close_current
+clear_data
+access_specs/area='v10'/access_specs
+load_mapfile/file='bhwe'/dsr /variable=sf /xyz
+model /triangulation /grid_size=10 /trend=0 /smoothing=9 /side_length=100000.0
+unmask
+save/use_spec_area_and_grid_size/nofault/variable='bhwe.sf'
+=min(z,topo_voids.tp)
+unmask
+save/use_spec_area_and_grid_size/nofault/variable='bhwe.sf'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10'/access_specs
+load_mapfile/file='bhqu'/dsr/xyz/variable=sf
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+save/use_spec_area_and_grid_size/nofault/variable='bhqu.sf'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10'/access_specs
+=min(bhqu.sf,topo_original.tp)
+unmask
+save/use_spec_area_and_grid_size/nofault/variable='bhqu.sf'
+closegrids
+clear_data
+access_specs/close_current
+exit

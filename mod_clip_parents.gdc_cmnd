@@ -1,0 +1,1622 @@
+access_specs/close_current
+access_specs/area='v10'/access_specs
+clear_data
+design_db_access /create_database /area='lox'
+EDIT/EQUATION=bhwe.sf-bn2.sf
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="bn2_v10_lox_sf" /exclude_colour=3 /db_name='lox' /object="cont0.1_bn2" /include_colour=1 /greater
+closegrids
+clear_data
+EDIT/EQUATION=bhwe.sf-bn2.sr
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="bn2_v10_lox_sr" /exclude_colour=5 /db_name='lox' /object="cont0.1_bn2" /include_colour=2 /greater
+closegrids
+clear_data
+design_db_access /close_database
+EDIT/EQUATION=bhwe.sf-bn1.sf
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="bn1_v10_lox_sf" /exclude_colour=3 /db_name='lox' /object="cont0.1_bn1" /include_colour=1 /greater
+closegrids
+clear_data
+EDIT/EQUATION=bhwe.sf-bn1.sr
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="bn1_v10_lox_sr" /exclude_colour=5 /db_name='lox' /object="cont0.1_bn1" /include_colour=2 /greater
+closegrids
+clear_data
+design_db_access /close_database
+EDIT/EQUATION=bhwe.sf-waa.sf
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="waa_v10_lox_sf" /exclude_colour=3 /db_name='lox' /object="cont0.1_waa" /include_colour=1 /greater
+closegrids
+clear_data
+EDIT/EQUATION=bhwe.sf-waa.sr
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="waa_v10_lox_sr" /exclude_colour=5 /db_name='lox' /object="cont0.1_waa" /include_colour=2 /greater
+closegrids
+clear_data
+design_db_access /close_database
+EDIT/EQUATION=bhwe.sf-cnl.sf
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="cnl_v10_lox_sf" /exclude_colour=3 /db_name='lox' /object="cont0.1_cnl" /include_colour=1 /greater
+closegrids
+clear_data
+EDIT/EQUATION=bhwe.sf-cnl.sr
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="cnl_v10_lox_sr" /exclude_colour=5 /db_name='lox' /object="cont0.1_cnl" /include_colour=2 /greater
+closegrids
+clear_data
+design_db_access /close_database
+EDIT/EQUATION=bhwe.sf-cn3.sf
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="cn3_v10_lox_sf" /exclude_colour=3 /db_name='lox' /object="cont0.1_cn3" /include_colour=1 /greater
+closegrids
+clear_data
+EDIT/EQUATION=bhwe.sf-cn3.sr
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="cn3_v10_lox_sr" /exclude_colour=5 /db_name='lox' /object="cont0.1_cn3" /include_colour=2 /greater
+closegrids
+clear_data
+design_db_access /close_database
+EDIT/EQUATION=bhwe.sf-cn3l.sf
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="cn3l_v10_lox_sf" /exclude_colour=3 /db_name='lox' /object="cont0.1_cn3l" /include_colour=1 /greater
+closegrids
+clear_data
+EDIT/EQUATION=bhwe.sf-cn3l.sr
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="cn3l_v10_lox_sr" /exclude_colour=5 /db_name='lox' /object="cont0.1_cn3l" /include_colour=2 /greater
+closegrids
+clear_data
+design_db_access /close_database
+EDIT/EQUATION=bhwe.sf-cn3u.sf
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="cn3u_v10_lox_sf" /exclude_colour=3 /db_name='lox' /object="cont0.1_cn3u" /include_colour=1 /greater
+closegrids
+clear_data
+EDIT/EQUATION=bhwe.sf-cn3u.sr
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="cn3u_v10_lox_sr" /exclude_colour=5 /db_name='lox' /object="cont0.1_cn3u" /include_colour=2 /greater
+closegrids
+clear_data
+design_db_access /close_database
+EDIT/EQUATION=bhwe.sf-cn12.sf
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="cn12_v10_lox_sf" /exclude_colour=3 /db_name='lox' /object="cont0.1_cn12" /include_colour=1 /greater
+closegrids
+clear_data
+EDIT/EQUATION=bhwe.sf-cn12.sr
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="cn12_v10_lox_sr" /exclude_colour=5 /db_name='lox' /object="cont0.1_cn12" /include_colour=2 /greater
+closegrids
+clear_data
+design_db_access /close_database
+EDIT/EQUATION=bhwe.sf-cn2.sf
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="cn2_v10_lox_sf" /exclude_colour=3 /db_name='lox' /object="cont0.1_cn2" /include_colour=1 /greater
+closegrids
+clear_data
+EDIT/EQUATION=bhwe.sf-cn2.sr
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="cn2_v10_lox_sr" /exclude_colour=5 /db_name='lox' /object="cont0.1_cn2" /include_colour=2 /greater
+closegrids
+clear_data
+design_db_access /close_database
+EDIT/EQUATION=bhwe.sf-cn1.sf
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="cn1_v10_lox_sf" /exclude_colour=3 /db_name='lox' /object="cont0.1_cn1" /include_colour=1 /greater
+closegrids
+clear_data
+EDIT/EQUATION=bhwe.sf-cn1.sr
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="cn1_v10_lox_sr" /exclude_colour=5 /db_name='lox' /object="cont0.1_cn1" /include_colour=2 /greater
+closegrids
+clear_data
+design_db_access /close_database
+EDIT/EQUATION=bhwe.sf-tp4.sf
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="tp4_v10_lox_sf" /exclude_colour=3 /db_name='lox' /object="cont0.1_tp4" /include_colour=1 /greater
+closegrids
+clear_data
+EDIT/EQUATION=bhwe.sf-tp4.sr
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="tp4_v10_lox_sr" /exclude_colour=5 /db_name='lox' /object="cont0.1_tp4" /include_colour=2 /greater
+closegrids
+clear_data
+design_db_access /close_database
+EDIT/EQUATION=bhwe.sf-tpm.sf
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="tpm_v10_lox_sf" /exclude_colour=3 /db_name='lox' /object="cont0.1_tpm" /include_colour=1 /greater
+closegrids
+clear_data
+EDIT/EQUATION=bhwe.sf-tpm.sr
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="tpm_v10_lox_sr" /exclude_colour=5 /db_name='lox' /object="cont0.1_tpm" /include_colour=2 /greater
+closegrids
+clear_data
+design_db_access /close_database
+EDIT/EQUATION=bhwe.sf-tp3.sf
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="tp3_v10_lox_sf" /exclude_colour=3 /db_name='lox' /object="cont0.1_tp3" /include_colour=1 /greater
+closegrids
+clear_data
+EDIT/EQUATION=bhwe.sf-tp3.sr
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="tp3_v10_lox_sr" /exclude_colour=5 /db_name='lox' /object="cont0.1_tp3" /include_colour=2 /greater
+closegrids
+clear_data
+design_db_access /close_database
+EDIT/EQUATION=bhwe.sf-tp12.sf
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="tp12_v10_lox_sf" /exclude_colour=3 /db_name='lox' /object="cont0.1_tp12" /include_colour=1 /greater
+closegrids
+clear_data
+EDIT/EQUATION=bhwe.sf-tp12.sr
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="tp12_v10_lox_sr" /exclude_colour=5 /db_name='lox' /object="cont0.1_tp12" /include_colour=2 /greater
+closegrids
+clear_data
+design_db_access /close_database
+EDIT/EQUATION=bhwe.sf-tp2.sf
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="tp2_v10_lox_sf" /exclude_colour=3 /db_name='lox' /object="cont0.1_tp2" /include_colour=1 /greater
+closegrids
+clear_data
+EDIT/EQUATION=bhwe.sf-tp2.sr
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="tp2_v10_lox_sr" /exclude_colour=5 /db_name='lox' /object="cont0.1_tp2" /include_colour=2 /greater
+closegrids
+clear_data
+design_db_access /close_database
+EDIT/EQUATION=bhwe.sf-tp1.sf
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="tp1_v10_lox_sf" /exclude_colour=3 /db_name='lox' /object="cont0.1_tp1" /include_colour=1 /greater
+closegrids
+clear_data
+EDIT/EQUATION=bhwe.sf-tp1.sr
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="tp1_v10_lox_sr" /exclude_colour=5 /db_name='lox' /object="cont0.1_tp1" /include_colour=2 /greater
+closegrids
+clear_data
+design_db_access /close_database
+EDIT/EQUATION=bhwe.sf-stf.sf
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="stf_v10_lox_sf" /exclude_colour=3 /db_name='lox' /object="cont0.1_stf" /include_colour=1 /greater
+closegrids
+clear_data
+EDIT/EQUATION=bhwe.sf-stf.sr
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="stf_v10_lox_sr" /exclude_colour=5 /db_name='lox' /object="cont0.1_stf" /include_colour=2 /greater
+closegrids
+clear_data
+design_db_access /close_database
+EDIT/EQUATION=bhwe.sf-st2.sf
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="st2_v10_lox_sf" /exclude_colour=3 /db_name='lox' /object="cont0.1_st2" /include_colour=1 /greater
+closegrids
+clear_data
+EDIT/EQUATION=bhwe.sf-st2.sr
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="st2_v10_lox_sr" /exclude_colour=5 /db_name='lox' /object="cont0.1_st2" /include_colour=2 /greater
+closegrids
+clear_data
+design_db_access /close_database
+EDIT/EQUATION=bhwe.sf-st1.sf
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="st1_v10_lox_sf" /exclude_colour=3 /db_name='lox' /object="cont0.1_st1" /include_colour=1 /greater
+closegrids
+clear_data
+EDIT/EQUATION=bhwe.sf-st1.sr
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="st1_v10_lox_sr" /exclude_colour=5 /db_name='lox' /object="cont0.1_st1" /include_colour=2 /greater
+closegrids
+clear_data
+design_db_access /close_database
+EDIT/EQUATION=bhwe.sf-ta8.sf
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="ta8_v10_lox_sf" /exclude_colour=3 /db_name='lox' /object="cont0.1_ta8" /include_colour=1 /greater
+closegrids
+clear_data
+EDIT/EQUATION=bhwe.sf-ta8.sr
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="ta8_v10_lox_sr" /exclude_colour=5 /db_name='lox' /object="cont0.1_ta8" /include_colour=2 /greater
+closegrids
+clear_data
+design_db_access /close_database
+EDIT/EQUATION=bhwe.sf-ta6.sf
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="ta6_v10_lox_sf" /exclude_colour=3 /db_name='lox' /object="cont0.1_ta6" /include_colour=1 /greater
+closegrids
+clear_data
+EDIT/EQUATION=bhwe.sf-ta6.sr
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="ta6_v10_lox_sr" /exclude_colour=5 /db_name='lox' /object="cont0.1_ta6" /include_colour=2 /greater
+closegrids
+clear_data
+design_db_access /close_database
+EDIT/EQUATION=bhwe.sf-tau.sf
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="tau_v10_lox_sf" /exclude_colour=3 /db_name='lox' /object="cont0.1_tau" /include_colour=1 /greater
+closegrids
+clear_data
+EDIT/EQUATION=bhwe.sf-tau.sr
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="tau_v10_lox_sr" /exclude_colour=5 /db_name='lox' /object="cont0.1_tau" /include_colour=2 /greater
+closegrids
+clear_data
+design_db_access /close_database
+EDIT/EQUATION=bhwe.sf-ta24.sf
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="ta24_v10_lox_sf" /exclude_colour=3 /db_name='lox' /object="cont0.1_ta24" /include_colour=1 /greater
+closegrids
+clear_data
+EDIT/EQUATION=bhwe.sf-ta24.sr
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="ta24_v10_lox_sr" /exclude_colour=5 /db_name='lox' /object="cont0.1_ta24" /include_colour=2 /greater
+closegrids
+clear_data
+design_db_access /close_database
+EDIT/EQUATION=bhwe.sf-ta34.sf
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="ta34_v10_lox_sf" /exclude_colour=3 /db_name='lox' /object="cont0.1_ta34" /include_colour=1 /greater
+closegrids
+clear_data
+EDIT/EQUATION=bhwe.sf-ta34.sr
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="ta34_v10_lox_sr" /exclude_colour=5 /db_name='lox' /object="cont0.1_ta34" /include_colour=2 /greater
+closegrids
+clear_data
+design_db_access /close_database
+EDIT/EQUATION=bhwe.sf-ta4.sf
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="ta4_v10_lox_sf" /exclude_colour=3 /db_name='lox' /object="cont0.1_ta4" /include_colour=1 /greater
+closegrids
+clear_data
+EDIT/EQUATION=bhwe.sf-ta4.sr
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="ta4_v10_lox_sr" /exclude_colour=5 /db_name='lox' /object="cont0.1_ta4" /include_colour=2 /greater
+closegrids
+clear_data
+design_db_access /close_database
+EDIT/EQUATION=bhwe.sf-ta13.sf
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="ta13_v10_lox_sf" /exclude_colour=3 /db_name='lox' /object="cont0.1_ta13" /include_colour=1 /greater
+closegrids
+clear_data
+EDIT/EQUATION=bhwe.sf-ta13.sr
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="ta13_v10_lox_sr" /exclude_colour=5 /db_name='lox' /object="cont0.1_ta13" /include_colour=2 /greater
+closegrids
+clear_data
+design_db_access /close_database
+EDIT/EQUATION=bhwe.sf-ta23.sf
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="ta23_v10_lox_sf" /exclude_colour=3 /db_name='lox' /object="cont0.1_ta23" /include_colour=1 /greater
+closegrids
+clear_data
+EDIT/EQUATION=bhwe.sf-ta23.sr
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="ta23_v10_lox_sr" /exclude_colour=5 /db_name='lox' /object="cont0.1_ta23" /include_colour=2 /greater
+closegrids
+clear_data
+design_db_access /close_database
+EDIT/EQUATION=bhwe.sf-ta3.sf
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="ta3_v10_lox_sf" /exclude_colour=3 /db_name='lox' /object="cont0.1_ta3" /include_colour=1 /greater
+closegrids
+clear_data
+EDIT/EQUATION=bhwe.sf-ta3.sr
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="ta3_v10_lox_sr" /exclude_colour=5 /db_name='lox' /object="cont0.1_ta3" /include_colour=2 /greater
+closegrids
+clear_data
+design_db_access /close_database
+EDIT/EQUATION=bhwe.sf-ta12.sf
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="ta12_v10_lox_sf" /exclude_colour=3 /db_name='lox' /object="cont0.1_ta12" /include_colour=1 /greater
+closegrids
+clear_data
+EDIT/EQUATION=bhwe.sf-ta12.sr
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="ta12_v10_lox_sr" /exclude_colour=5 /db_name='lox' /object="cont0.1_ta12" /include_colour=2 /greater
+closegrids
+clear_data
+design_db_access /close_database
+EDIT/EQUATION=bhwe.sf-ta2.sf
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="ta2_v10_lox_sf" /exclude_colour=3 /db_name='lox' /object="cont0.1_ta2" /include_colour=1 /greater
+closegrids
+clear_data
+EDIT/EQUATION=bhwe.sf-ta2.sr
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="ta2_v10_lox_sr" /exclude_colour=5 /db_name='lox' /object="cont0.1_ta2" /include_colour=2 /greater
+closegrids
+clear_data
+design_db_access /close_database
+EDIT/EQUATION=bhwe.sf-ta1.sf
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="ta1_v10_lox_sf" /exclude_colour=3 /db_name='lox' /object="cont0.1_ta1" /include_colour=1 /greater
+closegrids
+clear_data
+EDIT/EQUATION=bhwe.sf-ta1.sr
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="ta1_v10_lox_sr" /exclude_colour=5 /db_name='lox' /object="cont0.1_ta1" /include_colour=2 /greater
+closegrids
+clear_data
+design_db_access /close_database
+EDIT/EQUATION=bhwe.sf-fx1.sf
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="fx1_v10_lox_sf" /exclude_colour=3 /db_name='lox' /object="cont0.1_fx1" /include_colour=1 /greater
+closegrids
+clear_data
+EDIT/EQUATION=bhwe.sf-fx1.sr
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="fx1_v10_lox_sr" /exclude_colour=5 /db_name='lox' /object="cont0.1_fx1" /include_colour=2 /greater
+closegrids
+clear_data
+design_db_access /close_database
+EDIT/EQUATION=bhwe.sf-th1.sf
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="th1_v10_lox_sf" /exclude_colour=3 /db_name='lox' /object="cont0.1_th1" /include_colour=1 /greater
+closegrids
+clear_data
+EDIT/EQUATION=bhwe.sf-th1.sr
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="th1_v10_lox_sr" /exclude_colour=5 /db_name='lox' /object="cont0.1_th1" /include_colour=2 /greater
+closegrids
+clear_data
+design_db_access /close_database
+EDIT/EQUATION=bhwe.sf-nth.sf
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="nth_v10_lox_sf" /exclude_colour=3 /db_name='lox' /object="cont0.1_nth" /include_colour=1 /greater
+closegrids
+clear_data
+EDIT/EQUATION=bhwe.sf-nth.sr
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="nth_v10_lox_sr" /exclude_colour=5 /db_name='lox' /object="cont0.1_nth" /include_colour=2 /greater
+closegrids
+clear_data
+design_db_access /close_database
+EDIT/EQUATION=bhwe.sf-nt5.sf
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="nt5_v10_lox_sf" /exclude_colour=3 /db_name='lox' /object="cont0.1_nt5" /include_colour=1 /greater
+closegrids
+clear_data
+EDIT/EQUATION=bhwe.sf-nt5.sr
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="nt5_v10_lox_sr" /exclude_colour=5 /db_name='lox' /object="cont0.1_nt5" /include_colour=2 /greater
+closegrids
+clear_data
+design_db_access /close_database
+EDIT/EQUATION=bhwe.sf-nt3.sf
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="nt3_v10_lox_sf" /exclude_colour=3 /db_name='lox' /object="cont0.1_nt3" /include_colour=1 /greater
+closegrids
+clear_data
+EDIT/EQUATION=bhwe.sf-nt3.sr
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="nt3_v10_lox_sr" /exclude_colour=5 /db_name='lox' /object="cont0.1_nt3" /include_colour=2 /greater
+closegrids
+clear_data
+design_db_access /close_database
+EDIT/EQUATION=bhwe.sf-nt2.sf
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="nt2_v10_lox_sf" /exclude_colour=3 /db_name='lox' /object="cont0.1_nt2" /include_colour=1 /greater
+closegrids
+clear_data
+EDIT/EQUATION=bhwe.sf-nt2.sr
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="nt2_v10_lox_sr" /exclude_colour=5 /db_name='lox' /object="cont0.1_nt2" /include_colour=2 /greater
+closegrids
+clear_data
+design_db_access /close_database
+EDIT/EQUATION=bhwe.sf-nt1.sf
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="nt1_v10_lox_sf" /exclude_colour=3 /db_name='lox' /object="cont0.1_nt1" /include_colour=1 /greater
+closegrids
+clear_data
+EDIT/EQUATION=bhwe.sf-nt1.sr
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="nt1_v10_lox_sr" /exclude_colour=5 /db_name='lox' /object="cont0.1_nt1" /include_colour=2 /greater
+closegrids
+clear_data
+design_db_access /close_database
+EDIT/EQUATION=bhwe.sf-ngr.sf
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="ngr_v10_lox_sf" /exclude_colour=3 /db_name='lox' /object="cont0.1_ngr" /include_colour=1 /greater
+closegrids
+clear_data
+EDIT/EQUATION=bhwe.sf-ngr.sr
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="ngr_v10_lox_sr" /exclude_colour=5 /db_name='lox' /object="cont0.1_ngr" /include_colour=2 /greater
+closegrids
+clear_data
+design_db_access /close_database
+EDIT/EQUATION=bhwe.sf-ng3.sf
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="ng3_v10_lox_sf" /exclude_colour=3 /db_name='lox' /object="cont0.1_ng3" /include_colour=1 /greater
+closegrids
+clear_data
+EDIT/EQUATION=bhwe.sf-ng3.sr
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="ng3_v10_lox_sr" /exclude_colour=5 /db_name='lox' /object="cont0.1_ng3" /include_colour=2 /greater
+closegrids
+clear_data
+design_db_access /close_database
+EDIT/EQUATION=bhwe.sf-ng1.sf
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="ng1_v10_lox_sf" /exclude_colour=3 /db_name='lox' /object="cont0.1_ng1" /include_colour=1 /greater
+closegrids
+clear_data
+EDIT/EQUATION=bhwe.sf-ng1.sr
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="ng1_v10_lox_sr" /exclude_colour=5 /db_name='lox' /object="cont0.1_ng1" /include_colour=2 /greater
+closegrids
+clear_data
+design_db_access /close_database
+EDIT/EQUATION=bhwe.sf-vym.sf
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="vym_v10_lox_sf" /exclude_colour=3 /db_name='lox' /object="cont0.1_vym" /include_colour=1 /greater
+closegrids
+clear_data
+EDIT/EQUATION=bhwe.sf-vym.sr
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="vym_v10_lox_sr" /exclude_colour=5 /db_name='lox' /object="cont0.1_vym" /include_colour=2 /greater
+closegrids
+clear_data
+design_db_access /close_database
+EDIT/EQUATION=bhwe.sf-vy3.sf
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="vy3_v10_lox_sf" /exclude_colour=3 /db_name='lox' /object="cont0.1_vy3" /include_colour=1 /greater
+closegrids
+clear_data
+EDIT/EQUATION=bhwe.sf-vy3.sr
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="vy3_v10_lox_sr" /exclude_colour=5 /db_name='lox' /object="cont0.1_vy3" /include_colour=2 /greater
+closegrids
+clear_data
+design_db_access /close_database
+EDIT/EQUATION=bhwe.sf-vy2.sf
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="vy2_v10_lox_sf" /exclude_colour=3 /db_name='lox' /object="cont0.1_vy2" /include_colour=1 /greater
+closegrids
+clear_data
+EDIT/EQUATION=bhwe.sf-vy2.sr
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="vy2_v10_lox_sr" /exclude_colour=5 /db_name='lox' /object="cont0.1_vy2" /include_colour=2 /greater
+closegrids
+clear_data
+design_db_access /close_database
+EDIT/EQUATION=bhwe.sf-vy1.sf
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="vy1_v10_lox_sf" /exclude_colour=3 /db_name='lox' /object="cont0.1_vy1" /include_colour=1 /greater
+closegrids
+clear_data
+EDIT/EQUATION=bhwe.sf-vy1.sr
+contour /level=(0.1) /exclude_line_type=5 /include_line_type=1 /replace/minimum_area=10000.0 /layer="vy1_v10_lox_sr" /exclude_colour=5 /db_name='lox' /object="cont0.1_vy1" /include_colour=2 /greater
+closegrids
+clear_data
+design_db_access /close_database
+bn2.sr = min(bhwe.sf,bn2.sr)
+bn2.sr = max(bgv.sr,bn2.sr)
+save/use_spec_area_and_grid_size/nofault/variable='bn2.sr'
+bn2.sf = min(bhwe.sf,bn2.sf)
+bn2.sf = max(bgv.sr,bn2.sf)
+save/use_spec_area_and_grid_size/nofault/variable='bn2.sf'
+bn2.ft = bn2.sr - bn2.sf
+bn2.ft = max(0,bn2.ft)
+closegrids
+EDIT/EQUATION=bn2.sr
+MASK /AREA_MASK /REPLACE/EQUATION='bn2.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='bn2.sr'
+closegrids
+EDIT/EQUATION=bn2.sf
+MASK /AREA_MASK /REPLACE/EQUATION='bn2.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='bn2.sf'
+closegrids
+EDIT/EQUATION=bn2.ft
+MASK /AREA_MASK /REPLACE/EQUATION='bn2.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='bn2.ft'
+closegrids
+bn1.sr = min(bhwe.sf,bn1.sr)
+bn1.sr = max(bgv.sr,bn1.sr)
+save/use_spec_area_and_grid_size/nofault/variable='bn1.sr'
+bn1.sf = min(bhwe.sf,bn1.sf)
+bn1.sf = max(bgv.sr,bn1.sf)
+save/use_spec_area_and_grid_size/nofault/variable='bn1.sf'
+bn1.ft = bn1.sr - bn1.sf
+bn1.ft = max(0,bn1.ft)
+closegrids
+bn1.md = bn2.sf - bn1.sr
+bn1.md = max(bn1.md, 0)
+statistics
+EDIT/EQUATION=bn1.sr
+MASK /AREA_MASK /REPLACE/EQUATION='bn1.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='bn1.sr'
+closegrids
+EDIT/EQUATION=bn1.sf
+MASK /AREA_MASK /REPLACE/EQUATION='bn1.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='bn1.sf'
+closegrids
+EDIT/EQUATION=bn1.ft
+MASK /AREA_MASK /REPLACE/EQUATION='bn1.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='bn1.ft'
+closegrids
+waa.sr = min(bhwe.sf,waa.sr)
+waa.sr = max(bgv.sr,waa.sr)
+save/use_spec_area_and_grid_size/nofault/variable='waa.sr'
+waa.sf = min(bhwe.sf,waa.sf)
+waa.sf = max(bgv.sr,waa.sf)
+save/use_spec_area_and_grid_size/nofault/variable='waa.sf'
+waa.ft = waa.sr - waa.sf
+waa.ft = max(0,waa.ft)
+closegrids
+waa.md = bn1.sf - waa.sr
+waa.md = max(waa.md, 0)
+statistics
+EDIT/EQUATION=waa.sr
+MASK /AREA_MASK /REPLACE/EQUATION='waa.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='waa.sr'
+closegrids
+EDIT/EQUATION=waa.sf
+MASK /AREA_MASK /REPLACE/EQUATION='waa.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='waa.sf'
+closegrids
+EDIT/EQUATION=waa.ft
+MASK /AREA_MASK /REPLACE/EQUATION='waa.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='waa.ft'
+closegrids
+cnl.sr = min(bhwe.sf,cnl.sr)
+cnl.sr = max(bgv.sr,cnl.sr)
+save/use_spec_area_and_grid_size/nofault/variable='cnl.sr'
+cnl.sf = min(bhwe.sf,cnl.sf)
+cnl.sf = max(bgv.sr,cnl.sf)
+save/use_spec_area_and_grid_size/nofault/variable='cnl.sf'
+cnl.ft = cnl.sr - cnl.sf
+cnl.ft = max(0,cnl.ft)
+closegrids
+cnl.md = waa.sf - cnl.sr
+cnl.md = max(cnl.md, 0)
+statistics
+EDIT/EQUATION=cnl.sr
+MASK /AREA_MASK /REPLACE/EQUATION='cnl.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='cnl.sr'
+closegrids
+EDIT/EQUATION=cnl.sf
+MASK /AREA_MASK /REPLACE/EQUATION='cnl.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='cnl.sf'
+closegrids
+EDIT/EQUATION=cnl.ft
+MASK /AREA_MASK /REPLACE/EQUATION='cnl.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='cnl.ft'
+closegrids
+cn3.sr = min(bhwe.sf,cn3.sr)
+cn3.sr = max(bgv.sr,cn3.sr)
+save/use_spec_area_and_grid_size/nofault/variable='cn3.sr'
+cn3.sf = min(bhwe.sf,cn3.sf)
+cn3.sf = max(bgv.sr,cn3.sf)
+save/use_spec_area_and_grid_size/nofault/variable='cn3.sf'
+cn3.ft = cn3.sr - cn3.sf
+cn3.ft = max(0,cn3.ft)
+closegrids
+cn3.md = cnl.sf - cn3.sr
+cn3.md = max(cn3.md, 0)
+statistics
+EDIT/EQUATION=cn3.sr
+MASK /AREA_MASK /REPLACE/EQUATION='cn3.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='cn3.sr'
+closegrids
+EDIT/EQUATION=cn3.sf
+MASK /AREA_MASK /REPLACE/EQUATION='cn3.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='cn3.sf'
+closegrids
+EDIT/EQUATION=cn3.ft
+MASK /AREA_MASK /REPLACE/EQUATION='cn3.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='cn3.ft'
+closegrids
+cn3l.sr = min(bhwe.sf,cn3l.sr)
+cn3l.sr = max(bgv.sr,cn3l.sr)
+save/use_spec_area_and_grid_size/nofault/variable='cn3l.sr'
+cn3l.sf = min(bhwe.sf,cn3l.sf)
+cn3l.sf = max(bgv.sr,cn3l.sf)
+save/use_spec_area_and_grid_size/nofault/variable='cn3l.sf'
+cn3l.ft = cn3l.sr - cn3l.sf
+cn3l.ft = max(0,cn3l.ft)
+closegrids
+cn3l.md = cn3.sf - cn3l.sr
+cn3l.md = max(cn3l.md, 0)
+statistics
+EDIT/EQUATION=cn3l.sr
+MASK /AREA_MASK /REPLACE/EQUATION='cn3l.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='cn3l.sr'
+closegrids
+EDIT/EQUATION=cn3l.sf
+MASK /AREA_MASK /REPLACE/EQUATION='cn3l.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='cn3l.sf'
+closegrids
+EDIT/EQUATION=cn3l.ft
+MASK /AREA_MASK /REPLACE/EQUATION='cn3l.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='cn3l.ft'
+closegrids
+cn3u.sr = min(bhwe.sf,cn3u.sr)
+cn3u.sr = max(bgv.sr,cn3u.sr)
+save/use_spec_area_and_grid_size/nofault/variable='cn3u.sr'
+cn3u.sf = min(bhwe.sf,cn3u.sf)
+cn3u.sf = max(bgv.sr,cn3u.sf)
+save/use_spec_area_and_grid_size/nofault/variable='cn3u.sf'
+cn3u.ft = cn3u.sr - cn3u.sf
+cn3u.ft = max(0,cn3u.ft)
+closegrids
+cn3u.md = cn3l.sf - cn3u.sr
+cn3u.md = max(cn3u.md, 0)
+statistics
+EDIT/EQUATION=cn3u.sr
+MASK /AREA_MASK /REPLACE/EQUATION='cn3u.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='cn3u.sr'
+closegrids
+EDIT/EQUATION=cn3u.sf
+MASK /AREA_MASK /REPLACE/EQUATION='cn3u.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='cn3u.sf'
+closegrids
+EDIT/EQUATION=cn3u.ft
+MASK /AREA_MASK /REPLACE/EQUATION='cn3u.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='cn3u.ft'
+closegrids
+cn12.sr = min(bhwe.sf,cn12.sr)
+cn12.sr = max(bgv.sr,cn12.sr)
+save/use_spec_area_and_grid_size/nofault/variable='cn12.sr'
+cn12.sf = min(bhwe.sf,cn12.sf)
+cn12.sf = max(bgv.sr,cn12.sf)
+save/use_spec_area_and_grid_size/nofault/variable='cn12.sf'
+cn12.ft = cn12.sr - cn12.sf
+cn12.ft = max(0,cn12.ft)
+closegrids
+cn12.md = cn3u.sf - cn12.sr
+cn12.md = max(cn12.md, 0)
+statistics
+EDIT/EQUATION=cn12.sr
+MASK /AREA_MASK /REPLACE/EQUATION='cn12.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='cn12.sr'
+closegrids
+EDIT/EQUATION=cn12.sf
+MASK /AREA_MASK /REPLACE/EQUATION='cn12.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='cn12.sf'
+closegrids
+EDIT/EQUATION=cn12.ft
+MASK /AREA_MASK /REPLACE/EQUATION='cn12.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='cn12.ft'
+closegrids
+cn2.sr = min(bhwe.sf,cn2.sr)
+cn2.sr = max(bgv.sr,cn2.sr)
+save/use_spec_area_and_grid_size/nofault/variable='cn2.sr'
+cn2.sf = min(bhwe.sf,cn2.sf)
+cn2.sf = max(bgv.sr,cn2.sf)
+save/use_spec_area_and_grid_size/nofault/variable='cn2.sf'
+cn2.ft = cn2.sr - cn2.sf
+cn2.ft = max(0,cn2.ft)
+closegrids
+cn2.md = cn12.sf - cn2.sr
+cn2.md = max(cn2.md, 0)
+statistics
+EDIT/EQUATION=cn2.sr
+MASK /AREA_MASK /REPLACE/EQUATION='cn2.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='cn2.sr'
+closegrids
+EDIT/EQUATION=cn2.sf
+MASK /AREA_MASK /REPLACE/EQUATION='cn2.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='cn2.sf'
+closegrids
+EDIT/EQUATION=cn2.ft
+MASK /AREA_MASK /REPLACE/EQUATION='cn2.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='cn2.ft'
+closegrids
+cn1.sr = min(bhwe.sf,cn1.sr)
+cn1.sr = max(bgv.sr,cn1.sr)
+save/use_spec_area_and_grid_size/nofault/variable='cn1.sr'
+cn1.sf = min(bhwe.sf,cn1.sf)
+cn1.sf = max(bgv.sr,cn1.sf)
+save/use_spec_area_and_grid_size/nofault/variable='cn1.sf'
+cn1.ft = cn1.sr - cn1.sf
+cn1.ft = max(0,cn1.ft)
+closegrids
+cn1.md = cn2.sf - cn1.sr
+cn1.md = max(cn1.md, 0)
+statistics
+EDIT/EQUATION=cn1.sr
+MASK /AREA_MASK /REPLACE/EQUATION='cn1.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='cn1.sr'
+closegrids
+EDIT/EQUATION=cn1.sf
+MASK /AREA_MASK /REPLACE/EQUATION='cn1.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='cn1.sf'
+closegrids
+EDIT/EQUATION=cn1.ft
+MASK /AREA_MASK /REPLACE/EQUATION='cn1.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='cn1.ft'
+closegrids
+tp4.sr = min(bhwe.sf,tp4.sr)
+tp4.sr = max(bgv.sr,tp4.sr)
+save/use_spec_area_and_grid_size/nofault/variable='tp4.sr'
+tp4.sf = min(bhwe.sf,tp4.sf)
+tp4.sf = max(bgv.sr,tp4.sf)
+save/use_spec_area_and_grid_size/nofault/variable='tp4.sf'
+tp4.ft = tp4.sr - tp4.sf
+tp4.ft = max(0,tp4.ft)
+closegrids
+tp4.md = cn1.sf - tp4.sr
+tp4.md = max(tp4.md, 0)
+statistics
+EDIT/EQUATION=tp4.sr
+MASK /AREA_MASK /REPLACE/EQUATION='tp4.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='tp4.sr'
+closegrids
+EDIT/EQUATION=tp4.sf
+MASK /AREA_MASK /REPLACE/EQUATION='tp4.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='tp4.sf'
+closegrids
+EDIT/EQUATION=tp4.ft
+MASK /AREA_MASK /REPLACE/EQUATION='tp4.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='tp4.ft'
+closegrids
+tpm.sr = min(bhwe.sf,tpm.sr)
+tpm.sr = max(bgv.sr,tpm.sr)
+save/use_spec_area_and_grid_size/nofault/variable='tpm.sr'
+tpm.sf = min(bhwe.sf,tpm.sf)
+tpm.sf = max(bgv.sr,tpm.sf)
+save/use_spec_area_and_grid_size/nofault/variable='tpm.sf'
+tpm.ft = tpm.sr - tpm.sf
+tpm.ft = max(0,tpm.ft)
+closegrids
+tpm.md = tp4.sf - tpm.sr
+tpm.md = max(tpm.md, 0)
+statistics
+EDIT/EQUATION=tpm.sr
+MASK /AREA_MASK /REPLACE/EQUATION='tpm.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='tpm.sr'
+closegrids
+EDIT/EQUATION=tpm.sf
+MASK /AREA_MASK /REPLACE/EQUATION='tpm.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='tpm.sf'
+closegrids
+EDIT/EQUATION=tpm.ft
+MASK /AREA_MASK /REPLACE/EQUATION='tpm.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='tpm.ft'
+closegrids
+tp3.sr = min(bhwe.sf,tp3.sr)
+tp3.sr = max(bgv.sr,tp3.sr)
+save/use_spec_area_and_grid_size/nofault/variable='tp3.sr'
+tp3.sf = min(bhwe.sf,tp3.sf)
+tp3.sf = max(bgv.sr,tp3.sf)
+save/use_spec_area_and_grid_size/nofault/variable='tp3.sf'
+tp3.ft = tp3.sr - tp3.sf
+tp3.ft = max(0,tp3.ft)
+closegrids
+tp3.md = tpm.sf - tp3.sr
+tp3.md = max(tp3.md, 0)
+statistics
+EDIT/EQUATION=tp3.sr
+MASK /AREA_MASK /REPLACE/EQUATION='tp3.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='tp3.sr'
+closegrids
+EDIT/EQUATION=tp3.sf
+MASK /AREA_MASK /REPLACE/EQUATION='tp3.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='tp3.sf'
+closegrids
+EDIT/EQUATION=tp3.ft
+MASK /AREA_MASK /REPLACE/EQUATION='tp3.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='tp3.ft'
+closegrids
+tp12.sr = min(bhwe.sf,tp12.sr)
+tp12.sr = max(bgv.sr,tp12.sr)
+save/use_spec_area_and_grid_size/nofault/variable='tp12.sr'
+tp12.sf = min(bhwe.sf,tp12.sf)
+tp12.sf = max(bgv.sr,tp12.sf)
+save/use_spec_area_and_grid_size/nofault/variable='tp12.sf'
+tp12.ft = tp12.sr - tp12.sf
+tp12.ft = max(0,tp12.ft)
+closegrids
+tp12.md = tp3.sf - tp12.sr
+tp12.md = max(tp12.md, 0)
+statistics
+EDIT/EQUATION=tp12.sr
+MASK /AREA_MASK /REPLACE/EQUATION='tp12.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='tp12.sr'
+closegrids
+EDIT/EQUATION=tp12.sf
+MASK /AREA_MASK /REPLACE/EQUATION='tp12.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='tp12.sf'
+closegrids
+EDIT/EQUATION=tp12.ft
+MASK /AREA_MASK /REPLACE/EQUATION='tp12.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='tp12.ft'
+closegrids
+tp2.sr = min(bhwe.sf,tp2.sr)
+tp2.sr = max(bgv.sr,tp2.sr)
+save/use_spec_area_and_grid_size/nofault/variable='tp2.sr'
+tp2.sf = min(bhwe.sf,tp2.sf)
+tp2.sf = max(bgv.sr,tp2.sf)
+save/use_spec_area_and_grid_size/nofault/variable='tp2.sf'
+tp2.ft = tp2.sr - tp2.sf
+tp2.ft = max(0,tp2.ft)
+closegrids
+tp2.md = tp12.sf - tp2.sr
+tp2.md = max(tp2.md, 0)
+statistics
+EDIT/EQUATION=tp2.sr
+MASK /AREA_MASK /REPLACE/EQUATION='tp2.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='tp2.sr'
+closegrids
+EDIT/EQUATION=tp2.sf
+MASK /AREA_MASK /REPLACE/EQUATION='tp2.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='tp2.sf'
+closegrids
+EDIT/EQUATION=tp2.ft
+MASK /AREA_MASK /REPLACE/EQUATION='tp2.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='tp2.ft'
+closegrids
+tp1.sr = min(bhwe.sf,tp1.sr)
+tp1.sr = max(bgv.sr,tp1.sr)
+save/use_spec_area_and_grid_size/nofault/variable='tp1.sr'
+tp1.sf = min(bhwe.sf,tp1.sf)
+tp1.sf = max(bgv.sr,tp1.sf)
+save/use_spec_area_and_grid_size/nofault/variable='tp1.sf'
+tp1.ft = tp1.sr - tp1.sf
+tp1.ft = max(0,tp1.ft)
+closegrids
+tp1.md = tp2.sf - tp1.sr
+tp1.md = max(tp1.md, 0)
+statistics
+EDIT/EQUATION=tp1.sr
+MASK /AREA_MASK /REPLACE/EQUATION='tp1.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='tp1.sr'
+closegrids
+EDIT/EQUATION=tp1.sf
+MASK /AREA_MASK /REPLACE/EQUATION='tp1.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='tp1.sf'
+closegrids
+EDIT/EQUATION=tp1.ft
+MASK /AREA_MASK /REPLACE/EQUATION='tp1.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='tp1.ft'
+closegrids
+stf.sr = min(bhwe.sf,stf.sr)
+stf.sr = max(bgv.sr,stf.sr)
+save/use_spec_area_and_grid_size/nofault/variable='stf.sr'
+stf.sf = min(bhwe.sf,stf.sf)
+stf.sf = max(bgv.sr,stf.sf)
+save/use_spec_area_and_grid_size/nofault/variable='stf.sf'
+stf.ft = stf.sr - stf.sf
+stf.ft = max(0,stf.ft)
+closegrids
+stf.md = tp1.sf - stf.sr
+stf.md = max(stf.md, 0)
+statistics
+EDIT/EQUATION=stf.sr
+MASK /AREA_MASK /REPLACE/EQUATION='stf.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='stf.sr'
+closegrids
+EDIT/EQUATION=stf.sf
+MASK /AREA_MASK /REPLACE/EQUATION='stf.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='stf.sf'
+closegrids
+EDIT/EQUATION=stf.ft
+MASK /AREA_MASK /REPLACE/EQUATION='stf.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='stf.ft'
+closegrids
+st2.sr = min(bhwe.sf,st2.sr)
+st2.sr = max(bgv.sr,st2.sr)
+save/use_spec_area_and_grid_size/nofault/variable='st2.sr'
+st2.sf = min(bhwe.sf,st2.sf)
+st2.sf = max(bgv.sr,st2.sf)
+save/use_spec_area_and_grid_size/nofault/variable='st2.sf'
+st2.ft = st2.sr - st2.sf
+st2.ft = max(0,st2.ft)
+closegrids
+st2.md = stf.sf - st2.sr
+st2.md = max(st2.md, 0)
+statistics
+EDIT/EQUATION=st2.sr
+MASK /AREA_MASK /REPLACE/EQUATION='st2.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='st2.sr'
+closegrids
+EDIT/EQUATION=st2.sf
+MASK /AREA_MASK /REPLACE/EQUATION='st2.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='st2.sf'
+closegrids
+EDIT/EQUATION=st2.ft
+MASK /AREA_MASK /REPLACE/EQUATION='st2.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='st2.ft'
+closegrids
+st1.sr = min(bhwe.sf,st1.sr)
+st1.sr = max(bgv.sr,st1.sr)
+save/use_spec_area_and_grid_size/nofault/variable='st1.sr'
+st1.sf = min(bhwe.sf,st1.sf)
+st1.sf = max(bgv.sr,st1.sf)
+save/use_spec_area_and_grid_size/nofault/variable='st1.sf'
+st1.ft = st1.sr - st1.sf
+st1.ft = max(0,st1.ft)
+closegrids
+st1.md = st2.sf - st1.sr
+st1.md = max(st1.md, 0)
+statistics
+EDIT/EQUATION=st1.sr
+MASK /AREA_MASK /REPLACE/EQUATION='st1.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='st1.sr'
+closegrids
+EDIT/EQUATION=st1.sf
+MASK /AREA_MASK /REPLACE/EQUATION='st1.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='st1.sf'
+closegrids
+EDIT/EQUATION=st1.ft
+MASK /AREA_MASK /REPLACE/EQUATION='st1.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='st1.ft'
+closegrids
+ta8.sr = min(bhwe.sf,ta8.sr)
+ta8.sr = max(bgv.sr,ta8.sr)
+save/use_spec_area_and_grid_size/nofault/variable='ta8.sr'
+ta8.sf = min(bhwe.sf,ta8.sf)
+ta8.sf = max(bgv.sr,ta8.sf)
+save/use_spec_area_and_grid_size/nofault/variable='ta8.sf'
+ta8.ft = ta8.sr - ta8.sf
+ta8.ft = max(0,ta8.ft)
+closegrids
+ta8.md = st1.sf - ta8.sr
+ta8.md = max(ta8.md, 0)
+statistics
+EDIT/EQUATION=ta8.sr
+MASK /AREA_MASK /REPLACE/EQUATION='ta8.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='ta8.sr'
+closegrids
+EDIT/EQUATION=ta8.sf
+MASK /AREA_MASK /REPLACE/EQUATION='ta8.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='ta8.sf'
+closegrids
+EDIT/EQUATION=ta8.ft
+MASK /AREA_MASK /REPLACE/EQUATION='ta8.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='ta8.ft'
+closegrids
+ta6.sr = min(bhwe.sf,ta6.sr)
+ta6.sr = max(bgv.sr,ta6.sr)
+save/use_spec_area_and_grid_size/nofault/variable='ta6.sr'
+ta6.sf = min(bhwe.sf,ta6.sf)
+ta6.sf = max(bgv.sr,ta6.sf)
+save/use_spec_area_and_grid_size/nofault/variable='ta6.sf'
+ta6.ft = ta6.sr - ta6.sf
+ta6.ft = max(0,ta6.ft)
+closegrids
+ta6.md = ta8.sf - ta6.sr
+ta6.md = max(ta6.md, 0)
+statistics
+EDIT/EQUATION=ta6.sr
+MASK /AREA_MASK /REPLACE/EQUATION='ta6.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='ta6.sr'
+closegrids
+EDIT/EQUATION=ta6.sf
+MASK /AREA_MASK /REPLACE/EQUATION='ta6.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='ta6.sf'
+closegrids
+EDIT/EQUATION=ta6.ft
+MASK /AREA_MASK /REPLACE/EQUATION='ta6.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='ta6.ft'
+closegrids
+tau.sr = min(bhwe.sf,tau.sr)
+tau.sr = max(bgv.sr,tau.sr)
+save/use_spec_area_and_grid_size/nofault/variable='tau.sr'
+tau.sf = min(bhwe.sf,tau.sf)
+tau.sf = max(bgv.sr,tau.sf)
+save/use_spec_area_and_grid_size/nofault/variable='tau.sf'
+tau.ft = tau.sr - tau.sf
+tau.ft = max(0,tau.ft)
+closegrids
+tau.md = ta6.sf - tau.sr
+tau.md = max(tau.md, 0)
+statistics
+EDIT/EQUATION=tau.sr
+MASK /AREA_MASK /REPLACE/EQUATION='tau.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='tau.sr'
+closegrids
+EDIT/EQUATION=tau.sf
+MASK /AREA_MASK /REPLACE/EQUATION='tau.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='tau.sf'
+closegrids
+EDIT/EQUATION=tau.ft
+MASK /AREA_MASK /REPLACE/EQUATION='tau.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='tau.ft'
+closegrids
+ta24.sr = min(bhwe.sf,ta24.sr)
+ta24.sr = max(bgv.sr,ta24.sr)
+save/use_spec_area_and_grid_size/nofault/variable='ta24.sr'
+ta24.sf = min(bhwe.sf,ta24.sf)
+ta24.sf = max(bgv.sr,ta24.sf)
+save/use_spec_area_and_grid_size/nofault/variable='ta24.sf'
+ta24.ft = ta24.sr - ta24.sf
+ta24.ft = max(0,ta24.ft)
+closegrids
+ta24.md = tau.sf - ta24.sr
+ta24.md = max(ta24.md, 0)
+statistics
+EDIT/EQUATION=ta24.sr
+MASK /AREA_MASK /REPLACE/EQUATION='ta24.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='ta24.sr'
+closegrids
+EDIT/EQUATION=ta24.sf
+MASK /AREA_MASK /REPLACE/EQUATION='ta24.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='ta24.sf'
+closegrids
+EDIT/EQUATION=ta24.ft
+MASK /AREA_MASK /REPLACE/EQUATION='ta24.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='ta24.ft'
+closegrids
+ta34.sr = min(bhwe.sf,ta34.sr)
+ta34.sr = max(bgv.sr,ta34.sr)
+save/use_spec_area_and_grid_size/nofault/variable='ta34.sr'
+ta34.sf = min(bhwe.sf,ta34.sf)
+ta34.sf = max(bgv.sr,ta34.sf)
+save/use_spec_area_and_grid_size/nofault/variable='ta34.sf'
+ta34.ft = ta34.sr - ta34.sf
+ta34.ft = max(0,ta34.ft)
+closegrids
+ta34.md = ta24.sf - ta34.sr
+ta34.md = max(ta34.md, 0)
+statistics
+EDIT/EQUATION=ta34.sr
+MASK /AREA_MASK /REPLACE/EQUATION='ta34.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='ta34.sr'
+closegrids
+EDIT/EQUATION=ta34.sf
+MASK /AREA_MASK /REPLACE/EQUATION='ta34.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='ta34.sf'
+closegrids
+EDIT/EQUATION=ta34.ft
+MASK /AREA_MASK /REPLACE/EQUATION='ta34.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='ta34.ft'
+closegrids
+ta4.sr = min(bhwe.sf,ta4.sr)
+ta4.sr = max(bgv.sr,ta4.sr)
+save/use_spec_area_and_grid_size/nofault/variable='ta4.sr'
+ta4.sf = min(bhwe.sf,ta4.sf)
+ta4.sf = max(bgv.sr,ta4.sf)
+save/use_spec_area_and_grid_size/nofault/variable='ta4.sf'
+ta4.ft = ta4.sr - ta4.sf
+ta4.ft = max(0,ta4.ft)
+closegrids
+ta4.md = ta34.sf - ta4.sr
+ta4.md = max(ta4.md, 0)
+statistics
+EDIT/EQUATION=ta4.sr
+MASK /AREA_MASK /REPLACE/EQUATION='ta4.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='ta4.sr'
+closegrids
+EDIT/EQUATION=ta4.sf
+MASK /AREA_MASK /REPLACE/EQUATION='ta4.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='ta4.sf'
+closegrids
+EDIT/EQUATION=ta4.ft
+MASK /AREA_MASK /REPLACE/EQUATION='ta4.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='ta4.ft'
+closegrids
+ta13.sr = min(bhwe.sf,ta13.sr)
+ta13.sr = max(bgv.sr,ta13.sr)
+save/use_spec_area_and_grid_size/nofault/variable='ta13.sr'
+ta13.sf = min(bhwe.sf,ta13.sf)
+ta13.sf = max(bgv.sr,ta13.sf)
+save/use_spec_area_and_grid_size/nofault/variable='ta13.sf'
+ta13.ft = ta13.sr - ta13.sf
+ta13.ft = max(0,ta13.ft)
+closegrids
+ta13.md = ta4.sf - ta13.sr
+ta13.md = max(ta13.md, 0)
+statistics
+EDIT/EQUATION=ta13.sr
+MASK /AREA_MASK /REPLACE/EQUATION='ta13.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='ta13.sr'
+closegrids
+EDIT/EQUATION=ta13.sf
+MASK /AREA_MASK /REPLACE/EQUATION='ta13.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='ta13.sf'
+closegrids
+EDIT/EQUATION=ta13.ft
+MASK /AREA_MASK /REPLACE/EQUATION='ta13.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='ta13.ft'
+closegrids
+ta23.sr = min(bhwe.sf,ta23.sr)
+ta23.sr = max(bgv.sr,ta23.sr)
+save/use_spec_area_and_grid_size/nofault/variable='ta23.sr'
+ta23.sf = min(bhwe.sf,ta23.sf)
+ta23.sf = max(bgv.sr,ta23.sf)
+save/use_spec_area_and_grid_size/nofault/variable='ta23.sf'
+ta23.ft = ta23.sr - ta23.sf
+ta23.ft = max(0,ta23.ft)
+closegrids
+ta23.md = ta13.sf - ta23.sr
+ta23.md = max(ta23.md, 0)
+statistics
+EDIT/EQUATION=ta23.sr
+MASK /AREA_MASK /REPLACE/EQUATION='ta23.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='ta23.sr'
+closegrids
+EDIT/EQUATION=ta23.sf
+MASK /AREA_MASK /REPLACE/EQUATION='ta23.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='ta23.sf'
+closegrids
+EDIT/EQUATION=ta23.ft
+MASK /AREA_MASK /REPLACE/EQUATION='ta23.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='ta23.ft'
+closegrids
+ta3.sr = min(bhwe.sf,ta3.sr)
+ta3.sr = max(bgv.sr,ta3.sr)
+save/use_spec_area_and_grid_size/nofault/variable='ta3.sr'
+ta3.sf = min(bhwe.sf,ta3.sf)
+ta3.sf = max(bgv.sr,ta3.sf)
+save/use_spec_area_and_grid_size/nofault/variable='ta3.sf'
+ta3.ft = ta3.sr - ta3.sf
+ta3.ft = max(0,ta3.ft)
+closegrids
+ta3.md = ta23.sf - ta3.sr
+ta3.md = max(ta3.md, 0)
+statistics
+EDIT/EQUATION=ta3.sr
+MASK /AREA_MASK /REPLACE/EQUATION='ta3.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='ta3.sr'
+closegrids
+EDIT/EQUATION=ta3.sf
+MASK /AREA_MASK /REPLACE/EQUATION='ta3.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='ta3.sf'
+closegrids
+EDIT/EQUATION=ta3.ft
+MASK /AREA_MASK /REPLACE/EQUATION='ta3.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='ta3.ft'
+closegrids
+ta12.sr = min(bhwe.sf,ta12.sr)
+ta12.sr = max(bgv.sr,ta12.sr)
+save/use_spec_area_and_grid_size/nofault/variable='ta12.sr'
+ta12.sf = min(bhwe.sf,ta12.sf)
+ta12.sf = max(bgv.sr,ta12.sf)
+save/use_spec_area_and_grid_size/nofault/variable='ta12.sf'
+ta12.ft = ta12.sr - ta12.sf
+ta12.ft = max(0,ta12.ft)
+closegrids
+ta12.md = ta3.sf - ta12.sr
+ta12.md = max(ta12.md, 0)
+statistics
+EDIT/EQUATION=ta12.sr
+MASK /AREA_MASK /REPLACE/EQUATION='ta12.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='ta12.sr'
+closegrids
+EDIT/EQUATION=ta12.sf
+MASK /AREA_MASK /REPLACE/EQUATION='ta12.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='ta12.sf'
+closegrids
+EDIT/EQUATION=ta12.ft
+MASK /AREA_MASK /REPLACE/EQUATION='ta12.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='ta12.ft'
+closegrids
+ta2.sr = min(bhwe.sf,ta2.sr)
+ta2.sr = max(bgv.sr,ta2.sr)
+save/use_spec_area_and_grid_size/nofault/variable='ta2.sr'
+ta2.sf = min(bhwe.sf,ta2.sf)
+ta2.sf = max(bgv.sr,ta2.sf)
+save/use_spec_area_and_grid_size/nofault/variable='ta2.sf'
+ta2.ft = ta2.sr - ta2.sf
+ta2.ft = max(0,ta2.ft)
+closegrids
+ta2.md = ta12.sf - ta2.sr
+ta2.md = max(ta2.md, 0)
+statistics
+EDIT/EQUATION=ta2.sr
+MASK /AREA_MASK /REPLACE/EQUATION='ta2.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='ta2.sr'
+closegrids
+EDIT/EQUATION=ta2.sf
+MASK /AREA_MASK /REPLACE/EQUATION='ta2.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='ta2.sf'
+closegrids
+EDIT/EQUATION=ta2.ft
+MASK /AREA_MASK /REPLACE/EQUATION='ta2.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='ta2.ft'
+closegrids
+ta1.sr = min(bhwe.sf,ta1.sr)
+ta1.sr = max(bgv.sr,ta1.sr)
+save/use_spec_area_and_grid_size/nofault/variable='ta1.sr'
+ta1.sf = min(bhwe.sf,ta1.sf)
+ta1.sf = max(bgv.sr,ta1.sf)
+save/use_spec_area_and_grid_size/nofault/variable='ta1.sf'
+ta1.ft = ta1.sr - ta1.sf
+ta1.ft = max(0,ta1.ft)
+closegrids
+ta1.md = ta2.sf - ta1.sr
+ta1.md = max(ta1.md, 0)
+statistics
+EDIT/EQUATION=ta1.sr
+MASK /AREA_MASK /REPLACE/EQUATION='ta1.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='ta1.sr'
+closegrids
+EDIT/EQUATION=ta1.sf
+MASK /AREA_MASK /REPLACE/EQUATION='ta1.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='ta1.sf'
+closegrids
+EDIT/EQUATION=ta1.ft
+MASK /AREA_MASK /REPLACE/EQUATION='ta1.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='ta1.ft'
+closegrids
+fx1.sr = min(bhwe.sf,fx1.sr)
+fx1.sr = max(bgv.sr,fx1.sr)
+save/use_spec_area_and_grid_size/nofault/variable='fx1.sr'
+fx1.sf = min(bhwe.sf,fx1.sf)
+fx1.sf = max(bgv.sr,fx1.sf)
+save/use_spec_area_and_grid_size/nofault/variable='fx1.sf'
+fx1.ft = fx1.sr - fx1.sf
+fx1.ft = max(0,fx1.ft)
+closegrids
+fx1.md = ta1.sf - fx1.sr
+fx1.md = max(fx1.md, 0)
+statistics
+EDIT/EQUATION=fx1.sr
+MASK /AREA_MASK /REPLACE/EQUATION='fx1.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='fx1.sr'
+closegrids
+EDIT/EQUATION=fx1.sf
+MASK /AREA_MASK /REPLACE/EQUATION='fx1.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='fx1.sf'
+closegrids
+EDIT/EQUATION=fx1.ft
+MASK /AREA_MASK /REPLACE/EQUATION='fx1.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='fx1.ft'
+closegrids
+th1.sr = min(bhwe.sf,th1.sr)
+th1.sr = max(bgv.sr,th1.sr)
+save/use_spec_area_and_grid_size/nofault/variable='th1.sr'
+th1.sf = min(bhwe.sf,th1.sf)
+th1.sf = max(bgv.sr,th1.sf)
+save/use_spec_area_and_grid_size/nofault/variable='th1.sf'
+th1.ft = th1.sr - th1.sf
+th1.ft = max(0,th1.ft)
+closegrids
+th1.md = fx1.sf - th1.sr
+th1.md = max(th1.md, 0)
+statistics
+EDIT/EQUATION=th1.sr
+MASK /AREA_MASK /REPLACE/EQUATION='th1.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='th1.sr'
+closegrids
+EDIT/EQUATION=th1.sf
+MASK /AREA_MASK /REPLACE/EQUATION='th1.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='th1.sf'
+closegrids
+EDIT/EQUATION=th1.ft
+MASK /AREA_MASK /REPLACE/EQUATION='th1.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='th1.ft'
+closegrids
+nth.sr = min(bhwe.sf,nth.sr)
+nth.sr = max(bgv.sr,nth.sr)
+save/use_spec_area_and_grid_size/nofault/variable='nth.sr'
+nth.sf = min(bhwe.sf,nth.sf)
+nth.sf = max(bgv.sr,nth.sf)
+save/use_spec_area_and_grid_size/nofault/variable='nth.sf'
+nth.ft = nth.sr - nth.sf
+nth.ft = max(0,nth.ft)
+closegrids
+nth.md = th1.sf - nth.sr
+nth.md = max(nth.md, 0)
+statistics
+EDIT/EQUATION=nth.sr
+MASK /AREA_MASK /REPLACE/EQUATION='nth.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='nth.sr'
+closegrids
+EDIT/EQUATION=nth.sf
+MASK /AREA_MASK /REPLACE/EQUATION='nth.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='nth.sf'
+closegrids
+EDIT/EQUATION=nth.ft
+MASK /AREA_MASK /REPLACE/EQUATION='nth.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='nth.ft'
+closegrids
+nt5.sr = min(bhwe.sf,nt5.sr)
+nt5.sr = max(bgv.sr,nt5.sr)
+save/use_spec_area_and_grid_size/nofault/variable='nt5.sr'
+nt5.sf = min(bhwe.sf,nt5.sf)
+nt5.sf = max(bgv.sr,nt5.sf)
+save/use_spec_area_and_grid_size/nofault/variable='nt5.sf'
+nt5.ft = nt5.sr - nt5.sf
+nt5.ft = max(0,nt5.ft)
+closegrids
+nt5.md = nth.sf - nt5.sr
+nt5.md = max(nt5.md, 0)
+statistics
+EDIT/EQUATION=nt5.sr
+MASK /AREA_MASK /REPLACE/EQUATION='nt5.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='nt5.sr'
+closegrids
+EDIT/EQUATION=nt5.sf
+MASK /AREA_MASK /REPLACE/EQUATION='nt5.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='nt5.sf'
+closegrids
+EDIT/EQUATION=nt5.ft
+MASK /AREA_MASK /REPLACE/EQUATION='nt5.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='nt5.ft'
+closegrids
+nt3.sr = min(bhwe.sf,nt3.sr)
+nt3.sr = max(bgv.sr,nt3.sr)
+save/use_spec_area_and_grid_size/nofault/variable='nt3.sr'
+nt3.sf = min(bhwe.sf,nt3.sf)
+nt3.sf = max(bgv.sr,nt3.sf)
+save/use_spec_area_and_grid_size/nofault/variable='nt3.sf'
+nt3.ft = nt3.sr - nt3.sf
+nt3.ft = max(0,nt3.ft)
+closegrids
+nt3.md = nt5.sf - nt3.sr
+nt3.md = max(nt3.md, 0)
+statistics
+EDIT/EQUATION=nt3.sr
+MASK /AREA_MASK /REPLACE/EQUATION='nt3.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='nt3.sr'
+closegrids
+EDIT/EQUATION=nt3.sf
+MASK /AREA_MASK /REPLACE/EQUATION='nt3.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='nt3.sf'
+closegrids
+EDIT/EQUATION=nt3.ft
+MASK /AREA_MASK /REPLACE/EQUATION='nt3.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='nt3.ft'
+closegrids
+nt2.sr = min(bhwe.sf,nt2.sr)
+nt2.sr = max(bgv.sr,nt2.sr)
+save/use_spec_area_and_grid_size/nofault/variable='nt2.sr'
+nt2.sf = min(bhwe.sf,nt2.sf)
+nt2.sf = max(bgv.sr,nt2.sf)
+save/use_spec_area_and_grid_size/nofault/variable='nt2.sf'
+nt2.ft = nt2.sr - nt2.sf
+nt2.ft = max(0,nt2.ft)
+closegrids
+nt2.md = nt3.sf - nt2.sr
+nt2.md = max(nt2.md, 0)
+statistics
+EDIT/EQUATION=nt2.sr
+MASK /AREA_MASK /REPLACE/EQUATION='nt2.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='nt2.sr'
+closegrids
+EDIT/EQUATION=nt2.sf
+MASK /AREA_MASK /REPLACE/EQUATION='nt2.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='nt2.sf'
+closegrids
+EDIT/EQUATION=nt2.ft
+MASK /AREA_MASK /REPLACE/EQUATION='nt2.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='nt2.ft'
+closegrids
+nt1.sr = min(bhwe.sf,nt1.sr)
+nt1.sr = max(bgv.sr,nt1.sr)
+save/use_spec_area_and_grid_size/nofault/variable='nt1.sr'
+nt1.sf = min(bhwe.sf,nt1.sf)
+nt1.sf = max(bgv.sr,nt1.sf)
+save/use_spec_area_and_grid_size/nofault/variable='nt1.sf'
+nt1.ft = nt1.sr - nt1.sf
+nt1.ft = max(0,nt1.ft)
+closegrids
+nt1.md = nt2.sf - nt1.sr
+nt1.md = max(nt1.md, 0)
+statistics
+EDIT/EQUATION=nt1.sr
+MASK /AREA_MASK /REPLACE/EQUATION='nt1.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='nt1.sr'
+closegrids
+EDIT/EQUATION=nt1.sf
+MASK /AREA_MASK /REPLACE/EQUATION='nt1.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='nt1.sf'
+closegrids
+EDIT/EQUATION=nt1.ft
+MASK /AREA_MASK /REPLACE/EQUATION='nt1.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='nt1.ft'
+closegrids
+ngr.sr = min(bhwe.sf,ngr.sr)
+ngr.sr = max(bgv.sr,ngr.sr)
+save/use_spec_area_and_grid_size/nofault/variable='ngr.sr'
+ngr.sf = min(bhwe.sf,ngr.sf)
+ngr.sf = max(bgv.sr,ngr.sf)
+save/use_spec_area_and_grid_size/nofault/variable='ngr.sf'
+ngr.ft = ngr.sr - ngr.sf
+ngr.ft = max(0,ngr.ft)
+closegrids
+ngr.md = nt1.sf - ngr.sr
+ngr.md = max(ngr.md, 0)
+statistics
+EDIT/EQUATION=ngr.sr
+MASK /AREA_MASK /REPLACE/EQUATION='ngr.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='ngr.sr'
+closegrids
+EDIT/EQUATION=ngr.sf
+MASK /AREA_MASK /REPLACE/EQUATION='ngr.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='ngr.sf'
+closegrids
+EDIT/EQUATION=ngr.ft
+MASK /AREA_MASK /REPLACE/EQUATION='ngr.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='ngr.ft'
+closegrids
+ng3.sr = min(bhwe.sf,ng3.sr)
+ng3.sr = max(bgv.sr,ng3.sr)
+save/use_spec_area_and_grid_size/nofault/variable='ng3.sr'
+ng3.sf = min(bhwe.sf,ng3.sf)
+ng3.sf = max(bgv.sr,ng3.sf)
+save/use_spec_area_and_grid_size/nofault/variable='ng3.sf'
+ng3.ft = ng3.sr - ng3.sf
+ng3.ft = max(0,ng3.ft)
+closegrids
+ng3.md = ngr.sf - ng3.sr
+ng3.md = max(ng3.md, 0)
+statistics
+EDIT/EQUATION=ng3.sr
+MASK /AREA_MASK /REPLACE/EQUATION='ng3.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='ng3.sr'
+closegrids
+EDIT/EQUATION=ng3.sf
+MASK /AREA_MASK /REPLACE/EQUATION='ng3.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='ng3.sf'
+closegrids
+EDIT/EQUATION=ng3.ft
+MASK /AREA_MASK /REPLACE/EQUATION='ng3.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='ng3.ft'
+closegrids
+ng1.sr = min(bhwe.sf,ng1.sr)
+ng1.sr = max(bgv.sr,ng1.sr)
+save/use_spec_area_and_grid_size/nofault/variable='ng1.sr'
+ng1.sf = min(bhwe.sf,ng1.sf)
+ng1.sf = max(bgv.sr,ng1.sf)
+save/use_spec_area_and_grid_size/nofault/variable='ng1.sf'
+ng1.ft = ng1.sr - ng1.sf
+ng1.ft = max(0,ng1.ft)
+closegrids
+ng1.md = ng3.sf - ng1.sr
+ng1.md = max(ng1.md, 0)
+statistics
+EDIT/EQUATION=ng1.sr
+MASK /AREA_MASK /REPLACE/EQUATION='ng1.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='ng1.sr'
+closegrids
+EDIT/EQUATION=ng1.sf
+MASK /AREA_MASK /REPLACE/EQUATION='ng1.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='ng1.sf'
+closegrids
+EDIT/EQUATION=ng1.ft
+MASK /AREA_MASK /REPLACE/EQUATION='ng1.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='ng1.ft'
+closegrids
+vym.sr = min(bhwe.sf,vym.sr)
+vym.sr = max(bgv.sr,vym.sr)
+save/use_spec_area_and_grid_size/nofault/variable='vym.sr'
+vym.sf = min(bhwe.sf,vym.sf)
+vym.sf = max(bgv.sr,vym.sf)
+save/use_spec_area_and_grid_size/nofault/variable='vym.sf'
+vym.ft = vym.sr - vym.sf
+vym.ft = max(0,vym.ft)
+closegrids
+vym.md = ng1.sf - vym.sr
+vym.md = max(vym.md, 0)
+statistics
+EDIT/EQUATION=vym.sr
+MASK /AREA_MASK /REPLACE/EQUATION='vym.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='vym.sr'
+closegrids
+EDIT/EQUATION=vym.sf
+MASK /AREA_MASK /REPLACE/EQUATION='vym.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='vym.sf'
+closegrids
+EDIT/EQUATION=vym.ft
+MASK /AREA_MASK /REPLACE/EQUATION='vym.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='vym.ft'
+closegrids
+vy3.sr = min(bhwe.sf,vy3.sr)
+vy3.sr = max(bgv.sr,vy3.sr)
+save/use_spec_area_and_grid_size/nofault/variable='vy3.sr'
+vy3.sf = min(bhwe.sf,vy3.sf)
+vy3.sf = max(bgv.sr,vy3.sf)
+save/use_spec_area_and_grid_size/nofault/variable='vy3.sf'
+vy3.ft = vy3.sr - vy3.sf
+vy3.ft = max(0,vy3.ft)
+closegrids
+vy3.md = vym.sf - vy3.sr
+vy3.md = max(vy3.md, 0)
+statistics
+EDIT/EQUATION=vy3.sr
+MASK /AREA_MASK /REPLACE/EQUATION='vy3.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='vy3.sr'
+closegrids
+EDIT/EQUATION=vy3.sf
+MASK /AREA_MASK /REPLACE/EQUATION='vy3.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='vy3.sf'
+closegrids
+EDIT/EQUATION=vy3.ft
+MASK /AREA_MASK /REPLACE/EQUATION='vy3.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='vy3.ft'
+closegrids
+vy2.sr = min(bhwe.sf,vy2.sr)
+vy2.sr = max(bgv.sr,vy2.sr)
+save/use_spec_area_and_grid_size/nofault/variable='vy2.sr'
+vy2.sf = min(bhwe.sf,vy2.sf)
+vy2.sf = max(bgv.sr,vy2.sf)
+save/use_spec_area_and_grid_size/nofault/variable='vy2.sf'
+vy2.ft = vy2.sr - vy2.sf
+vy2.ft = max(0,vy2.ft)
+closegrids
+vy2.md = vy3.sf - vy2.sr
+vy2.md = max(vy2.md, 0)
+statistics
+EDIT/EQUATION=vy2.sr
+MASK /AREA_MASK /REPLACE/EQUATION='vy2.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='vy2.sr'
+closegrids
+EDIT/EQUATION=vy2.sf
+MASK /AREA_MASK /REPLACE/EQUATION='vy2.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='vy2.sf'
+closegrids
+EDIT/EQUATION=vy2.ft
+MASK /AREA_MASK /REPLACE/EQUATION='vy2.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='vy2.ft'
+closegrids
+vy1.sr = min(bhwe.sf,vy1.sr)
+vy1.sr = max(bgv.sr,vy1.sr)
+save/use_spec_area_and_grid_size/nofault/variable='vy1.sr'
+vy1.sf = min(bhwe.sf,vy1.sf)
+vy1.sf = max(bgv.sr,vy1.sf)
+save/use_spec_area_and_grid_size/nofault/variable='vy1.sf'
+vy1.ft = vy1.sr - vy1.sf
+vy1.ft = max(0,vy1.ft)
+closegrids
+vy1.md = vy2.sf - vy1.sr
+vy1.md = max(vy1.md, 0)
+statistics
+EDIT/EQUATION=vy1.sr
+MASK /AREA_MASK /REPLACE/EQUATION='vy1.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='vy1.sr'
+closegrids
+EDIT/EQUATION=vy1.sf
+MASK /AREA_MASK /REPLACE/EQUATION='vy1.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='vy1.sf'
+closegrids
+EDIT/EQUATION=vy1.ft
+MASK /AREA_MASK /REPLACE/EQUATION='vy1.ft gt 0'
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save/use_spec_area_and_grid_size/nofault/variable='vy1.ft'
+closegrids
+exit

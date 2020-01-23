@@ -1,0 +1,1157 @@
+access_specs/close_current
+clear_data
+access_specs/area='v10'/access_specs
+edit/equation = bn2.sr - bn2.sf
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=bn2.fr
+closegrids
+edit/equation = bn2.fr * 1.43
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=bn2.tn
+closegrids
+edit/equation = bn1.sr - bn1.sf
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=bn1.fr
+closegrids
+edit/equation = bn1.fr * 1.43
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=bn1.tn
+closegrids
+edit/equation = waa.sr - waa.sf
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=waa.fr
+closegrids
+edit/equation = waa.fr * 1.43
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=waa.tn
+closegrids
+edit/equation = cnl.sr - cnl.sf
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=cnl.fr
+closegrids
+edit/equation = cnl.fr * 1.43
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=cnl.tn
+closegrids
+edit/equation = cn3.sr - cn3.sf
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=cn3.fr
+closegrids
+edit/equation = cn3.fr * 1.43
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=cn3.tn
+closegrids
+edit/equation = cn2.sr - cn2.sf
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=cn2.fr
+closegrids
+edit/equation = cn2.fr * 1.43
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=cn2.tn
+closegrids
+edit/equation = cn1.sr - cn1.sf
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=cn1.fr
+closegrids
+edit/equation = cn1.fr * 1.43
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=cn1.tn
+closegrids
+edit/equation = tpm.sr - tpm.sf
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=tpm.fr
+closegrids
+edit/equation = tpm.fr * 1.43
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=tpm.tn
+closegrids
+edit/equation = tp3.sr - tp3.sf
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=tp3.fr
+closegrids
+edit/equation = tp3.fr * 1.43
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=tp3.tn
+closegrids
+edit/equation = tp2.sr - tp2.sf
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=tp2.fr
+closegrids
+edit/equation = tp2.fr * 1.43
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=tp2.tn
+closegrids
+edit/equation = tp1.sr - tp1.sf
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=tp1.fr
+closegrids
+edit/equation = tp1.fr * 1.43
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=tp1.tn
+closegrids
+edit/equation = stf.sr - stf.sf
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=stf.fr
+closegrids
+edit/equation = stf.fr * 1.43
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=stf.tn
+closegrids
+edit/equation = st2.sr - st2.sf
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=st2.fr
+closegrids
+edit/equation = st2.fr * 1.43
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=st2.tn
+closegrids
+edit/equation = st1.sr - st1.sf
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=st1.fr
+closegrids
+edit/equation = st1.fr * 1.43
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=st1.tn
+closegrids
+edit/equation = ta8.sr - ta8.sf
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=ta8.fr
+closegrids
+edit/equation = ta8.fr * 1.43
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=ta8.tn
+closegrids
+edit/equation = ta6.sr - ta6.sf
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=ta6.fr
+closegrids
+edit/equation = ta6.fr * 1.43
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=ta6.tn
+closegrids
+edit/equation = tau.sr - tau.sf
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=tau.fr
+closegrids
+edit/equation = tau.fr * 1.43
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=tau.tn
+closegrids
+edit/equation = ta2.sr - ta2.sf
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=ta2.fr
+closegrids
+edit/equation = ta2.fr * 1.43
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=ta2.tn
+closegrids
+edit/equation = ta1.sr - ta1.sf
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=ta1.fr
+closegrids
+edit/equation = ta1.fr * 1.43
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=ta1.tn
+closegrids
+edit/equation = fx1.sr - fx1.sf
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=fx1.fr
+closegrids
+edit/equation = fx1.fr * 1.43
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=fx1.tn
+closegrids
+edit/equation = th1.sr - th1.sf
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=th1.fr
+closegrids
+edit/equation = th1.fr * 1.43
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=th1.tn
+closegrids
+edit/equation = nt5.sr - nt5.sf
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=nt5.fr
+closegrids
+edit/equation = nt5.fr * 1.43
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=nt5.tn
+closegrids
+edit/equation = nt3.sr - nt3.sf
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=nt3.fr
+closegrids
+edit/equation = nt3.fr * 1.43
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=nt3.tn
+closegrids
+edit/equation = nt2.sr - nt2.sf
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=nt2.fr
+closegrids
+edit/equation = nt2.fr * 1.43
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=nt2.tn
+closegrids
+edit/equation = nt1.sr - nt1.sf
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=nt1.fr
+closegrids
+edit/equation = nt1.fr * 1.43
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=nt1.tn
+closegrids
+edit/equation = ngr.sr - ngr.sf
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=ngr.fr
+closegrids
+edit/equation = ngr.fr * 1.43
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=ngr.tn
+closegrids
+edit/equation = ng3.sr - ng3.sf
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=ng3.fr
+closegrids
+edit/equation = ng3.fr * 1.43
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=ng3.tn
+closegrids
+edit/equation = ng1.sr - ng1.sf
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=ng1.fr
+closegrids
+edit/equation = ng1.fr * 1.43
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=ng1.tn
+closegrids
+edit/equation = vym.sr - vym.sf
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=vym.fr
+closegrids
+edit/equation = vym.fr * 1.43
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=vym.tn
+closegrids
+edit/equation = vy3.sr - vy3.sf
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=vy3.fr
+closegrids
+edit/equation = vy3.fr * 1.43
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=vy3.tn
+closegrids
+edit/equation = vy2.sr - vy2.sf
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=vy2.fr
+closegrids
+edit/equation = vy2.fr * 1.43
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=vy2.tn
+closegrids
+edit/equation = vy1.sr - vy1.sf
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=vy1.fr
+closegrids
+edit/equation = vy1.fr * 1.43
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=vy1.tn
+closegrids
+cum.fr = vy1.fr
+cum.tn = vy1.tn
+cum.ws = topo_current.tp - vy1.sf
+cum.ws = cum.ws - cum.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=cum.ws
+edit/equation = cum.ws/(cum.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*vy1.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=cum_vy1.ra
+closegrids
+cum.fr = cum.fr + vy2.fr
+cum.tn = cum.tn + vy2.tn
+cum.ws = topo_current.tp - vy2.sf
+cum.ws = cum.ws - cum.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=cum.ws
+edit/equation = cum.ws/(cum.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*vy2.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=cum_vy2.ra
+closegrids
+cum.fr = cum.fr + vy3.fr
+cum.tn = cum.tn + vy3.tn
+cum.ws = topo_current.tp - vy3.sf
+cum.ws = cum.ws - cum.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=cum.ws
+edit/equation = cum.ws/(cum.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*vy3.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=cum_vy3.ra
+closegrids
+cum.fr = cum.fr + vym.fr
+cum.tn = cum.tn + vym.tn
+cum.ws = topo_current.tp - vym.sf
+cum.ws = cum.ws - cum.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=cum.ws
+edit/equation = cum.ws/(cum.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*vym.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=cum_vym.ra
+closegrids
+cum.fr = cum.fr + ng1.fr
+cum.tn = cum.tn + ng1.tn
+cum.ws = topo_current.tp - ng1.sf
+cum.ws = cum.ws - cum.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=cum.ws
+edit/equation = cum.ws/(cum.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*ng1.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=cum_ng1.ra
+closegrids
+cum.fr = cum.fr + ng3.fr
+cum.tn = cum.tn + ng3.tn
+cum.ws = topo_current.tp - ng3.sf
+cum.ws = cum.ws - cum.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=cum.ws
+edit/equation = cum.ws/(cum.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*ng3.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=cum_ng3.ra
+closegrids
+cum.fr = cum.fr + ngr.fr
+cum.tn = cum.tn + ngr.tn
+cum.ws = topo_current.tp - ngr.sf
+cum.ws = cum.ws - cum.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=cum.ws
+edit/equation = cum.ws/(cum.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*ngr.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=cum_ngr.ra
+closegrids
+cum.fr = cum.fr + nt1.fr
+cum.tn = cum.tn + nt1.tn
+cum.ws = topo_current.tp - nt1.sf
+cum.ws = cum.ws - cum.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=cum.ws
+edit/equation = cum.ws/(cum.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*nt1.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=cum_nt1.ra
+closegrids
+cum.fr = cum.fr + nt2.fr
+cum.tn = cum.tn + nt2.tn
+cum.ws = topo_current.tp - nt2.sf
+cum.ws = cum.ws - cum.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=cum.ws
+edit/equation = cum.ws/(cum.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*nt2.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=cum_nt2.ra
+closegrids
+cum.fr = cum.fr + nt3.fr
+cum.tn = cum.tn + nt3.tn
+cum.ws = topo_current.tp - nt3.sf
+cum.ws = cum.ws - cum.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=cum.ws
+edit/equation = cum.ws/(cum.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*nt3.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=cum_nt3.ra
+closegrids
+cum.fr = cum.fr + nt5.fr
+cum.tn = cum.tn + nt5.tn
+cum.ws = topo_current.tp - nt5.sf
+cum.ws = cum.ws - cum.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=cum.ws
+edit/equation = cum.ws/(cum.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*nt5.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=cum_nt5.ra
+closegrids
+cum.fr = cum.fr + th1.fr
+cum.tn = cum.tn + th1.tn
+cum.ws = topo_current.tp - th1.sf
+cum.ws = cum.ws - cum.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=cum.ws
+edit/equation = cum.ws/(cum.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*th1.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=cum_th1.ra
+closegrids
+cum.fr = cum.fr + fx1.fr
+cum.tn = cum.tn + fx1.tn
+cum.ws = topo_current.tp - fx1.sf
+cum.ws = cum.ws - cum.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=cum.ws
+edit/equation = cum.ws/(cum.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*fx1.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=cum_fx1.ra
+closegrids
+cum.fr = cum.fr + ta1.fr
+cum.tn = cum.tn + ta1.tn
+cum.ws = topo_current.tp - ta1.sf
+cum.ws = cum.ws - cum.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=cum.ws
+edit/equation = cum.ws/(cum.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*ta1.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=cum_ta1.ra
+closegrids
+cum.fr = cum.fr + ta2.fr
+cum.tn = cum.tn + ta2.tn
+cum.ws = topo_current.tp - ta2.sf
+cum.ws = cum.ws - cum.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=cum.ws
+edit/equation = cum.ws/(cum.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*ta2.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=cum_ta2.ra
+closegrids
+cum.fr = cum.fr + tau.fr
+cum.tn = cum.tn + tau.tn
+cum.ws = topo_current.tp - tau.sf
+cum.ws = cum.ws - cum.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=cum.ws
+edit/equation = cum.ws/(cum.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*tau.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=cum_tau.ra
+closegrids
+cum.fr = cum.fr + ta6.fr
+cum.tn = cum.tn + ta6.tn
+cum.ws = topo_current.tp - ta6.sf
+cum.ws = cum.ws - cum.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=cum.ws
+edit/equation = cum.ws/(cum.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*ta6.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=cum_ta6.ra
+closegrids
+cum.fr = cum.fr + ta8.fr
+cum.tn = cum.tn + ta8.tn
+cum.ws = topo_current.tp - ta8.sf
+cum.ws = cum.ws - cum.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=cum.ws
+edit/equation = cum.ws/(cum.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*ta8.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=cum_ta8.ra
+closegrids
+cum.fr = cum.fr + st1.fr
+cum.tn = cum.tn + st1.tn
+cum.ws = topo_current.tp - st1.sf
+cum.ws = cum.ws - cum.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=cum.ws
+edit/equation = cum.ws/(cum.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*st1.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=cum_st1.ra
+closegrids
+cum.fr = cum.fr + st2.fr
+cum.tn = cum.tn + st2.tn
+cum.ws = topo_current.tp - st2.sf
+cum.ws = cum.ws - cum.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=cum.ws
+edit/equation = cum.ws/(cum.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*st2.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=cum_st2.ra
+closegrids
+cum.fr = cum.fr + stf.fr
+cum.tn = cum.tn + stf.tn
+cum.ws = topo_current.tp - stf.sf
+cum.ws = cum.ws - cum.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=cum.ws
+edit/equation = cum.ws/(cum.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*stf.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=cum_stf.ra
+closegrids
+cum.fr = cum.fr + tp1.fr
+cum.tn = cum.tn + tp1.tn
+cum.ws = topo_current.tp - tp1.sf
+cum.ws = cum.ws - cum.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=cum.ws
+edit/equation = cum.ws/(cum.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*tp1.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=cum_tp1.ra
+closegrids
+cum.fr = cum.fr + tp2.fr
+cum.tn = cum.tn + tp2.tn
+cum.ws = topo_current.tp - tp2.sf
+cum.ws = cum.ws - cum.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=cum.ws
+edit/equation = cum.ws/(cum.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*tp2.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=cum_tp2.ra
+closegrids
+cum.fr = cum.fr + tp3.fr
+cum.tn = cum.tn + tp3.tn
+cum.ws = topo_current.tp - tp3.sf
+cum.ws = cum.ws - cum.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=cum.ws
+edit/equation = cum.ws/(cum.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*tp3.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=cum_tp3.ra
+closegrids
+cum.fr = cum.fr + tpm.fr
+cum.tn = cum.tn + tpm.tn
+cum.ws = topo_current.tp - tpm.sf
+cum.ws = cum.ws - cum.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=cum.ws
+edit/equation = cum.ws/(cum.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*tpm.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=cum_tpm.ra
+closegrids
+cum.fr = cum.fr + cn1.fr
+cum.tn = cum.tn + cn1.tn
+cum.ws = topo_current.tp - cn1.sf
+cum.ws = cum.ws - cum.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=cum.ws
+edit/equation = cum.ws/(cum.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*cn1.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=cum_cn1.ra
+closegrids
+cum.fr = cum.fr + cn2.fr
+cum.tn = cum.tn + cn2.tn
+cum.ws = topo_current.tp - cn2.sf
+cum.ws = cum.ws - cum.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=cum.ws
+edit/equation = cum.ws/(cum.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*cn2.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=cum_cn2.ra
+closegrids
+cum.fr = cum.fr + cn3.fr
+cum.tn = cum.tn + cn3.tn
+cum.ws = topo_current.tp - cn3.sf
+cum.ws = cum.ws - cum.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=cum.ws
+edit/equation = cum.ws/(cum.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*cn3.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=cum_cn3.ra
+closegrids
+cum.fr = cum.fr + cnl.fr
+cum.tn = cum.tn + cnl.tn
+cum.ws = topo_current.tp - cnl.sf
+cum.ws = cum.ws - cum.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=cum.ws
+edit/equation = cum.ws/(cum.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*cnl.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=cum_cnl.ra
+closegrids
+cum.fr = cum.fr + waa.fr
+cum.tn = cum.tn + waa.tn
+cum.ws = topo_current.tp - waa.sf
+cum.ws = cum.ws - cum.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=cum.ws
+edit/equation = cum.ws/(cum.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*waa.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=cum_waa.ra
+closegrids
+cum.fr = cum.fr + bn1.fr
+cum.tn = cum.tn + bn1.tn
+cum.ws = topo_current.tp - bn1.sf
+cum.ws = cum.ws - cum.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=cum.ws
+edit/equation = cum.ws/(cum.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*bn1.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=cum_bn1.ra
+closegrids
+cum.fr = cum.fr + bn2.fr
+cum.tn = cum.tn + bn2.tn
+cum.ws = topo_current.tp - bn2.sf
+cum.ws = cum.ws - cum.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=cum.ws
+edit/equation = cum.ws/(cum.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*bn2.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=cum_bn2.ra
+closegrids
+bn2.ws = topo_current.tp - bn2.sf
+bn2.ws = bn2.ws - bn2.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=bn2.ws
+edit/equation = bn2.ws/(bn2.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*bn2.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=inc_bn2.ra
+closegrids
+bn1.ws = bn2.sf - bn1.sf
+bn1.ws = bn1.ws - bn1.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=bn1.ws
+edit/equation = bn1.ws/(bn1.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*bn1.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=inc_bn1.ra
+closegrids
+waa.ws = bn1.sf - waa.sf
+waa.ws = waa.ws - waa.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=waa.ws
+edit/equation = waa.ws/(waa.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*waa.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=inc_waa.ra
+closegrids
+cnl.ws = waa.sf - cnl.sf
+cnl.ws = cnl.ws - cnl.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=cnl.ws
+edit/equation = cnl.ws/(cnl.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*cnl.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=inc_cnl.ra
+closegrids
+cn3.ws = cnl.sf - cn3.sf
+cn3.ws = cn3.ws - cn3.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=cn3.ws
+edit/equation = cn3.ws/(cn3.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*cn3.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=inc_cn3.ra
+closegrids
+cn2.ws = cn3.sf - cn2.sf
+cn2.ws = cn2.ws - cn2.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=cn2.ws
+edit/equation = cn2.ws/(cn2.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*cn2.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=inc_cn2.ra
+closegrids
+cn1.ws = cn2.sf - cn1.sf
+cn1.ws = cn1.ws - cn1.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=cn1.ws
+edit/equation = cn1.ws/(cn1.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*cn1.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=inc_cn1.ra
+closegrids
+tpm.ws = cn1.sf - tpm.sf
+tpm.ws = tpm.ws - tpm.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=tpm.ws
+edit/equation = tpm.ws/(tpm.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*tpm.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=inc_tpm.ra
+closegrids
+tp3.ws = tpm.sf - tp3.sf
+tp3.ws = tp3.ws - tp3.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=tp3.ws
+edit/equation = tp3.ws/(tp3.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*tp3.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=inc_tp3.ra
+closegrids
+tp2.ws = tp3.sf - tp2.sf
+tp2.ws = tp2.ws - tp2.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=tp2.ws
+edit/equation = tp2.ws/(tp2.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*tp2.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=inc_tp2.ra
+closegrids
+tp1.ws = tp2.sf - tp1.sf
+tp1.ws = tp1.ws - tp1.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=tp1.ws
+edit/equation = tp1.ws/(tp1.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*tp1.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=inc_tp1.ra
+closegrids
+stf.ws = tp1.sf - stf.sf
+stf.ws = stf.ws - stf.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=stf.ws
+edit/equation = stf.ws/(stf.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*stf.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=inc_stf.ra
+closegrids
+st2.ws = stf.sf - st2.sf
+st2.ws = st2.ws - st2.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=st2.ws
+edit/equation = st2.ws/(st2.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*st2.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=inc_st2.ra
+closegrids
+st1.ws = st2.sf - st1.sf
+st1.ws = st1.ws - st1.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=st1.ws
+edit/equation = st1.ws/(st1.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*st1.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=inc_st1.ra
+closegrids
+ta8.ws = st1.sf - ta8.sf
+ta8.ws = ta8.ws - ta8.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=ta8.ws
+edit/equation = ta8.ws/(ta8.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*ta8.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=inc_ta8.ra
+closegrids
+ta6.ws = ta8.sf - ta6.sf
+ta6.ws = ta6.ws - ta6.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=ta6.ws
+edit/equation = ta6.ws/(ta6.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*ta6.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=inc_ta6.ra
+closegrids
+tau.ws = ta6.sf - tau.sf
+tau.ws = tau.ws - tau.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=tau.ws
+edit/equation = tau.ws/(tau.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*tau.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=inc_tau.ra
+closegrids
+ta2.ws = tau.sf - ta2.sf
+ta2.ws = ta2.ws - ta2.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=ta2.ws
+edit/equation = ta2.ws/(ta2.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*ta2.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=inc_ta2.ra
+closegrids
+ta1.ws = ta2.sf - ta1.sf
+ta1.ws = ta1.ws - ta1.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=ta1.ws
+edit/equation = ta1.ws/(ta1.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*ta1.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=inc_ta1.ra
+closegrids
+fx1.ws = ta1.sf - fx1.sf
+fx1.ws = fx1.ws - fx1.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=fx1.ws
+edit/equation = fx1.ws/(fx1.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*fx1.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=inc_fx1.ra
+closegrids
+th1.ws = fx1.sf - th1.sf
+th1.ws = th1.ws - th1.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=th1.ws
+edit/equation = th1.ws/(th1.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*th1.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=inc_th1.ra
+closegrids
+nt5.ws = th1.sf - nt5.sf
+nt5.ws = nt5.ws - nt5.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=nt5.ws
+edit/equation = nt5.ws/(nt5.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*nt5.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=inc_nt5.ra
+closegrids
+nt3.ws = nt5.sf - nt3.sf
+nt3.ws = nt3.ws - nt3.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=nt3.ws
+edit/equation = nt3.ws/(nt3.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*nt3.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=inc_nt3.ra
+closegrids
+nt2.ws = nt3.sf - nt2.sf
+nt2.ws = nt2.ws - nt2.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=nt2.ws
+edit/equation = nt2.ws/(nt2.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*nt2.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=inc_nt2.ra
+closegrids
+nt1.ws = nt2.sf - nt1.sf
+nt1.ws = nt1.ws - nt1.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=nt1.ws
+edit/equation = nt1.ws/(nt1.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*nt1.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=inc_nt1.ra
+closegrids
+ngr.ws = nt1.sf - ngr.sf
+ngr.ws = ngr.ws - ngr.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=ngr.ws
+edit/equation = ngr.ws/(ngr.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*ngr.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=inc_ngr.ra
+closegrids
+ng3.ws = ngr.sf - ng3.sf
+ng3.ws = ng3.ws - ng3.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=ng3.ws
+edit/equation = ng3.ws/(ng3.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*ng3.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=inc_ng3.ra
+closegrids
+ng1.ws = ng3.sf - ng1.sf
+ng1.ws = ng1.ws - ng1.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=ng1.ws
+edit/equation = ng1.ws/(ng1.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*ng1.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=inc_ng1.ra
+closegrids
+vym.ws = ng1.sf - vym.sf
+vym.ws = vym.ws - vym.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=vym.ws
+edit/equation = vym.ws/(vym.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*vym.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=inc_vym.ra
+closegrids
+vy3.ws = vym.sf - vy3.sf
+vy3.ws = vy3.ws - vy3.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=vy3.ws
+edit/equation = vy3.ws/(vy3.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*vy3.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=inc_vy3.ra
+closegrids
+vy2.ws = vy3.sf - vy2.sf
+vy2.ws = vy2.ws - vy2.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=vy2.ws
+edit/equation = vy2.ws/(vy2.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*vy2.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=inc_vy2.ra
+closegrids
+vy1.ws = vy2.sf - vy1.sf
+vy1.ws = vy1.ws - vy1.fr
+unmask
+save /use_spec_area_and_grid_size /nofault /variable=vy1.ws
+edit/equation = vy1.ws/(vy1.tn + 0.0000001)
+unmask
+edit/equation = max(z,0)
+edit/equation = min(z,12)
+mask/area_mask/equation='z lt 12'
+EDIT/EQUATION=Z*vy1.ft.
+MASK /AREA_MASK /LAYER=('PIT_CREST', 'POLY') /DESIGN_DB='model_inputs'
+save /use_spec_area_and_grid_size /nofault /variable=inc_vy1.ra
+closegrids
+access_specs/close_current
+exit

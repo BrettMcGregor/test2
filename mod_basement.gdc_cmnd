@@ -1,0 +1,12 @@
+access_specs/close_current
+clear_data
+access_specs/area='v10'/access_specs
+load_mapfile/file='bgv'/dsr /variable=sr /xyz
+LOAD_FAULTS /AREA='model_inputs' /LAYER=(MODEL_FAULTS_W,'*') /DESIGN_DATABASE
+LOAD_DESIGN /GRID_SIZE=20.0 /APPEND /AREA='model_inputs' /LAYER=('MODEL_BGV_ROOF','*') /LOAD_AS_POINTS
+model /triangulation /grid_size=10 /trend=0 /smoothing=9 /side_length=100000.0
+unmask
+save/use_spec_area_and_grid_size/nofault/variable='bgv.sr'
+bgv.sf = -100
+save/use_spec_area_and_grid_size/nofault/variable='bgv.sf'
+exit

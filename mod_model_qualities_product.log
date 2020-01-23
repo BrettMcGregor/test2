@@ -1,0 +1,11 @@
+Error: Missing mapfile ./ac_mapfile_qual.d/vk_bn2_p.map. Ensure all mapfiles are located in ./ac_mapfile_qual.d
+Error: Missing mapfile ./ac_mapfile_qual.d/vk_bn1_p.map. Ensure all mapfiles are located in ./ac_mapfile_qual.d
+Error: Missing mapfile ./ac_mapfile_qual.d/vk_tpm_p.map. Ensure all mapfiles are located in ./ac_mapfile_qual.d
+Error: Missing mapfile ./ac_mapfile_qual.d/vk_ngr_p.map. Ensure all mapfiles are located in ./ac_mapfile_qual.d
+Error: Missing mapfile ./ac_mapfile_qual.d/vk_vym_p.map. Ensure all mapfiles are located in ./ac_mapfile_qual.d
+During clean up of working directory...
+Warning: vk_bn2_p.map not found.
+Warning: vk_bn1_p.map not found.
+Warning: vk_tpm_p.map not found.
+Warning: vk_ngr_p.map not found.
+Warning: vk_vym_p.map not found.

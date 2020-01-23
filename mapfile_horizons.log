@@ -1,0 +1,368 @@
+
+Loading splits from horizon file = horizons.hzn
+which appears to be a FIXMAP splits file
+
+Horizon/Splits list given:
+ BHQU
+ BHWE
+
+Loading drillholes from database = vk.geo.isis
+
+Tables and Fields in the database:
+Hole Id Table            HEADER
+Hole Id Field            HOLEID
+Location Table           HEADER
+Easting Field            EAST
+Northing Field           NORTH
+Collar Elevation Field   ELEV
+Total Depth Field        TDEPTH
+Lithology Table          LITHOL
+Horizon Name Field       HORIZ
+Rock Type Field          LITHTY
+Ply Name Field           PLY
+Top Depth Field          FRODEP
+Bottom Depth Field       TODEP
+Continuation Field       CONTIN
+Percentage Field         LITHPC
+
+Lithology codes will NOT be used - codes not supplied
+
+Using dynamic desurvey from database
+DSR deviations will not be represented in mapfiles
+Hole ASG24 has no horizon data of interest
+Hole ASG25 has no horizon data of interest
+Hole ASG30 has no horizon data of interest
+Hole ASV0005 has no horizon data of interest
+Hole ASV0018 has no horizon data of interest
+Hole ASV0019 has no horizon data of interest
+Hole ASV0021 has no horizon data of interest
+Hole ASV0024 has no horizon data of interest
+Hole ASV1011 has no horizon data of interest
+Hole ASV1012 has no horizon data of interest
+Hole ASV1014 has no horizon data of interest
+Warning: hole B_SPRINGS_1A total depth (0.000) < last depth (595.450)  - check data
+Hole CBB022 has no horizon data of interest
+Hole CBH1002A has no lithology data and no total depth value set
+ Hole : CBH1002A        - rejected
+Hole CCC008 has no horizon data of interest
+Hole CDD010 has no horizon data of interest
+Warning: hole CSS061 total depth (34.800) < last depth (39.000)  - check data
+Warning: hole CSS062 total depth (38.150) < last depth (40.000)  - check data
+Warning: hole CTT047 total depth (39.500) < last depth (42.000)  - check data
+Hole CTT063 has no horizon data of interest
+Hole LOX03C has no horizon data of interest
+Hole LOX04A has no horizon data of interest
+Hole LOX16A has no horizon data of interest
+Hole LOX21D has no horizon data of interest
+Hole LOX25A has no horizon data of interest
+Hole MWK002 has no horizon data of interest
+Hole MWK005 has no horizon data of interest
+Warning: hole TA050C total depth (0.000) < last depth (120.600)  - check data
+Hole TA050C has no horizon data of interest
+Hole TA056CR has no lithology data but has total depth data - it can be used for TTD
+Hole TR0001 has no horizon data of interest
+Hole TR0003 has no horizon data of interest
+Hole TR0004 has no horizon data of interest
+Hole TR0005 has no horizon data of interest
+Hole TR0006 has no horizon data of interest
+Hole TR0007 has no horizon data of interest
+Hole TR0008 has no horizon data of interest
+Hole TR0009 has no horizon data of interest
+Hole TR0010 has no horizon data of interest
+Hole TR0011 has no horizon data of interest
+Hole TR0012 has no horizon data of interest
+Hole TR0013 has no horizon data of interest
+Hole TR0014 has no horizon data of interest
+Hole TR0015 has no horizon data of interest
+Hole TR0016 has no horizon data of interest
+Hole TR0017 has no horizon data of interest
+Hole TR0018 has no horizon data of interest
+Hole TR0020 has no horizon data of interest
+Hole TR0022 has no horizon data of interest
+Hole TR0023 has no horizon data of interest
+Hole TR0024 has no horizon data of interest
+Hole TR0025 has no horizon data of interest
+Hole TR0026 has no horizon data of interest
+Hole TR0027 has no horizon data of interest
+Hole TR0028 has no horizon data of interest
+Hole TR0029 has no horizon data of interest
+Hole TR0030 has no horizon data of interest
+Hole TR0031 has no horizon data of interest
+Hole TR0032 has no horizon data of interest
+Hole TR0033 has no horizon data of interest
+Hole TR0034 has no horizon data of interest
+Hole TR0035 has no horizon data of interest
+Hole VKY0001CR has no horizon data of interest
+Hole VKY0056C has no horizon data of interest
+Hole VKY0057C has no horizon data of interest
+Hole VKY0062C has no horizon data of interest
+Hole VKY0079A has no lithology data and no total depth value set
+ Hole : VKY0079A        - rejected
+Warning: hole VKY0081 total depth (83.600) < last depth (84.000)  - check data
+Hole VKY1003C has no lithology data but has total depth data - it can be used for TTD
+Hole VKY1004C has no horizon data of interest
+Hole VKY1006R has no lithology data but has total depth data - it can be used for TTD
+Hole VKY1008R has no lithology data but has total depth data - it can be used for TTD
+Hole VKY1009R has no lithology data but has total depth data - it can be used for TTD
+Hole VKY1011R has no lithology data but has total depth data - it can be used for TTD
+Hole VKY1016R has no lithology data but has total depth data - it can be used for TTD
+Hole VKY1019C has no lithology data but has total depth data - it can be used for TTD
+Warning: hole VKY1024C total depth (0.000) < last depth (42.240)  - check data
+Hole VKY1032 has no horizon data of interest
+Hole VKY1033 has no horizon data of interest
+Hole VKY1038 has no horizon data of interest
+Hole VKY1067 has no horizon data of interest
+Hole VKY1081 has no horizon data of interest
+Hole VKY1119C has no horizon data of interest
+Hole VKY1124 has no horizon data of interest
+Hole VKY1126 has no horizon data of interest
+Hole VKY1128 has no horizon data of interest
+Hole VKY1131 has no horizon data of interest
+Hole VKY1135 has no horizon data of interest
+Hole VKY1138 has no horizon data of interest
+Hole VKY1139 has no horizon data of interest
+Hole VKY1143 has no lithology data but has total depth data - it can be used for TTD
+Hole VKY1179 has no horizon data of interest
+Hole VKY1187 has no horizon data of interest
+Hole VKY1218 has no horizon data of interest
+Hole VKY1284 has no horizon data of interest
+Hole VKY1295 has no horizon data of interest
+Hole VKY1501 has no horizon data of interest
+Hole VKY1505 has no horizon data of interest
+Hole VKY1529 has no horizon data of interest
+Hole VKY1543 has no horizon data of interest
+Hole VKY1548 has no horizon data of interest
+Hole VKY1554R has no horizon data of interest
+Hole VKY1557R has no horizon data of interest
+Hole VKY1559R has no horizon data of interest
+Hole VKY1562R has no horizon data of interest
+Hole VKY1582R has no horizon data of interest
+Hole VKY1641R has no horizon data of interest
+Hole VKY1656R has no horizon data of interest
+Hole VKY3011 has no horizon data of interest
+Hole VKY3026 has no horizon data of interest
+Hole VKY3027 has no horizon data of interest
+Hole VKY3030 has no horizon data of interest
+Hole VKY3033 has no horizon data of interest
+Hole VKY3043 has no horizon data of interest
+Hole VKY3043R has no lithology data but has total depth data - it can be used for TTD
+Hole VKY3044 has no horizon data of interest
+Hole VKY3090 has no horizon data of interest
+Hole VKY3092 has no horizon data of interest
+Warning: hole VKY5010C total depth (120.200) < last depth (120.270)  - check data
+Warning: hole VKY5011C total depth (120.300) < last depth (120.380)  - check data
+Warning: hole VKY5012C total depth (117.270) < last depth (117.420)  - check data
+Warning: hole VKY5013C total depth (81.300) < last depth (81.360)  - check data
+Warning: hole VKY5015C total depth (105.200) < last depth (105.410)  - check data
+Warning: hole VKY5016C total depth (114.300) < last depth (114.360)  - check data
+Warning: hole VKY5017C total depth (105.300) < last depth (105.350)  - check data
+Warning: hole VKY5023 total depth (78.600) < last depth (78.650)  - check data
+Warning: hole VKY5024 total depth (90.550) < last depth (90.650)  - check data
+Hole VKY5034A has no horizon data of interest
+Warning: hole VKY5043A total depth (24.000) < last depth (25.000)  - check data
+Warning: hole VKY5053 total depth (102.000) < last depth (162.500)  - check data
+Warning: hole VKY5063C total depth (105.300) < last depth (105.410)  - check data
+Warning: hole VKY5068 total depth (102.500) < last depth (126.500)  - check data
+Hole VNW002 has no horizon data of interest
+Hole VNW003 has no horizon data of interest
+Hole VNW005 has no horizon data of interest
+Hole VNW008 has no horizon data of interest
+Hole VNW011 has no horizon data of interest
+Hole VNW013 has no horizon data of interest
+Hole VNW014 has no horizon data of interest
+Hole VNW016 has no horizon data of interest
+Hole VNW017 has no horizon data of interest
+Hole VNW020 has no horizon data of interest
+Hole VNW036 has no horizon data of interest
+Hole VNW037 has no horizon data of interest
+Hole VNW038 has no horizon data of interest
+Hole VNW073 has no horizon data of interest
+Hole VNW107 has no horizon data of interest
+Hole VNW113 has no horizon data of interest
+Hole VNW114 has no horizon data of interest
+Hole VNW116 has no horizon data of interest
+Hole VNW122 has no horizon data of interest
+Hole VNW131C has no horizon data of interest
+Hole VNW132 has no lithology data but has total depth data - it can be used for TTD
+Hole VNW133 has no lithology data but has total depth data - it can be used for TTD
+Hole VNW134 has no lithology data but has total depth data - it can be used for TTD
+Hole VNW135 has no lithology data but has total depth data - it can be used for TTD
+Warning: hole VNW145 total depth (38.030) < last depth (42.000)  - check data
+Hole VNW150 has no horizon data of interest
+Hole VNW162 has no horizon data of interest
+Hole VNW163 has no horizon data of interest
+Hole VNW171 has no horizon data of interest
+Hole VNW173A has no lithology data but has total depth data - it can be used for TTD
+Hole VNW174 has no lithology data but has total depth data - it can be used for TTD
+Warning: hole VNW175 total depth (82.350) < last depth (91.000)  - check data
+Hole VNW189 has no horizon data of interest
+Hole VNW190 has no horizon data of interest
+Hole VNW197 has no horizon data of interest
+Hole VNW212 has no horizon data of interest
+Hole VNW215 has no horizon data of interest
+Hole VNW216 has no horizon data of interest
+Hole VNW221P has no horizon data of interest
+Hole VNW222P has no horizon data of interest
+Hole VNW223P has no horizon data of interest
+Hole VNW225 has no horizon data of interest
+Hole VNW227WB has no horizon data of interest
+Hole VNW228 has no horizon data of interest
+Hole VNW229 has no horizon data of interest
+Hole VNW230 has no horizon data of interest
+Hole VNW232 has no horizon data of interest
+Hole VNW247 has no horizon data of interest
+Hole VNW248 has no horizon data of interest
+Hole VNW250 has no horizon data of interest
+Hole VNW251 has no horizon data of interest
+Hole VNW261 has no horizon data of interest
+Hole VNW263C has no lithology data and no total depth value set
+ Hole : VNW263C         - rejected
+Hole VNW272 has no horizon data of interest
+Hole VNW275 has no horizon data of interest
+Hole VNW279 has no horizon data of interest
+Hole VNW282 has no horizon data of interest
+Hole VNW294 has no horizon data of interest
+Hole VNW297 has no horizon data of interest
+Hole VNW310 has no horizon data of interest
+Hole VNW312 has no horizon data of interest
+Hole VNW313 has no horizon data of interest
+Hole VNW314 has no horizon data of interest
+Hole VNW318 has no horizon data of interest
+Hole VNW327 has no horizon data of interest
+Hole VNW346 has no horizon data of interest
+Hole VNW347 has no horizon data of interest
+Hole VNW358 has no horizon data of interest
+Hole VNW361 has no horizon data of interest
+Hole VNW365 has no horizon data of interest
+Hole VNW366 has no horizon data of interest
+Hole VNW368 has no horizon data of interest
+Hole VNW369 has no horizon data of interest
+Hole VNW369R has no horizon data of interest
+Hole VNW370 has no horizon data of interest
+Hole VNW371 has no horizon data of interest
+Hole VNW385 has no horizon data of interest
+Hole VNW391WBA_A has no horizon data of interest
+Hole VNW392WBB has no horizon data of interest
+Warning: hole VNW393WBA total depth (60.000) < last depth (66.000)  - check data
+Hole VNW394WBB has no lithology data but has total depth data - it can be used for TTD
+Warning: hole VNW395WBA total depth (63.000) < last depth (63.500)  - check data
+Hole VNW395WBB has no lithology data but has total depth data - it can be used for TTD
+Hole VS004 has no horizon data of interest
+Hole VS008 has no horizon data of interest
+Hole VS010 has no horizon data of interest
+Hole VS012 has no horizon data of interest
+Hole VS016 has no horizon data of interest
+Hole VS018 has no horizon data of interest
+Hole VS021 has no horizon data of interest
+Hole VS043 has no horizon data of interest
+Hole VS074 has no horizon data of interest
+Hole VS075 has no horizon data of interest
+Hole WVK001 has no horizon data of interest
+Hole WVK004 has no horizon data of interest
+Hole WVK035 has no horizon data of interest
+Hole WVK042 has no horizon data of interest
+Hole WVK049R has no horizon data of interest
+Hole WVK056 has no horizon data of interest
+Hole WVK058 has no horizon data of interest
+Hole WVK059 has no horizon data of interest
+Hole WVK062LD has no horizon data of interest
+Hole WVK065 has no horizon data of interest
+Hole WVK071LD has no horizon data of interest
+Hole WVK072 has no horizon data of interest
+Hole WVK074 has no horizon data of interest
+Hole WVK074LD has no horizon data of interest
+Hole WVK076 has no horizon data of interest
+Hole WVK079 has no horizon data of interest
+Hole WVK082 has no horizon data of interest
+Hole WVK084 has no horizon data of interest
+Hole WVK091 has no horizon data of interest
+Hole WVK103 has no horizon data of interest
+Hole WVK500 has no horizon data of interest
+Hole WVK501R has no horizon data of interest
+Hole WVK502 has no horizon data of interest
+Hole WVK503 has no horizon data of interest
+Hole WVK505 has no horizon data of interest
+Hole WVK509 has no horizon data of interest
+Hole WVK511 has no horizon data of interest
+Hole WVK512 has no horizon data of interest
+Hole WVK513 has no horizon data of interest
+Hole WVK514 has no horizon data of interest
+Hole WVK516 has no horizon data of interest
+Hole WVK517 has no horizon data of interest
+Hole WVK518 has no horizon data of interest
+Hole WVK522 has no horizon data of interest
+Hole WVK523 has no horizon data of interest
+Hole WVK527 has no horizon data of interest
+Hole WVK531 has no horizon data of interest
+Hole WVK536 has no horizon data of interest
+Hole WVK539 has no horizon data of interest
+Hole WVK540 has no horizon data of interest
+Hole WVK542 has no horizon data of interest
+Hole WVK545 has no horizon data of interest
+Hole WVK549 has no horizon data of interest
+Hole WVK555 has no horizon data of interest
+Hole WVK555LD has no horizon data of interest
+Warning: hole WVK555LDC total depth (84.640) < last depth (85.620)  - check data
+Hole WVK555LDC has no horizon data of interest
+Hole WVK555RD has no lithology data but has total depth data - it can be used for TTD
+Hole WVK556 has no horizon data of interest
+Hole WVK557 has no horizon data of interest
+Hole WVK561 has no horizon data of interest
+Hole WVK566 has no horizon data of interest
+Hole WVK567 has no horizon data of interest
+Hole WVK569 has no horizon data of interest
+Hole WVK571 has no horizon data of interest
+Hole WVK575 has no horizon data of interest
+Hole WVK577 has no horizon data of interest
+Hole WVK578 has no horizon data of interest
+Hole WVK579 has no horizon data of interest
+Hole WVK580 has no horizon data of interest
+Hole WVK582 has no horizon data of interest
+Hole WVK583 has no horizon data of interest
+Hole WVK584 has no horizon data of interest
+Hole WVK585 has no horizon data of interest
+Hole WVK587 has no horizon data of interest
+Hole WVK588 has no horizon data of interest
+Hole WVK589 has no horizon data of interest
+Hole WVK590 has no horizon data of interest
+Hole WVK593 has no horizon data of interest
+Hole WVK594 has no horizon data of interest
+Hole WVK595 has no horizon data of interest
+Hole WVK597 has no horizon data of interest
+Hole WVK598 has no horizon data of interest
+Hole WVK600 has no horizon data of interest
+Hole WVK603 has no horizon data of interest
+Hole WVK604 has no horizon data of interest
+Hole WVK605 has no horizon data of interest
+Hole WVK606 has no horizon data of interest
+Hole WVK607 has no horizon data of interest
+Hole WVK608 has no horizon data of interest
+Hole WVK609 has no horizon data of interest
+Hole WVK610 has no horizon data of interest
+Hole WVK611 has no horizon data of interest
+Hole WVK612 has no horizon data of interest
+Hole WVK613 has no horizon data of interest
+Hole WVK615 has no horizon data of interest
+Hole WVK618 has no horizon data of interest
+Hole WVK620 has no horizon data of interest
+Hole WVK621 has no horizon data of interest
+Hole WVK624 has no horizon data of interest
+Hole WVK625 has no horizon data of interest
+Hole WVK629 has no horizon data of interest
+Hole WVK631 has no horizon data of interest
+Hole WVK632 has no horizon data of interest
+Hole WVK634 has no horizon data of interest
+Hole WVK638 has no horizon data of interest
+Hole WVK639 has no horizon data of interest
+Hole WVK642 has no horizon data of interest
+Hole WVK643 has no horizon data of interest
+Hole WVK644 has no horizon data of interest
+Hole WVK645 has no horizon data of interest
+Hole WVK646 has no horizon data of interest
+Hole WVK647 has no horizon data of interest
+Hole WVK648 has no horizon data of interest
+Hole WVK649 has no horizon data of interest
+Hole WVK650 has no horizon data of interest
+Hole WVK652 has no horizon data of interest
+Hole WVK655 has no horizon data of interest
+Hole WVK940A has no lithology data but has total depth data - it can be used for TTD

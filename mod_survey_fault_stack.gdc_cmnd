@@ -1,0 +1,96 @@
+access_specs/close_current
+clear_data
+access_specs/area='v10r'/access_specs
+tp3.sr = tp3_ref.sr
+tp3.sf = tp3.sr - tp3.st
+closegrids
+tp4.sr = tp3.sf - tp4.md
+tp4.sf = tp4.sr - tp4.st
+closegrids
+cn1.sr = tp4.sf - cn1.md
+cn1.sf = cn1.sr - cn1.st
+closegrids
+cn2.sr = cn1.sf - cn2.md
+cn2.sf = cn2.sr - cn2.st
+closegrids
+cn3u.sr = cn2.sf - cn3u.md
+cn3u.sf = cn3u.sr - cn3u.st
+closegrids
+cn3l.sr = cn3u.sf - cn3l.md
+cn3l.sf = cn3l.sr - cn3l.st
+closegrids
+waa.sr = cn3l.sf - waa.md
+waa.sf = waa.sr - waa.st
+closegrids
+bn1.sr = waa.sf - bn1.md
+bn1.sf = bn1.sr - bn1.st
+closegrids
+bn2.sr = bn1.sf - bn2.md
+bn2.sf = bn2.sr - bn2.st
+closegrids
+tp2.sf = tp3_ref.sr + tp3.md
+tp2.sr = tp2.sf + tp2.st
+closegrids
+tp1.sf = tp2.sr + tp2.md
+tp1.sr = tp1.sf + tp1.st
+closegrids
+st2.sf = tp1.sr + tp1.md
+st2.sr = st2.sf + st2.st
+closegrids
+st1.sf = st2.sr + st2.md
+st1.sr = st1.sf + st1.st
+closegrids
+ta8.sf = st1.sr + st1.md
+ta8.sr = ta8.sf + ta8.st
+closegrids
+ta6.sf = ta8.sr + ta8.md
+ta6.sr = ta6.sf + ta6.st
+closegrids
+ta4.sf = ta6.sr + ta6.md
+ta4.sr = ta4.sf + ta4.st
+closegrids
+ta3.sf = ta4.sr + ta4.md
+ta3.sr = ta3.sf + ta3.st
+closegrids
+ta2.sf = ta3.sr + ta3.md
+ta2.sr = ta2.sf + ta2.st
+closegrids
+ta1.sf = ta2.sr + ta2.md
+ta1.sr = ta1.sf + ta1.st
+closegrids
+fx1.sf = ta1.sr + ta1.md
+fx1.sr = fx1.sf + fx1.st
+closegrids
+th1.sf = fx1.sr + fx1.md
+th1.sr = th1.sf + th1.st
+closegrids
+nt5.sf = th1.sr + th1.md
+nt5.sr = nt5.sf + nt5.st
+closegrids
+nt3.sf = nt5.sr + nt5.md
+nt3.sr = nt3.sf + nt3.st
+closegrids
+nt2.sf = nt3.sr + nt3.md
+nt2.sr = nt2.sf + nt2.st
+closegrids
+nt1.sf = nt2.sr + nt2.md
+nt1.sr = nt1.sf + nt1.st
+closegrids
+ng3.sf = nt1.sr + nt1.md
+ng3.sr = ng3.sf + ng3.st
+closegrids
+ng1.sf = ng3.sr + ng3.md
+ng1.sr = ng1.sf + ng1.st
+closegrids
+vy3.sf = ng1.sr + ng1.md
+vy3.sr = vy3.sf + vy3.st
+closegrids
+vy2.sf = vy3.sr + vy3.md
+vy2.sr = vy2.sf + vy2.st
+closegrids
+vy1.sf = vy2.sr + vy2.md
+vy1.sr = vy1.sf + vy1.st
+closegrids
+closegrids
+access_specs/close_current
+exit

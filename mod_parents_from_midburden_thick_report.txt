@@ -1,0 +1,428 @@
+
+2D MAPPING AND MODELLING - GRID ARITHMETIC AND INSPECTION
+              GDCALC : Version : Vulcan 12.0.2.358 : 02-Dec-2019
+                          Copyright (C) 2019 Maptek
+GDCALC Vulcan 12.0.2.358 (VUL-80000_12.0.2) Dec 2 2019                                                                                                                                                       
+ gdc>  gdc> All point, string and triangle data removed
+ gdc> Specifications loaded for area: v10
+ gdc>  Generating grid - CN3L.SF
+ Grid buffered but not saved
+ gdc>  gdc> Saving buffered grid as VK_CNL.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_CNL.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CNL.SF+CNL.ST
+ Grid buffered but not saved
+ gdc>  gdc> Saving buffered grid as VK_CNL.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_CN3L.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_CN3L.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_CN3L.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_CN3U.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_CN3U.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_CN3U.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_CN2.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_CN2.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_CN2.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_CN1.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_CN1.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_CN1.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - CN3L.SF
+ Grid buffered but not saved
+ gdc>  gdc> Saving buffered grid as VK_CN3.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_CN3.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CN3.SF+CN3.ST
+ Grid buffered but not saved
+ gdc>  gdc> Saving buffered grid as VK_CN3.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_CN3L.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_CN3L.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_CN3L.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_CN3U.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_CN3U.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_CN3U.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - CN2.SF
+ Grid buffered but not saved
+ gdc>  gdc> Saving buffered grid as VK_CN12.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_CN12.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CN12.SF+CN12.ST
+ Grid buffered but not saved
+ gdc>  gdc> Saving buffered grid as VK_CN12.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_CN2.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_CN2.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_CN2.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_CN1.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_CN1.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_CN1.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - TP3.SF
+ Grid buffered but not saved
+ gdc>  gdc> Saving buffered grid as VK_TPM.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_TPM.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TPM.SF+TPM.ST
+ Grid buffered but not saved
+ gdc>  gdc> Saving buffered grid as VK_TPM.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_TP3.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_TP3.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_TP3.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_TP2.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_TP2.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_TP2.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_TP1.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_TP1.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_TP1.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - TP2.SF
+ Grid buffered but not saved
+ gdc>  gdc> Saving buffered grid as VK_TP12.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_TP12.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TP12.SF+TP12.ST
+ Grid buffered but not saved
+ gdc>  gdc> Saving buffered grid as VK_TP12.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_TP2.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_TP2.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_TP2.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_TP1.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_TP1.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_TP1.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - ST2.SF
+ Grid buffered but not saved
+ gdc>  gdc> Saving buffered grid as VK_STF.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_STF.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - STF.SF+STF.ST
+ Grid buffered but not saved
+ gdc>  gdc> Saving buffered grid as VK_STF.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_ST2.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_ST2.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_ST2.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_ST1.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_ST1.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_ST1.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - TA4.SF
+ Grid buffered but not saved
+ gdc>  gdc> Saving buffered grid as VK_TAU.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_TAU.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TAU.SF+TAU.ST
+ Grid buffered but not saved
+ gdc>  gdc> Saving buffered grid as VK_TAU.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_TA4.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_TA4.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_TA4.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_TA3.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_TA3.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_TA3.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_TA2.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_TA2.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_TA2.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_TA1.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_TA1.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_TA1.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - TA4.SF
+ Grid buffered but not saved
+ gdc>  gdc> Saving buffered grid as VK_TA24.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_TA24.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TA24.SF+TA24.ST
+ Grid buffered but not saved
+ gdc>  gdc> Saving buffered grid as VK_TA24.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_TA4.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_TA4.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_TA4.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_TA3.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_TA3.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_TA3.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_TA2.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_TA2.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_TA2.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - TA4.SF
+ Grid buffered but not saved
+ gdc>  **MSCOPN, No such file or directory - VK_TA34.MSG
+
+ **GDCOGD, error in grid name (See "HELP GRID")
+ **GDCEQN, error parsing equation
+**GDCCGD, error buffering grid
+ gdc> **GCCSAV, grid not yet created
+**'ta34.sf'**
+ gdc>  gdc>  **MSCOPN, No such file or directory - VK_TA34.MSG
+
+ **GDCOGD, error in grid name (See "HELP GRID")
+ **GDCEQN, error parsing equation
+**GDCCGD, error buffering grid
+ **GDCCMD, error while generating new grid
+ gdc> **GDCCMD, grid not yet created
+**'ta34.ms'**
+ gdc> **GCCSAV, grid not yet created
+**'ta34.st'**
+ gdc>  Generating grid - TA34.SF+TA34.ST
+ **MSCOPN, No such file or directory - VK_TA34.SFG
+
+ **GDCOGD, error in grid name (See "HELP GRID")
+ **GDCEQN, error parsing equation
+**GDCCGD, error buffering grid
+ **GDCCMD, error while generating new grid
+ gdc> **GDCCMD, grid not yet created
+**'ta34.ms'**
+ gdc> **GCCSAV, grid not yet created
+**'ta34.sr'**
+ gdc>  **MSCOPN, No such file or directory - VK_TA34.SRG
+
+ **GDCOGD, error in grid name (See "HELP GRID")
+ **GDCEQN, error parsing equation
+**GDCCGD, error buffering grid
+ **GDCCMD, error while generating new grid
+ gdc> **GDCCMD, grid not yet created
+**'ta4.ms.'**
+ gdc> **GCCSAV, grid not yet created
+**'ta4.sf'**
+ gdc>  **MSCOPN, No such file or directory - VK_TA34.SRG
+
+ **GDCOGD, error in grid name (See "HELP GRID")
+ **GDCEQN, error parsing equation
+**GDCCGD, error buffering grid
+ **GDCCMD, error while generating new grid
+ gdc> **GDCCMD, grid not yet created
+**'ta4.ms.'**
+ gdc> **GCCSAV, grid not yet created
+**'ta4.sr'**
+ gdc>  gdc>  gdc> Saving buffered grid as VK_TA4.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_TA3.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_TA3.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_TA3.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - TA3.SF
+ Grid buffered but not saved
+ gdc>  gdc> Saving buffered grid as VK_TA13.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_TA13.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TA13.SF+TA13.ST
+ Grid buffered but not saved
+ gdc>  gdc> Saving buffered grid as VK_TA13.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_TA3.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_TA3.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_TA3.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_TA2.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_TA2.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_TA2.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_TA1.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_TA1.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_TA1.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - TA3.SF
+ Grid buffered but not saved
+ gdc>  gdc> Saving buffered grid as VK_TA23.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_TA23.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TA23.SF+TA23.ST
+ Grid buffered but not saved
+ gdc>  gdc> Saving buffered grid as VK_TA23.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_TA3.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_TA3.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_TA3.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_TA2.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_TA2.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_TA2.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - TA2.SF
+ Grid buffered but not saved
+ gdc>  gdc> Saving buffered grid as VK_TA12.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_TA12.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TA12.SF+TA12.ST
+ Grid buffered but not saved
+ gdc>  gdc> Saving buffered grid as VK_TA12.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_TA2.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_TA2.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_TA2.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_TA1.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_TA1.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_TA1.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - NT5.SF
+ Grid buffered but not saved
+ gdc>  gdc> Saving buffered grid as VK_NTH.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_NTH.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - NTH.SF+NTH.ST
+ Grid buffered but not saved
+ gdc>  gdc> Saving buffered grid as VK_NTH.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_NT5.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_NT5.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_NT5.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_NT3.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_NT3.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_NT3.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_NT2.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_NT2.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_NT2.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - NG3.SF
+ Grid buffered but not saved
+ gdc>  gdc> Saving buffered grid as VK_NGR.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_NGR.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - NGR.SF+NGR.ST
+ Grid buffered but not saved
+ gdc>  gdc> Saving buffered grid as VK_NGR.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_NG3.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_NG3.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_NG3.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_NG1.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_NG1.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_NG1.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - VY3.SF
+ Grid buffered but not saved
+ gdc>  gdc> Saving buffered grid as VK_VYM.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_VYM.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - VYM.SF+VYM.ST
+ Grid buffered but not saved
+ gdc>  gdc> Saving buffered grid as VK_VYM.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_VY3.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_VY3.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_VY3.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_VY2.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_VY2.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_VY2.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_VY1.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_VY1.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> Saving buffered grid as VK_VY1.STG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> 

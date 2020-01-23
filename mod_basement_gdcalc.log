@@ -1,0 +1,87 @@
+
+2D MAPPING AND MODELLING - GRID ARITHMETIC AND INSPECTION
+             GDCALC : Version : Vulcan 12.0.0.8479 : 21-Aug-2019
+                          Copyright (C) 2019 Maptek
+GDCALC Vulcan 12.0.0.8479 (VUL-80000_12.0.0) Aug 21 2019                                                                                                                                                     
+ gdc>  gdc> All point, string and triangle data removed
+ gdc> Specifications loaded for area: v10
+ gdc> Specifications used to determine window
+Specifications used to determine grid size
+Loading map file
+Area name: BGV
+Using DSR info if available
+Loading map file: vk_bgv.map
+Number of points: 456 (out of 707)
+ gdc> Specifications used to determine window
+Design DB area : MODEL_INPUTS
+Layer and object: MODEL_BGV_ROOF *
+Using database: VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object: (MODEL_BGV_ROOF,LINE_4)
+Loading layer and object: (MODEL_BGV_ROOF,POINT_2)
+Loading layer and object: (MODEL_BGV_ROOF,POINT_3)
+Loading layer and object: (MODEL_BGV_ROOF,LINE_4)
+Loading layer and object: (MODEL_BGV_ROOF,LINE_5)
+Loading layer and object: (MODEL_BGV_ROOF,LINE_6)
+Loading layer and object: (MODEL_BGV_ROOF,LINE_9)
+Loading layer and object: (MODEL_BGV_ROOF,LINE_11)
+Loading layer and object: (MODEL_BGV_ROOF,LINE_11)
+Loading layer and object: (MODEL_BGV_ROOF,LINE_11)
+Loading layer and object: (MODEL_BGV_ROOF,POINT_13)
+Loading layer and object: (MODEL_BGV_ROOF,POINT_19)
+Loading layer and object: (MODEL_BGV_ROOF,POINT_22)
+Loading layer and object: (MODEL_BGV_ROOF,POINT_23)
+Loading layer and object: (MODEL_BGV_ROOF,POINT_24)
+Loading layer and object: (MODEL_BGV_ROOF,POINT_21)
+Loading layer and object: (MODEL_BGV_ROOF,POINT_1)
+Loading layer and object: (MODEL_BGV_ROOF,LINE_2)
+Loading layer and object: (MODEL_BGV_ROOF,LINE_3)
+Loading layer and object: (MODEL_BGV_ROOF,LINE_4)
+Loading layer and object: (MODEL_BGV_ROOF,LINE_5)
+Loading layer and object: (MODEL_BGV_ROOF,POINT_20)
+Loading layer and object: (MODEL_BGV_ROOF,LINE_26)
+Loading layer and object: (MODEL_BGV_ROOF,POINT_1)
+Loading layer and object: (MODEL_BGV_ROOF,POINT_2)
+Loading layer and object: (MODEL_BGV_ROOF,POINT_2)
+Loading layer and object: (MODEL_BGV_ROOF,POINT_3)
+Loading layer and object: (MODEL_BGV_ROOF,POINT_5)
+Loading layer and object: (MODEL_BGV_ROOF,POINT_1)
+Loading layer and object: (MODEL_BGV_ROOF,POINT_2)
+Loading layer and object: (MODEL_BGV_ROOF,POINT_3)
+Loading layer and object: (MODEL_BGV_ROOF,POINT_4)
+Loading layer and object: (MODEL_BGV_ROOF,POINT_5)
+Loading layer and object: (MODEL_BGV_ROOF,POINT_7)
+Loading layer and object: (MODEL_BGV_ROOF,POINT_8)
+Loading layer and object: (MODEL_BGV_ROOF,POINT_6)
+Total points : 470
+ gdc> Loading fault information
+Using database: VK_MODEL_INPUTS.DGD.ISIS
+Total points : 470
+ gdc> Base method is triangulation
+Smoothing passes : 9
+Specifications used to determine window and grid size
+Delaunay triangulation for 470 points
+Total number of triangles: 924/100000000
+Linear Triangular modeling method
+Maximum allowable triangle side length : 100000.000000
+Number of zero area triangles : 0
+Number of triangles with sides too long : 0
+Longest triangle side : 2906.124315
+Number of active points : 225499
+Generated data range : -68.767921 to 273.700164
+Smoothing grid surface with control points
+  Honouring all data points
+Surface smoothness : 1.000
+Surface smoothness : 0.571
+Surface smoothness : 0.411
+Surface smoothness : 0.331
+Surface smoothness : 0.277
+Surface smoothness : 0.241
+Surface smoothness : 0.214
+Surface smoothness : 0.193
+Surface smoothness : 0.177
+ gdc>  gdc> Saving buffered grid as VK_BGV.SRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - -100
+Saving buffered grid as VK_BGV.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc> 

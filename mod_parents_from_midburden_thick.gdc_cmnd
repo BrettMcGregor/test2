@@ -1,0 +1,544 @@
+access_specs/close_current
+clear_data
+access_specs/area='v10'/access_specs
+=cn3l.sf
+MASK/REPLACE/EQUATION='cnl.ms'
+save/use_spec_area_and_grid_size/nofault/variable='cnl.sf'
+EDIT/EQUATION=cn1.sr-cn3l.sf
+EDIT/EQUATION=Z*cnl.ms
+MASK/REPLACE/EQUATION='cnl.ms'
+save/use_spec_area_and_grid_size/nofault/variable='cnl.st'
+=cnl.sf+cnl.st
+MASK/REPLACE/EQUATION='cnl.ms'
+save/use_spec_area_and_grid_size/nofault/variable='cnl.sr'
+EDIT /EQUATION=max(cn3l.sf, cnl.sr)
+MASK/REPLACE/EQUATION='cn3l.ms.'
+SAVE 'cn3l.sf'
+EDIT /EQUATION=max(cn3l.sr, cnl.sr)
+MASK/REPLACE/EQUATION='cn3l.ms.'
+SAVE 'cn3l.sr'
+EDIT /EQUATION=cn3l.st
+MASK/REPLACE/EQUATION='cn3l.ms.'
+SAVE 'cn3l.st'
+closegrids
+EDIT /EQUATION=max(cn3u.sf, cn3l.sr)
+MASK/REPLACE/EQUATION='cn3u.ms.'
+SAVE 'cn3u.sf'
+EDIT /EQUATION=max(cn3u.sr, cn3l.sr)
+MASK/REPLACE/EQUATION='cn3u.ms.'
+SAVE 'cn3u.sr'
+EDIT /EQUATION=cn3u.st
+MASK/REPLACE/EQUATION='cn3u.ms.'
+SAVE 'cn3u.st'
+closegrids
+EDIT /EQUATION=max(cn2.sf, cn3u.sr)
+MASK/REPLACE/EQUATION='cn2.ms.'
+SAVE 'cn2.sf'
+EDIT /EQUATION=max(cn2.sr, cn3u.sr)
+MASK/REPLACE/EQUATION='cn2.ms.'
+SAVE 'cn2.sr'
+EDIT /EQUATION=cn2.st
+MASK/REPLACE/EQUATION='cn2.ms.'
+SAVE 'cn2.st'
+closegrids
+EDIT /EQUATION=max(cn1.sf, cn2.sr)
+MASK/REPLACE/EQUATION='cn1.ms.'
+SAVE 'cn1.sf'
+EDIT /EQUATION=max(cn1.sr, cn2.sr)
+MASK/REPLACE/EQUATION='cn1.ms.'
+SAVE 'cn1.sr'
+EDIT /EQUATION=cn1.st
+MASK/REPLACE/EQUATION='cn1.ms.'
+SAVE 'cn1.st'
+closegrids
+=cn3l.sf
+MASK/REPLACE/EQUATION='cn3.ms'
+save/use_spec_area_and_grid_size/nofault/variable='cn3.sf'
+EDIT/EQUATION=cn3u.sr-cn3l.sf
+EDIT/EQUATION=Z*cn3.ms
+MASK/REPLACE/EQUATION='cn3.ms'
+save/use_spec_area_and_grid_size/nofault/variable='cn3.st'
+=cn3.sf+cn3.st
+MASK/REPLACE/EQUATION='cn3.ms'
+save/use_spec_area_and_grid_size/nofault/variable='cn3.sr'
+EDIT /EQUATION=max(cn3l.sf, cn3.sr)
+MASK/REPLACE/EQUATION='cn3l.ms.'
+SAVE 'cn3l.sf'
+EDIT /EQUATION=max(cn3l.sr, cn3.sr)
+MASK/REPLACE/EQUATION='cn3l.ms.'
+SAVE 'cn3l.sr'
+EDIT /EQUATION=cn3l.st
+MASK/REPLACE/EQUATION='cn3l.ms.'
+SAVE 'cn3l.st'
+closegrids
+EDIT /EQUATION=max(cn3u.sf, cn3l.sr)
+MASK/REPLACE/EQUATION='cn3u.ms.'
+SAVE 'cn3u.sf'
+EDIT /EQUATION=max(cn3u.sr, cn3l.sr)
+MASK/REPLACE/EQUATION='cn3u.ms.'
+SAVE 'cn3u.sr'
+EDIT /EQUATION=cn3u.st
+MASK/REPLACE/EQUATION='cn3u.ms.'
+SAVE 'cn3u.st'
+closegrids
+=cn2.sf
+MASK/REPLACE/EQUATION='cn12.ms'
+save/use_spec_area_and_grid_size/nofault/variable='cn12.sf'
+EDIT/EQUATION=cn1.sr-cn2.sf
+EDIT/EQUATION=Z*cn12.ms
+MASK/REPLACE/EQUATION='cn12.ms'
+save/use_spec_area_and_grid_size/nofault/variable='cn12.st'
+=cn12.sf+cn12.st
+MASK/REPLACE/EQUATION='cn12.ms'
+save/use_spec_area_and_grid_size/nofault/variable='cn12.sr'
+EDIT /EQUATION=max(cn2.sf, cn12.sr)
+MASK/REPLACE/EQUATION='cn2.ms.'
+SAVE 'cn2.sf'
+EDIT /EQUATION=max(cn2.sr, cn12.sr)
+MASK/REPLACE/EQUATION='cn2.ms.'
+SAVE 'cn2.sr'
+EDIT /EQUATION=cn2.st
+MASK/REPLACE/EQUATION='cn2.ms.'
+SAVE 'cn2.st'
+closegrids
+EDIT /EQUATION=max(cn1.sf, cn2.sr)
+MASK/REPLACE/EQUATION='cn1.ms.'
+SAVE 'cn1.sf'
+EDIT /EQUATION=max(cn1.sr, cn2.sr)
+MASK/REPLACE/EQUATION='cn1.ms.'
+SAVE 'cn1.sr'
+EDIT /EQUATION=cn1.st
+MASK/REPLACE/EQUATION='cn1.ms.'
+SAVE 'cn1.st'
+closegrids
+=tp3.sf
+MASK/REPLACE/EQUATION='tpm.ms'
+save/use_spec_area_and_grid_size/nofault/variable='tpm.sf'
+EDIT/EQUATION=tp1.sr-tp3.sf
+EDIT/EQUATION=Z*tpm.ms
+MASK/REPLACE/EQUATION='tpm.ms'
+save/use_spec_area_and_grid_size/nofault/variable='tpm.st'
+=tpm.sf+tpm.st
+MASK/REPLACE/EQUATION='tpm.ms'
+save/use_spec_area_and_grid_size/nofault/variable='tpm.sr'
+EDIT /EQUATION=max(tp3.sf, tpm.sr)
+MASK/REPLACE/EQUATION='tp3.ms.'
+SAVE 'tp3.sf'
+EDIT /EQUATION=max(tp3.sr, tpm.sr)
+MASK/REPLACE/EQUATION='tp3.ms.'
+SAVE 'tp3.sr'
+EDIT /EQUATION=tp3.st
+MASK/REPLACE/EQUATION='tp3.ms.'
+SAVE 'tp3.st'
+closegrids
+EDIT /EQUATION=max(tp2.sf, tp3.sr)
+MASK/REPLACE/EQUATION='tp2.ms.'
+SAVE 'tp2.sf'
+EDIT /EQUATION=max(tp2.sr, tp3.sr)
+MASK/REPLACE/EQUATION='tp2.ms.'
+SAVE 'tp2.sr'
+EDIT /EQUATION=tp2.st
+MASK/REPLACE/EQUATION='tp2.ms.'
+SAVE 'tp2.st'
+closegrids
+EDIT /EQUATION=max(tp1.sf, tp2.sr)
+MASK/REPLACE/EQUATION='tp1.ms.'
+SAVE 'tp1.sf'
+EDIT /EQUATION=max(tp1.sr, tp2.sr)
+MASK/REPLACE/EQUATION='tp1.ms.'
+SAVE 'tp1.sr'
+EDIT /EQUATION=tp1.st
+MASK/REPLACE/EQUATION='tp1.ms.'
+SAVE 'tp1.st'
+closegrids
+=tp2.sf
+MASK/REPLACE/EQUATION='tp12.ms'
+save/use_spec_area_and_grid_size/nofault/variable='tp12.sf'
+EDIT/EQUATION=tp1.sr-tp2.sf
+EDIT/EQUATION=Z*tp12.ms
+MASK/REPLACE/EQUATION='tp12.ms'
+save/use_spec_area_and_grid_size/nofault/variable='tp12.st'
+=tp12.sf+tp12.st
+MASK/REPLACE/EQUATION='tp12.ms'
+save/use_spec_area_and_grid_size/nofault/variable='tp12.sr'
+EDIT /EQUATION=max(tp2.sf, tp12.sr)
+MASK/REPLACE/EQUATION='tp2.ms.'
+SAVE 'tp2.sf'
+EDIT /EQUATION=max(tp2.sr, tp12.sr)
+MASK/REPLACE/EQUATION='tp2.ms.'
+SAVE 'tp2.sr'
+EDIT /EQUATION=tp2.st
+MASK/REPLACE/EQUATION='tp2.ms.'
+SAVE 'tp2.st'
+closegrids
+EDIT /EQUATION=max(tp1.sf, tp2.sr)
+MASK/REPLACE/EQUATION='tp1.ms.'
+SAVE 'tp1.sf'
+EDIT /EQUATION=max(tp1.sr, tp2.sr)
+MASK/REPLACE/EQUATION='tp1.ms.'
+SAVE 'tp1.sr'
+EDIT /EQUATION=tp1.st
+MASK/REPLACE/EQUATION='tp1.ms.'
+SAVE 'tp1.st'
+closegrids
+=st2.sf
+MASK/REPLACE/EQUATION='stf.ms'
+save/use_spec_area_and_grid_size/nofault/variable='stf.sf'
+EDIT/EQUATION=st1.sr-st2.sf
+EDIT/EQUATION=Z*stf.ms
+MASK/REPLACE/EQUATION='stf.ms'
+save/use_spec_area_and_grid_size/nofault/variable='stf.st'
+=stf.sf+stf.st
+MASK/REPLACE/EQUATION='stf.ms'
+save/use_spec_area_and_grid_size/nofault/variable='stf.sr'
+EDIT /EQUATION=max(st2.sf, stf.sr)
+MASK/REPLACE/EQUATION='st2.ms.'
+SAVE 'st2.sf'
+EDIT /EQUATION=max(st2.sr, stf.sr)
+MASK/REPLACE/EQUATION='st2.ms.'
+SAVE 'st2.sr'
+EDIT /EQUATION=st2.st
+MASK/REPLACE/EQUATION='st2.ms.'
+SAVE 'st2.st'
+closegrids
+EDIT /EQUATION=max(st1.sf, st2.sr)
+MASK/REPLACE/EQUATION='st1.ms.'
+SAVE 'st1.sf'
+EDIT /EQUATION=max(st1.sr, st2.sr)
+MASK/REPLACE/EQUATION='st1.ms.'
+SAVE 'st1.sr'
+EDIT /EQUATION=st1.st
+MASK/REPLACE/EQUATION='st1.ms.'
+SAVE 'st1.st'
+closegrids
+=ta4.sf
+MASK/REPLACE/EQUATION='tau.ms'
+save/use_spec_area_and_grid_size/nofault/variable='tau.sf'
+EDIT/EQUATION=ta1.sr-ta4.sf
+EDIT/EQUATION=Z*tau.ms
+MASK/REPLACE/EQUATION='tau.ms'
+save/use_spec_area_and_grid_size/nofault/variable='tau.st'
+=tau.sf+tau.st
+MASK/REPLACE/EQUATION='tau.ms'
+save/use_spec_area_and_grid_size/nofault/variable='tau.sr'
+EDIT /EQUATION=max(ta4.sf, tau.sr)
+MASK/REPLACE/EQUATION='ta4.ms.'
+SAVE 'ta4.sf'
+EDIT /EQUATION=max(ta4.sr, tau.sr)
+MASK/REPLACE/EQUATION='ta4.ms.'
+SAVE 'ta4.sr'
+EDIT /EQUATION=ta4.st
+MASK/REPLACE/EQUATION='ta4.ms.'
+SAVE 'ta4.st'
+closegrids
+EDIT /EQUATION=max(ta3.sf, ta4.sr)
+MASK/REPLACE/EQUATION='ta3.ms.'
+SAVE 'ta3.sf'
+EDIT /EQUATION=max(ta3.sr, ta4.sr)
+MASK/REPLACE/EQUATION='ta3.ms.'
+SAVE 'ta3.sr'
+EDIT /EQUATION=ta3.st
+MASK/REPLACE/EQUATION='ta3.ms.'
+SAVE 'ta3.st'
+closegrids
+EDIT /EQUATION=max(ta2.sf, ta3.sr)
+MASK/REPLACE/EQUATION='ta2.ms.'
+SAVE 'ta2.sf'
+EDIT /EQUATION=max(ta2.sr, ta3.sr)
+MASK/REPLACE/EQUATION='ta2.ms.'
+SAVE 'ta2.sr'
+EDIT /EQUATION=ta2.st
+MASK/REPLACE/EQUATION='ta2.ms.'
+SAVE 'ta2.st'
+closegrids
+EDIT /EQUATION=max(ta1.sf, ta2.sr)
+MASK/REPLACE/EQUATION='ta1.ms.'
+SAVE 'ta1.sf'
+EDIT /EQUATION=max(ta1.sr, ta2.sr)
+MASK/REPLACE/EQUATION='ta1.ms.'
+SAVE 'ta1.sr'
+EDIT /EQUATION=ta1.st
+MASK/REPLACE/EQUATION='ta1.ms.'
+SAVE 'ta1.st'
+closegrids
+=ta4.sf
+MASK/REPLACE/EQUATION='ta24.ms'
+save/use_spec_area_and_grid_size/nofault/variable='ta24.sf'
+EDIT/EQUATION=ta2.sr-ta4.sf
+EDIT/EQUATION=Z*ta24.ms
+MASK/REPLACE/EQUATION='ta24.ms'
+save/use_spec_area_and_grid_size/nofault/variable='ta24.st'
+=ta24.sf+ta24.st
+MASK/REPLACE/EQUATION='ta24.ms'
+save/use_spec_area_and_grid_size/nofault/variable='ta24.sr'
+EDIT /EQUATION=max(ta4.sf, ta24.sr)
+MASK/REPLACE/EQUATION='ta4.ms.'
+SAVE 'ta4.sf'
+EDIT /EQUATION=max(ta4.sr, ta24.sr)
+MASK/REPLACE/EQUATION='ta4.ms.'
+SAVE 'ta4.sr'
+EDIT /EQUATION=ta4.st
+MASK/REPLACE/EQUATION='ta4.ms.'
+SAVE 'ta4.st'
+closegrids
+EDIT /EQUATION=max(ta3.sf, ta4.sr)
+MASK/REPLACE/EQUATION='ta3.ms.'
+SAVE 'ta3.sf'
+EDIT /EQUATION=max(ta3.sr, ta4.sr)
+MASK/REPLACE/EQUATION='ta3.ms.'
+SAVE 'ta3.sr'
+EDIT /EQUATION=ta3.st
+MASK/REPLACE/EQUATION='ta3.ms.'
+SAVE 'ta3.st'
+closegrids
+EDIT /EQUATION=max(ta2.sf, ta3.sr)
+MASK/REPLACE/EQUATION='ta2.ms.'
+SAVE 'ta2.sf'
+EDIT /EQUATION=max(ta2.sr, ta3.sr)
+MASK/REPLACE/EQUATION='ta2.ms.'
+SAVE 'ta2.sr'
+EDIT /EQUATION=ta2.st
+MASK/REPLACE/EQUATION='ta2.ms.'
+SAVE 'ta2.st'
+closegrids
+=ta4.sf
+MASK/REPLACE/EQUATION='ta34.ms'
+save/use_spec_area_and_grid_size/nofault/variable='ta34.sf'
+EDIT/EQUATION=ta3.sr-ta4.sf
+EDIT/EQUATION=Z*ta34.ms
+MASK/REPLACE/EQUATION='ta34.ms'
+save/use_spec_area_and_grid_size/nofault/variable='ta34.st'
+=ta34.sf+ta34.st
+MASK/REPLACE/EQUATION='ta34.ms'
+save/use_spec_area_and_grid_size/nofault/variable='ta34.sr'
+EDIT /EQUATION=max(ta4.sf, ta34.sr)
+MASK/REPLACE/EQUATION='ta4.ms.'
+SAVE 'ta4.sf'
+EDIT /EQUATION=max(ta4.sr, ta34.sr)
+MASK/REPLACE/EQUATION='ta4.ms.'
+SAVE 'ta4.sr'
+EDIT /EQUATION=ta4.st
+MASK/REPLACE/EQUATION='ta4.ms.'
+SAVE 'ta4.st'
+closegrids
+EDIT /EQUATION=max(ta3.sf, ta4.sr)
+MASK/REPLACE/EQUATION='ta3.ms.'
+SAVE 'ta3.sf'
+EDIT /EQUATION=max(ta3.sr, ta4.sr)
+MASK/REPLACE/EQUATION='ta3.ms.'
+SAVE 'ta3.sr'
+EDIT /EQUATION=ta3.st
+MASK/REPLACE/EQUATION='ta3.ms.'
+SAVE 'ta3.st'
+closegrids
+=ta3.sf
+MASK/REPLACE/EQUATION='ta13.ms'
+save/use_spec_area_and_grid_size/nofault/variable='ta13.sf'
+EDIT/EQUATION=ta1.sr-ta3.sf
+EDIT/EQUATION=Z*ta13.ms
+MASK/REPLACE/EQUATION='ta13.ms'
+save/use_spec_area_and_grid_size/nofault/variable='ta13.st'
+=ta13.sf+ta13.st
+MASK/REPLACE/EQUATION='ta13.ms'
+save/use_spec_area_and_grid_size/nofault/variable='ta13.sr'
+EDIT /EQUATION=max(ta3.sf, ta13.sr)
+MASK/REPLACE/EQUATION='ta3.ms.'
+SAVE 'ta3.sf'
+EDIT /EQUATION=max(ta3.sr, ta13.sr)
+MASK/REPLACE/EQUATION='ta3.ms.'
+SAVE 'ta3.sr'
+EDIT /EQUATION=ta3.st
+MASK/REPLACE/EQUATION='ta3.ms.'
+SAVE 'ta3.st'
+closegrids
+EDIT /EQUATION=max(ta2.sf, ta3.sr)
+MASK/REPLACE/EQUATION='ta2.ms.'
+SAVE 'ta2.sf'
+EDIT /EQUATION=max(ta2.sr, ta3.sr)
+MASK/REPLACE/EQUATION='ta2.ms.'
+SAVE 'ta2.sr'
+EDIT /EQUATION=ta2.st
+MASK/REPLACE/EQUATION='ta2.ms.'
+SAVE 'ta2.st'
+closegrids
+EDIT /EQUATION=max(ta1.sf, ta2.sr)
+MASK/REPLACE/EQUATION='ta1.ms.'
+SAVE 'ta1.sf'
+EDIT /EQUATION=max(ta1.sr, ta2.sr)
+MASK/REPLACE/EQUATION='ta1.ms.'
+SAVE 'ta1.sr'
+EDIT /EQUATION=ta1.st
+MASK/REPLACE/EQUATION='ta1.ms.'
+SAVE 'ta1.st'
+closegrids
+=ta3.sf
+MASK/REPLACE/EQUATION='ta23.ms'
+save/use_spec_area_and_grid_size/nofault/variable='ta23.sf'
+EDIT/EQUATION=ta2.sr-ta3.sf
+EDIT/EQUATION=Z*ta23.ms
+MASK/REPLACE/EQUATION='ta23.ms'
+save/use_spec_area_and_grid_size/nofault/variable='ta23.st'
+=ta23.sf+ta23.st
+MASK/REPLACE/EQUATION='ta23.ms'
+save/use_spec_area_and_grid_size/nofault/variable='ta23.sr'
+EDIT /EQUATION=max(ta3.sf, ta23.sr)
+MASK/REPLACE/EQUATION='ta3.ms.'
+SAVE 'ta3.sf'
+EDIT /EQUATION=max(ta3.sr, ta23.sr)
+MASK/REPLACE/EQUATION='ta3.ms.'
+SAVE 'ta3.sr'
+EDIT /EQUATION=ta3.st
+MASK/REPLACE/EQUATION='ta3.ms.'
+SAVE 'ta3.st'
+closegrids
+EDIT /EQUATION=max(ta2.sf, ta3.sr)
+MASK/REPLACE/EQUATION='ta2.ms.'
+SAVE 'ta2.sf'
+EDIT /EQUATION=max(ta2.sr, ta3.sr)
+MASK/REPLACE/EQUATION='ta2.ms.'
+SAVE 'ta2.sr'
+EDIT /EQUATION=ta2.st
+MASK/REPLACE/EQUATION='ta2.ms.'
+SAVE 'ta2.st'
+closegrids
+=ta2.sf
+MASK/REPLACE/EQUATION='ta12.ms'
+save/use_spec_area_and_grid_size/nofault/variable='ta12.sf'
+EDIT/EQUATION=ta1.sr-ta2.sf
+EDIT/EQUATION=Z*ta12.ms
+MASK/REPLACE/EQUATION='ta12.ms'
+save/use_spec_area_and_grid_size/nofault/variable='ta12.st'
+=ta12.sf+ta12.st
+MASK/REPLACE/EQUATION='ta12.ms'
+save/use_spec_area_and_grid_size/nofault/variable='ta12.sr'
+EDIT /EQUATION=max(ta2.sf, ta12.sr)
+MASK/REPLACE/EQUATION='ta2.ms.'
+SAVE 'ta2.sf'
+EDIT /EQUATION=max(ta2.sr, ta12.sr)
+MASK/REPLACE/EQUATION='ta2.ms.'
+SAVE 'ta2.sr'
+EDIT /EQUATION=ta2.st
+MASK/REPLACE/EQUATION='ta2.ms.'
+SAVE 'ta2.st'
+closegrids
+EDIT /EQUATION=max(ta1.sf, ta2.sr)
+MASK/REPLACE/EQUATION='ta1.ms.'
+SAVE 'ta1.sf'
+EDIT /EQUATION=max(ta1.sr, ta2.sr)
+MASK/REPLACE/EQUATION='ta1.ms.'
+SAVE 'ta1.sr'
+EDIT /EQUATION=ta1.st
+MASK/REPLACE/EQUATION='ta1.ms.'
+SAVE 'ta1.st'
+closegrids
+=nt5.sf
+MASK/REPLACE/EQUATION='nth.ms'
+save/use_spec_area_and_grid_size/nofault/variable='nth.sf'
+EDIT/EQUATION=nt2.sr-nt5.sf
+EDIT/EQUATION=Z*nth.ms
+MASK/REPLACE/EQUATION='nth.ms'
+save/use_spec_area_and_grid_size/nofault/variable='nth.st'
+=nth.sf+nth.st
+MASK/REPLACE/EQUATION='nth.ms'
+save/use_spec_area_and_grid_size/nofault/variable='nth.sr'
+EDIT /EQUATION=max(nt5.sf, nth.sr)
+MASK/REPLACE/EQUATION='nt5.ms.'
+SAVE 'nt5.sf'
+EDIT /EQUATION=max(nt5.sr, nth.sr)
+MASK/REPLACE/EQUATION='nt5.ms.'
+SAVE 'nt5.sr'
+EDIT /EQUATION=nt5.st
+MASK/REPLACE/EQUATION='nt5.ms.'
+SAVE 'nt5.st'
+closegrids
+EDIT /EQUATION=max(nt3.sf, nt5.sr)
+MASK/REPLACE/EQUATION='nt3.ms.'
+SAVE 'nt3.sf'
+EDIT /EQUATION=max(nt3.sr, nt5.sr)
+MASK/REPLACE/EQUATION='nt3.ms.'
+SAVE 'nt3.sr'
+EDIT /EQUATION=nt3.st
+MASK/REPLACE/EQUATION='nt3.ms.'
+SAVE 'nt3.st'
+closegrids
+EDIT /EQUATION=max(nt2.sf, nt3.sr)
+MASK/REPLACE/EQUATION='nt2.ms.'
+SAVE 'nt2.sf'
+EDIT /EQUATION=max(nt2.sr, nt3.sr)
+MASK/REPLACE/EQUATION='nt2.ms.'
+SAVE 'nt2.sr'
+EDIT /EQUATION=nt2.st
+MASK/REPLACE/EQUATION='nt2.ms.'
+SAVE 'nt2.st'
+closegrids
+=ng3.sf
+MASK/REPLACE/EQUATION='ngr.ms'
+save/use_spec_area_and_grid_size/nofault/variable='ngr.sf'
+EDIT/EQUATION=ng1.sr-ng3.sf
+EDIT/EQUATION=Z*ngr.ms
+MASK/REPLACE/EQUATION='ngr.ms'
+save/use_spec_area_and_grid_size/nofault/variable='ngr.st'
+=ngr.sf+ngr.st
+MASK/REPLACE/EQUATION='ngr.ms'
+save/use_spec_area_and_grid_size/nofault/variable='ngr.sr'
+EDIT /EQUATION=max(ng3.sf, ngr.sr)
+MASK/REPLACE/EQUATION='ng3.ms.'
+SAVE 'ng3.sf'
+EDIT /EQUATION=max(ng3.sr, ngr.sr)
+MASK/REPLACE/EQUATION='ng3.ms.'
+SAVE 'ng3.sr'
+EDIT /EQUATION=ng3.st
+MASK/REPLACE/EQUATION='ng3.ms.'
+SAVE 'ng3.st'
+closegrids
+EDIT /EQUATION=max(ng1.sf, ng3.sr)
+MASK/REPLACE/EQUATION='ng1.ms.'
+SAVE 'ng1.sf'
+EDIT /EQUATION=max(ng1.sr, ng3.sr)
+MASK/REPLACE/EQUATION='ng1.ms.'
+SAVE 'ng1.sr'
+EDIT /EQUATION=ng1.st
+MASK/REPLACE/EQUATION='ng1.ms.'
+SAVE 'ng1.st'
+closegrids
+=vy3.sf
+MASK/REPLACE/EQUATION='vym.ms'
+save/use_spec_area_and_grid_size/nofault/variable='vym.sf'
+EDIT/EQUATION=vy1.sr-vy3.sf
+EDIT/EQUATION=Z*vym.ms
+MASK/REPLACE/EQUATION='vym.ms'
+save/use_spec_area_and_grid_size/nofault/variable='vym.st'
+=vym.sf+vym.st
+MASK/REPLACE/EQUATION='vym.ms'
+save/use_spec_area_and_grid_size/nofault/variable='vym.sr'
+EDIT /EQUATION=max(vy3.sf, vym.sr)
+MASK/REPLACE/EQUATION='vy3.ms.'
+SAVE 'vy3.sf'
+EDIT /EQUATION=max(vy3.sr, vym.sr)
+MASK/REPLACE/EQUATION='vy3.ms.'
+SAVE 'vy3.sr'
+EDIT /EQUATION=vy3.st
+MASK/REPLACE/EQUATION='vy3.ms.'
+SAVE 'vy3.st'
+closegrids
+EDIT /EQUATION=max(vy2.sf, vy3.sr)
+MASK/REPLACE/EQUATION='vy2.ms.'
+SAVE 'vy2.sf'
+EDIT /EQUATION=max(vy2.sr, vy3.sr)
+MASK/REPLACE/EQUATION='vy2.ms.'
+SAVE 'vy2.sr'
+EDIT /EQUATION=vy2.st
+MASK/REPLACE/EQUATION='vy2.ms.'
+SAVE 'vy2.st'
+closegrids
+EDIT /EQUATION=max(vy1.sf, vy2.sr)
+MASK/REPLACE/EQUATION='vy1.ms.'
+SAVE 'vy1.sf'
+EDIT /EQUATION=max(vy1.sr, vy2.sr)
+MASK/REPLACE/EQUATION='vy1.ms.'
+SAVE 'vy1.sr'
+EDIT /EQUATION=vy1.st
+MASK/REPLACE/EQUATION='vy1.ms.'
+SAVE 'vy1.st'
+closegrids
+exit

@@ -1,0 +1,713 @@
+"horizon_control" = 
+  {
+   "missing_override_grid" = 
+    [
+      [
+        "NG1",
+        "NORMAL FixDHD",
+        "",
+        {
+         "hole_grid" = 
+          {
+           "hole_name" = 
+            [
+              "ASV1003",
+              "ASV0001"
+            ],
+           "override_type" = 
+            [
+              "FULL NO ZEROS",
+              "FULL NO ZEROS"
+            ],
+           "override_value" = 
+            [
+              "",
+              ""
+            ]
+          }
+        }
+      ],
+      [
+        "NG3",
+        "NORMAL FixDHD",
+        "",
+        {
+         "hole_grid" = 
+          {
+           "hole_name" = 
+            [
+              "ASV0001"
+            ],
+           "override_type" = 
+            [
+              "FULL NO ZEROS"
+            ],
+           "override_value" = 
+            [
+              ""
+            ]
+          }
+        }
+      ],
+      [
+        "NT1",
+        "NORMAL FixDHD",
+        "",
+        {
+         "hole_grid" = 
+          {
+           "hole_name" = 
+            [
+              "VKY1390",
+              "LOX23A",
+              "WVK511",
+              "LOX22B"
+            ],
+           "override_type" = 
+            [
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS"
+            ],
+           "override_value" = 
+            [
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        }
+      ],
+      [
+        "NT2",
+        "NORMAL FixDHD",
+        "",
+        {
+         "hole_grid" = 
+          {
+           "hole_name" = 
+            [
+              "WVK632",
+              "VKY0062C",
+              "VKY1390",
+              "LOX23A",
+              "WVK511",
+              "LOX22B"
+            ],
+           "override_type" = 
+            [
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS"
+            ],
+           "override_value" = 
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        }
+      ],
+      [
+        "NT5",
+        "NORMAL FixDHD",
+        "",
+        {
+         "hole_grid" = 
+          {
+           "hole_name" = 
+            [
+              "WVK094",
+              "WVK615",
+              "VKY1548",
+              "WVK632",
+              "VKY0062C",
+              "VKY1679R",
+              "VKY1678R",
+              "LOX22B"
+            ],
+           "override_type" = 
+            [
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS"
+            ],
+           "override_value" = 
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        }
+      ],
+      [
+        "TH1",
+        "NORMAL FixDHD",
+        "",
+        {
+         "hole_grid" = 
+          {
+           "hole_name" = 
+            [
+              "WVK094",
+              "VKY0056C",
+              "VKY1549",
+              "VKY1185"
+            ],
+           "override_type" = 
+            [
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS"
+            ],
+           "override_value" = 
+            [
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        }
+      ],
+      [
+        "TA1",
+        "NORMAL FixDHD",
+        "",
+        {
+         "hole_grid" = 
+          {
+           "hole_name" = 
+            [
+              "WVK094",
+              "WVK539",
+              "WVK617",
+              "WVK506",
+              "ASV1002"
+            ],
+           "override_type" = 
+            [
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS"
+            ],
+           "override_value" = 
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        }
+      ],
+      [
+        "TA2",
+        "NORMAL FixDHD",
+        "",
+        {
+         "hole_grid" = 
+          {
+           "hole_name" = 
+            [
+              "WVK094",
+              "WVK539",
+              "WVK617",
+              "WVK506",
+              "WVK617"
+            ],
+           "override_type" = 
+            [
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS"
+            ],
+           "override_value" = 
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        }
+      ],
+      [
+        "TA3",
+        "NORMAL FixDHD",
+        "",
+        {
+         "hole_grid" = 
+          {
+           "hole_name" = 
+            [
+              "WVK094",
+              "WVK539",
+              "WVK617",
+              "WVK506",
+              "WVK617"
+            ],
+           "override_type" = 
+            [
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS"
+            ],
+           "override_value" = 
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        }
+      ],
+      [
+        "TA4",
+        "NORMAL FixDHD",
+        "",
+        {
+         "hole_grid" = 
+          {
+           "hole_name" = 
+            [
+              "WVK094",
+              "WVK539",
+              "WVK617",
+              "WVK506",
+              "WVK617"
+            ],
+           "override_type" = 
+            [
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS"
+            ],
+           "override_value" = 
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        }
+      ],
+      [
+        "TA6",
+        "NORMAL FixDHD",
+        "",
+        {
+         "hole_grid" = 
+          {
+           "hole_name" = 
+            [
+              "WVK094",
+              "WVK636",
+              "VKY3067",
+              "VKY3067"
+            ],
+           "override_type" = 
+            [
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS"
+            ],
+           "override_value" = 
+            [
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        }
+      ],
+      [
+        "TA8",
+        "NORMAL FixDHD",
+        "",
+        {
+         "hole_grid" = 
+          {
+           "hole_name" = 
+            [
+              "WVK539",
+              "WVK636"
+            ],
+           "override_type" = 
+            [
+              "FULL NO ZEROS",
+              "FULL NO ZEROS"
+            ],
+           "override_value" = 
+            [
+              "",
+              ""
+            ]
+          }
+        }
+      ],
+      [
+        "ST1",
+        "NORMAL FixDHD",
+        "",
+        {
+         "hole_grid" = 
+          {
+           "hole_name" = 
+            [
+              "WVK659",
+              "WVK094",
+              "WVK539",
+              "WVK636",
+              "WVK115"
+            ],
+           "override_type" = 
+            [
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS"
+            ],
+           "override_value" = 
+            [
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        }
+      ],
+      [
+        "ST2",
+        "NORMAL FixDHD",
+        "",
+        {
+         "hole_grid" = 
+          {
+           "hole_name" = 
+            [
+              "WVK659",
+              "WVK094",
+              "VNW096",
+              "VKY5050",
+              "WVK539",
+              "WVK115"
+            ],
+           "override_type" = 
+            [
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "VALUE",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS"
+            ],
+           "override_value" = 
+            [
+              "",
+              "",
+              "",
+              0.05,
+              "",
+              ""
+            ]
+          }
+        }
+      ],
+      [
+        "TP1",
+        "NORMAL FixDHD",
+        "",
+        {
+         "hole_grid" = 
+          {
+           "hole_name" = 
+            [
+              "WVK055",
+              "WVK659",
+              "WVK537",
+              "WVK116",
+              "WVK650",
+              "WVK094"
+            ],
+           "override_type" = 
+            [
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS"
+            ],
+           "override_value" = 
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        }
+      ],
+      [
+        "TP2",
+        "NORMAL FixDHD",
+        "",
+        {
+         "hole_grid" = 
+          {
+           "hole_name" = 
+            [
+              "WVK055",
+              "WVK659",
+              "WVK537",
+              "WVK029",
+              "VS028",
+              "MWK003",
+              "WVK116"
+            ],
+           "override_type" = 
+            [
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS"
+            ],
+           "override_value" = 
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        }
+      ],
+      [
+        "TP3",
+        "NORMAL FixDHD",
+        "",
+        {
+         "hole_grid" = 
+          {
+           "hole_name" = 
+            [
+              "WVK055"
+            ],
+           "override_type" = 
+            [
+              "FULL NO ZEROS"
+            ],
+           "override_value" = 
+            [
+              ""
+            ]
+          }
+        }
+      ],
+      [
+        "CN1",
+        "NORMAL FixDHD",
+        "",
+        {
+         "hole_grid" = 
+          {
+           "hole_name" = 
+            [
+              "WVK543",
+              "VKY3034",
+              "VKY0080",
+              "VS020",
+              "VS045",
+              "WVK656A"
+            ],
+           "override_type" = 
+            [
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS"
+            ],
+           "override_value" = 
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        }
+      ],
+      [
+        "CN2",
+        "NORMAL FixDHD",
+        "",
+        {
+         "hole_grid" = 
+          {
+           "hole_name" = 
+            [
+              "WVK543",
+              "WVK654",
+              "VS045",
+              "VKY3034",
+              "VKY0080",
+              "VS020",
+              "VS045",
+              "WVK656A"
+            ],
+           "override_type" = 
+            [
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS"
+            ],
+           "override_value" = 
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        }
+      ],
+      [
+        "CN3U",
+        "NORMAL FixDHD",
+        "",
+        {
+         "hole_grid" = 
+          {
+           "hole_name" = 
+            [
+              "WVK543",
+              "VKY3034",
+              "VKY0080",
+              "VS020",
+              "VS045",
+              "WVK656A"
+            ],
+           "override_type" = 
+            [
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS"
+            ],
+           "override_value" = 
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        }
+      ],
+      [
+        "CN3L",
+        "NORMAL FixDHD",
+        "",
+        {
+         "hole_grid" = 
+          {
+           "hole_name" = 
+            [
+              "WVK543",
+              "VKY3034",
+              "VKY0080",
+              "VS020",
+              "VS045",
+              "WVK656A"
+            ],
+           "override_type" = 
+            [
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS",
+              "FULL NO ZEROS"
+            ],
+           "override_value" = 
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          }
+        }
+      ]
+    ],
+   "use_missing_override" = 1,
+   "use_partial_override" = "0"
+  },

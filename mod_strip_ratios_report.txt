@@ -1,0 +1,1096 @@
+
+2D MAPPING AND MODELLING - GRID ARITHMETIC AND INSPECTION
+              GDCALC : Version : Vulcan 12.0.2.358 : 02-Dec-2019
+                          Copyright (C) 2019 Maptek
+GDCALC Vulcan 12.0.2.358 (VUL-80000_12.0.2) Dec 2 2019                                                                                                                                                       
+ gdc>  gdc> All point, string and triangle data removed
+ gdc> Specifications loaded for area: v10
+ gdc>  gdc>  gdc> Saving buffered grid as VK_BN2.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_BN2.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_BN1.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_BN1.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_WAA.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_WAA.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_CNL.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_CNL.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_CN3.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_CN3.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_CN2.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_CN2.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_CN1.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_CN1.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_TPM.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_TPM.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_TP3.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_TP3.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_TP2.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_TP2.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_TP1.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_TP1.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_STF.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_STF.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_ST2.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_ST2.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_ST1.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_ST1.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_TA8.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_TA8.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_TA6.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_TA6.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_TAU.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_TAU.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_TA2.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_TA2.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_TA1.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_TA1.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_FX1.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_FX1.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_TH1.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_TH1.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_NT5.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_NT5.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_NT3.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_NT3.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_NT2.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_NT2.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_NT1.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_NT1.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_NGR.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_NGR.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_NG3.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_NG3.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_NG1.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_NG1.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_VYM.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_VYM.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_VY3.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_VY3.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_VY2.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_VY2.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_VY1.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc> Saving buffered grid as VK_VY1.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - VY1.FR
+Saving buffered grid as VK_CUM.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - VY1.TN
+Saving buffered grid as VK_CUM.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TOPO_CURRENT.TP - VY1.SF
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.WS - CUM.FR
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_CUM_VY1.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - CUM.FR + VY2.FR
+Saving buffered grid as VK_CUM.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.TN + VY2.TN
+Saving buffered grid as VK_CUM.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TOPO_CURRENT.TP - VY2.SF
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.WS - CUM.FR
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_CUM_VY2.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - CUM.FR + VY3.FR
+Saving buffered grid as VK_CUM.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.TN + VY3.TN
+Saving buffered grid as VK_CUM.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TOPO_CURRENT.TP - VY3.SF
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.WS - CUM.FR
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_CUM_VY3.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - CUM.FR + VYM.FR
+Saving buffered grid as VK_CUM.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.TN + VYM.TN
+Saving buffered grid as VK_CUM.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TOPO_CURRENT.TP - VYM.SF
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.WS - CUM.FR
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_CUM_VYM.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - CUM.FR + NG1.FR
+Saving buffered grid as VK_CUM.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.TN + NG1.TN
+Saving buffered grid as VK_CUM.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TOPO_CURRENT.TP - NG1.SF
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.WS - CUM.FR
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_CUM_NG1.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - CUM.FR + NG3.FR
+Saving buffered grid as VK_CUM.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.TN + NG3.TN
+Saving buffered grid as VK_CUM.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TOPO_CURRENT.TP - NG3.SF
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.WS - CUM.FR
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_CUM_NG3.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - CUM.FR + NGR.FR
+Saving buffered grid as VK_CUM.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.TN + NGR.TN
+Saving buffered grid as VK_CUM.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TOPO_CURRENT.TP - NGR.SF
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.WS - CUM.FR
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_CUM_NGR.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - CUM.FR + NT1.FR
+Saving buffered grid as VK_CUM.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.TN + NT1.TN
+Saving buffered grid as VK_CUM.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TOPO_CURRENT.TP - NT1.SF
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.WS - CUM.FR
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_CUM_NT1.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - CUM.FR + NT2.FR
+Saving buffered grid as VK_CUM.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.TN + NT2.TN
+Saving buffered grid as VK_CUM.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TOPO_CURRENT.TP - NT2.SF
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.WS - CUM.FR
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_CUM_NT2.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - CUM.FR + NT3.FR
+Saving buffered grid as VK_CUM.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.TN + NT3.TN
+Saving buffered grid as VK_CUM.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TOPO_CURRENT.TP - NT3.SF
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.WS - CUM.FR
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_CUM_NT3.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - CUM.FR + NT5.FR
+Saving buffered grid as VK_CUM.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.TN + NT5.TN
+Saving buffered grid as VK_CUM.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TOPO_CURRENT.TP - NT5.SF
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.WS - CUM.FR
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_CUM_NT5.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - CUM.FR + TH1.FR
+Saving buffered grid as VK_CUM.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.TN + TH1.TN
+Saving buffered grid as VK_CUM.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TOPO_CURRENT.TP - TH1.SF
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.WS - CUM.FR
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_CUM_TH1.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - CUM.FR + FX1.FR
+Saving buffered grid as VK_CUM.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.TN + FX1.TN
+Saving buffered grid as VK_CUM.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TOPO_CURRENT.TP - FX1.SF
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.WS - CUM.FR
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_CUM_FX1.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - CUM.FR + TA1.FR
+Saving buffered grid as VK_CUM.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.TN + TA1.TN
+Saving buffered grid as VK_CUM.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TOPO_CURRENT.TP - TA1.SF
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.WS - CUM.FR
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_CUM_TA1.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - CUM.FR + TA2.FR
+Saving buffered grid as VK_CUM.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.TN + TA2.TN
+Saving buffered grid as VK_CUM.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TOPO_CURRENT.TP - TA2.SF
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.WS - CUM.FR
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_CUM_TA2.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - CUM.FR + TAU.FR
+Saving buffered grid as VK_CUM.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.TN + TAU.TN
+Saving buffered grid as VK_CUM.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TOPO_CURRENT.TP - TAU.SF
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.WS - CUM.FR
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_CUM_TAU.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - CUM.FR + TA6.FR
+Saving buffered grid as VK_CUM.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.TN + TA6.TN
+Saving buffered grid as VK_CUM.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TOPO_CURRENT.TP - TA6.SF
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.WS - CUM.FR
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_CUM_TA6.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - CUM.FR + TA8.FR
+Saving buffered grid as VK_CUM.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.TN + TA8.TN
+Saving buffered grid as VK_CUM.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TOPO_CURRENT.TP - TA8.SF
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.WS - CUM.FR
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_CUM_TA8.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - CUM.FR + ST1.FR
+Saving buffered grid as VK_CUM.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.TN + ST1.TN
+Saving buffered grid as VK_CUM.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TOPO_CURRENT.TP - ST1.SF
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.WS - CUM.FR
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_CUM_ST1.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - CUM.FR + ST2.FR
+Saving buffered grid as VK_CUM.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.TN + ST2.TN
+Saving buffered grid as VK_CUM.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TOPO_CURRENT.TP - ST2.SF
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.WS - CUM.FR
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_CUM_ST2.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - CUM.FR + STF.FR
+Saving buffered grid as VK_CUM.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.TN + STF.TN
+Saving buffered grid as VK_CUM.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TOPO_CURRENT.TP - STF.SF
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.WS - CUM.FR
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_CUM_STF.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - CUM.FR + TP1.FR
+Saving buffered grid as VK_CUM.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.TN + TP1.TN
+Saving buffered grid as VK_CUM.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TOPO_CURRENT.TP - TP1.SF
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.WS - CUM.FR
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_CUM_TP1.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - CUM.FR + TP2.FR
+Saving buffered grid as VK_CUM.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.TN + TP2.TN
+Saving buffered grid as VK_CUM.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TOPO_CURRENT.TP - TP2.SF
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.WS - CUM.FR
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_CUM_TP2.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - CUM.FR + TP3.FR
+Saving buffered grid as VK_CUM.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.TN + TP3.TN
+Saving buffered grid as VK_CUM.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TOPO_CURRENT.TP - TP3.SF
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.WS - CUM.FR
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_CUM_TP3.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - CUM.FR + TPM.FR
+Saving buffered grid as VK_CUM.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.TN + TPM.TN
+Saving buffered grid as VK_CUM.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TOPO_CURRENT.TP - TPM.SF
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.WS - CUM.FR
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_CUM_TPM.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - CUM.FR + CN1.FR
+Saving buffered grid as VK_CUM.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.TN + CN1.TN
+Saving buffered grid as VK_CUM.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TOPO_CURRENT.TP - CN1.SF
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.WS - CUM.FR
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_CUM_CN1.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - CUM.FR + CN2.FR
+Saving buffered grid as VK_CUM.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.TN + CN2.TN
+Saving buffered grid as VK_CUM.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TOPO_CURRENT.TP - CN2.SF
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.WS - CUM.FR
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_CUM_CN2.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - CUM.FR + CN3.FR
+Saving buffered grid as VK_CUM.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.TN + CN3.TN
+Saving buffered grid as VK_CUM.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TOPO_CURRENT.TP - CN3.SF
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.WS - CUM.FR
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_CUM_CN3.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - CUM.FR + CNL.FR
+Saving buffered grid as VK_CUM.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.TN + CNL.TN
+Saving buffered grid as VK_CUM.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TOPO_CURRENT.TP - CNL.SF
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.WS - CUM.FR
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_CUM_CNL.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - CUM.FR + WAA.FR
+Saving buffered grid as VK_CUM.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.TN + WAA.TN
+Saving buffered grid as VK_CUM.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TOPO_CURRENT.TP - WAA.SF
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.WS - CUM.FR
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_CUM_WAA.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - CUM.FR + BN1.FR
+Saving buffered grid as VK_CUM.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.TN + BN1.TN
+Saving buffered grid as VK_CUM.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TOPO_CURRENT.TP - BN1.SF
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.WS - CUM.FR
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_CUM_BN1.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - CUM.FR + BN2.FR
+Saving buffered grid as VK_CUM.FRG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.TN + BN2.TN
+Saving buffered grid as VK_CUM.TNG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TOPO_CURRENT.TP - BN2.SF
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CUM.WS - CUM.FR
+Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_CUM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_CUM_BN2.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - TOPO_CURRENT.TP - BN2.SF
+Saving buffered grid as VK_BN2.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - BN2.WS - BN2.FR
+Saving buffered grid as VK_BN2.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_BN2.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_INC_BN2.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - BN2.SF - BN1.SF
+Saving buffered grid as VK_BN1.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - BN1.WS - BN1.FR
+Saving buffered grid as VK_BN1.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_BN1.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_INC_BN1.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - BN1.SF - WAA.SF
+Saving buffered grid as VK_WAA.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - WAA.WS - WAA.FR
+Saving buffered grid as VK_WAA.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_WAA.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_INC_WAA.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - WAA.SF - CNL.SF
+Saving buffered grid as VK_CNL.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CNL.WS - CNL.FR
+Saving buffered grid as VK_CNL.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_CNL.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_INC_CNL.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - CNL.SF - CN3.SF
+Saving buffered grid as VK_CN3.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CN3.WS - CN3.FR
+Saving buffered grid as VK_CN3.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_CN3.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_INC_CN3.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - CN3.SF - CN2.SF
+Saving buffered grid as VK_CN2.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CN2.WS - CN2.FR
+Saving buffered grid as VK_CN2.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_CN2.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_INC_CN2.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - CN2.SF - CN1.SF
+Saving buffered grid as VK_CN1.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - CN1.WS - CN1.FR
+Saving buffered grid as VK_CN1.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_CN1.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_INC_CN1.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - CN1.SF - TPM.SF
+Saving buffered grid as VK_TPM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TPM.WS - TPM.FR
+Saving buffered grid as VK_TPM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_TPM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_INC_TPM.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - TPM.SF - TP3.SF
+Saving buffered grid as VK_TP3.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TP3.WS - TP3.FR
+Saving buffered grid as VK_TP3.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_TP3.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_INC_TP3.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - TP3.SF - TP2.SF
+Saving buffered grid as VK_TP2.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TP2.WS - TP2.FR
+Saving buffered grid as VK_TP2.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_TP2.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_INC_TP2.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - TP2.SF - TP1.SF
+Saving buffered grid as VK_TP1.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TP1.WS - TP1.FR
+Saving buffered grid as VK_TP1.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_TP1.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_INC_TP1.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - TP1.SF - STF.SF
+Saving buffered grid as VK_STF.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - STF.WS - STF.FR
+Saving buffered grid as VK_STF.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_STF.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_INC_STF.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - STF.SF - ST2.SF
+Saving buffered grid as VK_ST2.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - ST2.WS - ST2.FR
+Saving buffered grid as VK_ST2.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_ST2.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_INC_ST2.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - ST2.SF - ST1.SF
+Saving buffered grid as VK_ST1.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - ST1.WS - ST1.FR
+Saving buffered grid as VK_ST1.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_ST1.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_INC_ST1.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - ST1.SF - TA8.SF
+Saving buffered grid as VK_TA8.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TA8.WS - TA8.FR
+Saving buffered grid as VK_TA8.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_TA8.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_INC_TA8.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - TA8.SF - TA6.SF
+Saving buffered grid as VK_TA6.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TA6.WS - TA6.FR
+Saving buffered grid as VK_TA6.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_TA6.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_INC_TA6.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - TA6.SF - TAU.SF
+Saving buffered grid as VK_TAU.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TAU.WS - TAU.FR
+Saving buffered grid as VK_TAU.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_TAU.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_INC_TAU.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - TAU.SF - TA2.SF
+Saving buffered grid as VK_TA2.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TA2.WS - TA2.FR
+Saving buffered grid as VK_TA2.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_TA2.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_INC_TA2.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - TA2.SF - TA1.SF
+Saving buffered grid as VK_TA1.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TA1.WS - TA1.FR
+Saving buffered grid as VK_TA1.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_TA1.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_INC_TA1.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - TA1.SF - FX1.SF
+Saving buffered grid as VK_FX1.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - FX1.WS - FX1.FR
+Saving buffered grid as VK_FX1.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_FX1.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_INC_FX1.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - FX1.SF - TH1.SF
+Saving buffered grid as VK_TH1.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - TH1.WS - TH1.FR
+Saving buffered grid as VK_TH1.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_TH1.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_INC_TH1.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - TH1.SF - NT5.SF
+Saving buffered grid as VK_NT5.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - NT5.WS - NT5.FR
+Saving buffered grid as VK_NT5.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_NT5.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_INC_NT5.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - NT5.SF - NT3.SF
+Saving buffered grid as VK_NT3.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - NT3.WS - NT3.FR
+Saving buffered grid as VK_NT3.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_NT3.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_INC_NT3.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - NT3.SF - NT2.SF
+Saving buffered grid as VK_NT2.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - NT2.WS - NT2.FR
+Saving buffered grid as VK_NT2.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_NT2.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_INC_NT2.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - NT2.SF - NT1.SF
+Saving buffered grid as VK_NT1.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - NT1.WS - NT1.FR
+Saving buffered grid as VK_NT1.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_NT1.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_INC_NT1.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - NT1.SF - NGR.SF
+Saving buffered grid as VK_NGR.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - NGR.WS - NGR.FR
+Saving buffered grid as VK_NGR.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_NGR.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_INC_NGR.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - NGR.SF - NG3.SF
+Saving buffered grid as VK_NG3.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - NG3.WS - NG3.FR
+Saving buffered grid as VK_NG3.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_NG3.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_INC_NG3.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - NG3.SF - NG1.SF
+Saving buffered grid as VK_NG1.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - NG1.WS - NG1.FR
+Saving buffered grid as VK_NG1.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_NG1.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_INC_NG1.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - NG1.SF - VYM.SF
+Saving buffered grid as VK_VYM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - VYM.WS - VYM.FR
+Saving buffered grid as VK_VYM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_VYM.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_INC_VYM.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - VYM.SF - VY3.SF
+Saving buffered grid as VK_VY3.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - VY3.WS - VY3.FR
+Saving buffered grid as VK_VY3.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_VY3.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_INC_VY3.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - VY3.SF - VY2.SF
+Saving buffered grid as VK_VY2.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - VY2.WS - VY2.FR
+Saving buffered grid as VK_VY2.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_VY2.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_INC_VY2.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  Generating grid - VY2.SF - VY1.SF
+Saving buffered grid as VK_VY1.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - VY1.WS - VY1.FR
+Saving buffered grid as VK_VY1.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> Saving buffered grid as VK_VY1.WSG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc>  gdc>  gdc>  gdc>  gdc> Masking from database : VK_MODEL_INPUTS.DGD.ISIS
+Loading layer and object ("PIT_CREST","POLY")
+ gdc> Saving buffered grid as VK_INC_VY1.RAG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc>  gdc> 

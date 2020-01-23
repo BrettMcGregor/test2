@@ -1,0 +1,36 @@
+# HOLEID, SEAM, SURFACE, TOKEN, #COMMENT
+VS014, TP3, ROOF # seam intruded by sill
+VKY0006C, TP3, FLOOR # seam intruded by sill
+WVK523, TP12, ROOF, MIN # bad FixDHD above weathering
+VS027, TP3, ROOF # seam intruded by sill
+VS044, TP12, ROOF # seam intruded by sill
+VKY0044C, TP1, FLOOR # seam intruded by sill
+VKY0044C, TP2, FLOOR # seam intruded by sill
+VS054, TP2, FLOOR # seam intruded by sill
+VS013, TP2, FLOOR # seam intruded by sill
+VS057, TP2, FLOOR # seam intruded by sill
+WVK612, TPM, FLOOR # bad FixDHD ply interpolation
+VS036, TP1, ROOF # seam intruded by sill
+VS052, TP1, FLOOR # seam intruded by sill
+VS051, TP1, FLOOR # seam intruded by sill
+WVK070, TP1, ROOF # seam intruded by sill
+VS060, TP1, FLOOR # seam intruded by sill
+VS054, TP1, FLOOR # seam intruded by sill
+MWK002, TP1, ROOF # seam intruded by sill
+# WVK115, STF, FLOOR # seam intruded by sill
+ASV0025, STF, ROOF # overthick, causes artefact in model. faults nearby
+WVK116, STF, FLOOR # thin, near Woodlands fault
+ASV0001, STF, ROOF # thin, intruded by sill
+ASV0018, TA6, FLOOR # thick, intruded by sill
+VKY0034C, TA6, FLOOR # thick, intruded by sill
+ASV0002, TA6, FLOOR # thick, intruded by sill
+ASV0028, TA6, FLOOR # thick, intruded by sill
+WVK657, TA6, FLOOR # thick
+WVK609, TA6, FLOOR # thick
+VKY0032C, TA6, FLOOR # thick, intruded by sill
+VKY0032C, TA24, FLOOR # thick, intruded by sill
+VKY0033C, TAU, FLOOR # thick, intruded by sill
+VKY3076, TAU, ROOF # thin, weathered
+VKY1583R, NT5, ROOF # thick
+LOX11D, NTH, ROOF # weathered
+VKY1217, NTH, ROOF, MIN # bad FixDHD above weathering

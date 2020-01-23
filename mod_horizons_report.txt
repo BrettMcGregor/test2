@@ -1,0 +1,83 @@
+
+2D MAPPING AND MODELLING - GRID ARITHMETIC AND INSPECTION
+              GDCALC : Version : Vulcan 12.0.2.358 : 02-Dec-2019
+                          Copyright (C) 2019 Maptek
+GDCALC Vulcan 12.0.2.358 (VUL-80000_12.0.2) Dec 2 2019                                                                                                                                                       
+ gdc>  gdc> All point, string and triangle data removed
+ gdc> Specifications loaded for area: v10
+ gdc> Specifications used to determine window
+Specifications used to determine grid size
+Loading map file
+Area name: BHWE
+Using DSR info if available
+Loading map file: vk_bhwe.map
+Number of points: 1251 (out of 1683)
+ gdc> Base method is triangulation
+Smoothing passes : 9
+Specifications used to determine window and grid size
+Delaunay triangulation for 1251 points
+Total number of triangles: 2480/100000000
+Linear Triangular modeling method
+Maximum allowable triangle side length : 100000.000000
+Number of zero area triangles : 0
+Number of triangles with sides too long : 0
+Longest triangle side : 2960.240901
+Number of active points : 296978
+Generated data range : 201.319152 to 312.486419
+Smoothing grid surface with control points
+  Honouring all data points
+Surface smoothness : 1.000
+Surface smoothness : 0.581
+Surface smoothness : 0.416
+Surface smoothness : 0.331
+Surface smoothness : 0.276
+Surface smoothness : 0.238
+Surface smoothness : 0.210
+Surface smoothness : 0.189
+Surface smoothness : 0.173
+ gdc>  gdc> Saving buffered grid as VK_BHWE.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  Generating grid - MIN(Z,TOPO_VOIDS.TP)
+ Grid buffered but not saved
+ gdc>  gdc> Saving buffered grid as VK_BHWE.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> All point, string and triangle data removed
+ gdc>  gdc> Specifications loaded for area: v10
+ gdc> Specifications used to determine window
+Specifications used to determine grid size
+Loading map file
+Area name: BHQU
+Using DSR info if available
+Loading map file: vk_bhqu.map
+Number of points: 96 (out of 98)
+ gdc> Base method is triangulation
+Smoothing passes : 9
+Specifications used to determine window and grid size
+Delaunay triangulation for 96 points
+Total number of triangles: 178/100000000
+Linear Triangular modeling method
+Number of zero area triangles : 0
+Longest triangle side : 1013.083348
+Number of active points : 22586
+Generated data range : 220.064849 to 291.399444
+Smoothing grid surface with control points
+  Honouring all data points
+Surface smoothness : 1.000
+Surface smoothness : 0.554
+Surface smoothness : 0.389
+Surface smoothness : 0.305
+Surface smoothness : 0.251
+Surface smoothness : 0.214
+Surface smoothness : 0.187
+Surface smoothness : 0.167
+Surface smoothness : 0.151
+ gdc>  gdc> Saving buffered grid as VK_BHQU.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> All point, string and triangle data removed
+ gdc>  gdc> Specifications loaded for area: v10
+ gdc>  Generating grid - MIN(BHQU.SF,TOPO_ORIGINAL.TP)
+ Grid buffered but not saved
+ gdc>  gdc> Saving buffered grid as VK_BHQU.SFG
+WARNING - mask strings could not be saved, no design DB open
+ gdc>  gdc> All point, string and triangle data removed
+ gdc>  gdc> 

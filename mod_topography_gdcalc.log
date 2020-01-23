@@ -1,0 +1,81 @@
+
+2D MAPPING AND MODELLING - GRID ARITHMETIC AND INSPECTION
+              GDCALC : Version : Vulcan 12.0.2.358 : 02-Dec-2019
+                          Copyright (C) 2019 Maptek
+GDCALC Vulcan 12.0.2.358 (VUL-80000_12.0.2) Dec 2 2019                                                                                                                                                       
+ gdc> All point, string and triangle data removed
+ gdc>  gdc> Specifications loaded for area: v10
+ gdc> Loading triangle file TOPO_ORIGINAL.00T
+Generating topology ...
+ gdc> Base method is triangulation
+Smoothing passes : 9
+Specifications used to determine window and grid size
+Linear Triangular modeling method
+Number of zero area triangles : 0
+Longest triangle side : 28.284271
+Number of active points : 273045
+Generated data range : 248.123474 to 339.802886
+Smoothing grid surface with control points
+  Honouring all data points
+Surface smoothness : 1.000
+Surface smoothness : 0.447
+Surface smoothness : 0.217
+Surface smoothness : 0.110
+Surface smoothness : 0.057
+Surface smoothness : 0.030
+Surface smoothness : 0.016
+ gdc> Saving buffered grid as VK_TOPO_ORIGINAL.TPG
+WARNING - mask strings could not be saved, no design DB open
+ gdc> All point, string and triangle data removed
+ gdc>  gdc> All point, string and triangle data removed
+ gdc>  gdc> Specifications loaded for area: v10
+ gdc> Loading triangle file TOPO_VOIDS.00T
+Generating topology ...
+WARNING - zero area triangles: 36
+ gdc> Base method is triangulation
+Smoothing passes : 9
+Specifications used to determine window and grid size
+Linear Triangular modeling method
+Number of zero area triangles : 34
+Longest triangle side : 116.020314
+Number of active points : 273044
+Generated data range : 230.919250 to 339.802886
+Smoothing grid surface with control points
+  Honouring all data points
+Surface smoothness : 1.000
+Surface smoothness : 0.458
+Surface smoothness : 0.264
+Surface smoothness : 0.173
+Surface smoothness : 0.120
+Surface smoothness : 0.087
+Surface smoothness : 0.066
+Surface smoothness : 0.051
+ gdc> Saving buffered grid as VK_TOPO_VOIDS.TPG
+WARNING - mask strings could not be saved, no design DB open
+ gdc> All point, string and triangle data removed
+ gdc>  gdc> All point, string and triangle data removed
+ gdc>  gdc> Specifications loaded for area: v10
+ gdc> Loading triangle file TOPO_CURRENT.00T
+Generating topology ...
+WARNING - zero area triangles: 2050
+ gdc> Base method is triangulation
+Smoothing passes : 9
+Specifications used to determine window and grid size
+Linear Triangular modeling method
+Number of zero area triangles : 1409
+Longest triangle side : 1921.519206
+Number of active points : 273045
+Generated data range : 227.380020 to 339.980010
+Smoothing grid surface with control points
+  Honouring all data points
+Surface smoothness : 1.000
+Surface smoothness : 0.428
+Surface smoothness : 0.260
+Surface smoothness : 0.162
+Surface smoothness : 0.111
+Surface smoothness : 0.081
+Surface smoothness : 0.062
+ gdc> Saving buffered grid as VK_TOPO_CURRENT.TPG
+WARNING - mask strings could not be saved, no design DB open
+ gdc> All point, string and triangle data removed
+ gdc>  gdc> 

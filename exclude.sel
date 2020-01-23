@@ -1,0 +1,58 @@
+WVK017 # significant coreloss affecting md interpolation
+WVK517 # newer better hole nearby
+VKY1386 # deeper hole nearby
+WVK039 # fault, thin md
+WVK656 # TP3 CNL faulted out, redrill nearby
+WVK062LD # several seams not recorded in hole. LD hole targetting only specific seams?
+VKY2010 # NT2 only cannot be fixed
+VKY2013 # NT2 only cannot be fixed
+VKY2017 # NT2 only cannot be fixed
+VKY2019 # NT2 only cannot be fixed
+VKY2020 # NT2 only cannot be fixed
+VKY2023 # NT2 only cannot be fixed
+VKY2024 # NT2 only cannot be fixed
+VKY2025 # NT2 only cannot be fixed
+VKY2026 # NT2 only cannot be fixed
+VKY2027 # NT2 only cannot be fixed
+ABB016 # BN2 only cannot be fixed
+ASG03 # FX1 only cannot be fixed
+ASG02 # FX1 only cannot be fixed
+ASG04 # FX1 only cannot be fixed
+VKY2004 # NT2 only cannot be fixed
+VKY2005 # NT2 only cannot be fixed
+VKY2007 # NT2 only cannot be fixed
+VKY2008 # NT2 only cannot be fixed
+VKY2009 # NT2 only cannot be fixed
+CBH1002A # has no lithology data and no total depth value set
+VKY0079A # has no lithology data and no total depth value set
+VNW263C # has no lithology data and no total depth value set
+CBH1001 # incorrect collar elevation
+VKY3045 # in faulted zone
+WVK037LD # fully cored hole at site
+VKY0029LD # part of hole not logged. better hole at site
+VKY5034A # no horizon data of interest
+VNW097 # single horizon, cannot be fixed
+VNW107 # single horizon, cannot be fixed
+VNW108 # single horizon, cannot be fixed
+VNW114 # single horizon, cannot be fixed
+VNW120 # single horizon, cannot be fixed
+VNW272 # single horizon, cannot be fixed
+VNW275 # single horizon, cannot be fixed
+WVK501LD # multiple holes at drillsite
+WVK501R # multiple holes at drillsite
+LDC01 # better hole to basement at site. Sill in TPM
+VKY0030LD # better hole at site
+WVK505 # LD hole at site more reliable
+VKY1083 # adjacent to full sequence hole
+VKY1053 # adjacent to full sequence hole
+ASV1011 # adjacent to full sequence hole
+MDC02 # adjacent to full sequence hole
+WVK528 # parts of hole not logged. TP2 not logged - possibly faulted out
+WVK537 # intersects Karu fault
+VKY1665R # adjacent to full sequence hole
+LOX24A # unreliable lower part of hole not logged
+WVK941B # unreliable parts of hole not logged
+VKY2032 # short, better holes nearby
+LOX20B # unreliable parts of hole not logged
+VKY2028 # short, better holes nearby
+VKY1191 # NT2 log unreliable better hole nearby

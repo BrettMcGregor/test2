@@ -1,0 +1,812 @@
+access_specs/close_current
+clear_data
+access_specs/area='v10r'/access_specs
+load_mapfile/file='vy1_z'/dsr/xyz/variable=sr
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='vy1.sr'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10r'/access_specs
+load_mapfile/file='vy1_z'/dsr/xyz/variable=sf
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='vy1.sf'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10'/access_specs
+vy1.st = vy1.sr - vy1.sf
+vy1.st = max(0.0,vy1.st)
+closegrids
+access_specs/area='v10r'/access_specs
+load_mapfile/file='vy2_z'/dsr/xyz/variable=sr
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='vy2.sr'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10r'/access_specs
+load_mapfile/file='vy2_z'/dsr/xyz/variable=sf
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='vy2.sf'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10'/access_specs
+vy2.st = vy2.sr - vy2.sf
+vy2.st = max(0.0,vy2.st)
+closegrids
+vy2.md = vy1.sf - vy2.sr
+vy2.md = max(vy2.md,0)
+statistics
+access_specs/area='v10r'/access_specs
+load_mapfile/file='vy3_z'/dsr/xyz/variable=sr
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='vy3.sr'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10r'/access_specs
+load_mapfile/file='vy3_z'/dsr/xyz/variable=sf
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='vy3.sf'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10'/access_specs
+vy3.st = vy3.sr - vy3.sf
+vy3.st = max(0.0,vy3.st)
+closegrids
+vy3.md = vy2.sf - vy3.sr
+vy3.md = max(vy3.md,0)
+statistics
+access_specs/area='v10r'/access_specs
+load_mapfile/file='ng1_z'/dsr/xyz/variable=sr
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='ng1.sr'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10r'/access_specs
+load_mapfile/file='ng1_z'/dsr/xyz/variable=sf
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='ng1.sf'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10'/access_specs
+ng1.st = ng1.sr - ng1.sf
+ng1.st = max(0.0,ng1.st)
+closegrids
+ng1.md = vy3.sf - ng1.sr
+ng1.md = max(ng1.md,0)
+statistics
+access_specs/area='v10r'/access_specs
+load_mapfile/file='ng3_z'/dsr/xyz/variable=sr
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='ng3.sr'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10r'/access_specs
+load_mapfile/file='ng3_z'/dsr/xyz/variable=sf
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='ng3.sf'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10'/access_specs
+ng3.st = ng3.sr - ng3.sf
+ng3.st = max(0.0,ng3.st)
+closegrids
+ng3.md = ng1.sf - ng3.sr
+ng3.md = max(ng3.md,0)
+statistics
+access_specs/area='v10r'/access_specs
+load_mapfile/file='nt1_z'/dsr/xyz/variable=sr
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='nt1.sr'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10r'/access_specs
+load_mapfile/file='nt1_z'/dsr/xyz/variable=sf
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='nt1.sf'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10'/access_specs
+nt1.st = nt1.sr - nt1.sf
+nt1.st = max(0.0,nt1.st)
+closegrids
+nt1.md = ng3.sf - nt1.sr
+nt1.md = max(nt1.md,0)
+statistics
+access_specs/area='v10r'/access_specs
+load_mapfile/file='nt2_z'/dsr/xyz/variable=sr
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='nt2.sr'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10r'/access_specs
+load_mapfile/file='nt2_z'/dsr/xyz/variable=sf
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='nt2.sf'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10'/access_specs
+nt2.st = nt2.sr - nt2.sf
+nt2.st = max(0.0,nt2.st)
+closegrids
+nt2.md = nt1.sf - nt2.sr
+nt2.md = max(nt2.md,0)
+statistics
+access_specs/area='v10r'/access_specs
+load_mapfile/file='nt3_z'/dsr/xyz/variable=sr
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='nt3.sr'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10r'/access_specs
+load_mapfile/file='nt3_z'/dsr/xyz/variable=sf
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='nt3.sf'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10'/access_specs
+nt3.st = nt3.sr - nt3.sf
+nt3.st = max(0.0,nt3.st)
+closegrids
+nt3.md = nt2.sf - nt3.sr
+nt3.md = max(nt3.md,0)
+statistics
+access_specs/area='v10r'/access_specs
+load_mapfile/file='nt5_z'/dsr/xyz/variable=sr
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='nt5.sr'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10r'/access_specs
+load_mapfile/file='nt5_z'/dsr/xyz/variable=sf
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='nt5.sf'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10'/access_specs
+nt5.st = nt5.sr - nt5.sf
+nt5.st = max(0.0,nt5.st)
+closegrids
+nt5.md = nt3.sf - nt5.sr
+nt5.md = max(nt5.md,0)
+statistics
+access_specs/area='v10r'/access_specs
+load_mapfile/file='th1_z'/dsr/xyz/variable=sr
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='th1.sr'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10r'/access_specs
+load_mapfile/file='th1_z'/dsr/xyz/variable=sf
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='th1.sf'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10'/access_specs
+th1.st = th1.sr - th1.sf
+th1.st = max(0.0,th1.st)
+closegrids
+th1.md = nt5.sf - th1.sr
+th1.md = max(th1.md,0)
+statistics
+access_specs/area='v10r'/access_specs
+load_mapfile/file='fx1_z'/dsr/xyz/variable=sr
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='fx1.sr'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10r'/access_specs
+load_mapfile/file='fx1_z'/dsr/xyz/variable=sf
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='fx1.sf'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10'/access_specs
+fx1.st = fx1.sr - fx1.sf
+fx1.st = max(0.0,fx1.st)
+closegrids
+fx1.md = th1.sf - fx1.sr
+fx1.md = max(fx1.md,0)
+statistics
+access_specs/area='v10r'/access_specs
+load_mapfile/file='ta1_z'/dsr/xyz/variable=sr
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='ta1.sr'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10r'/access_specs
+load_mapfile/file='ta1_z'/dsr/xyz/variable=sf
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='ta1.sf'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10'/access_specs
+ta1.st = ta1.sr - ta1.sf
+ta1.st = max(0.0,ta1.st)
+closegrids
+ta1.md = fx1.sf - ta1.sr
+ta1.md = max(ta1.md,0)
+statistics
+access_specs/area='v10r'/access_specs
+load_mapfile/file='ta2_z'/dsr/xyz/variable=sr
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='ta2.sr'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10r'/access_specs
+load_mapfile/file='ta2_z'/dsr/xyz/variable=sf
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='ta2.sf'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10'/access_specs
+ta2.st = ta2.sr - ta2.sf
+ta2.st = max(0.0,ta2.st)
+closegrids
+ta2.md = ta1.sf - ta2.sr
+ta2.md = max(ta2.md,0)
+statistics
+access_specs/area='v10r'/access_specs
+load_mapfile/file='ta3_z'/dsr/xyz/variable=sr
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='ta3.sr'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10r'/access_specs
+load_mapfile/file='ta3_z'/dsr/xyz/variable=sf
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='ta3.sf'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10'/access_specs
+ta3.st = ta3.sr - ta3.sf
+ta3.st = max(0.0,ta3.st)
+closegrids
+ta3.md = ta2.sf - ta3.sr
+ta3.md = max(ta3.md,0)
+statistics
+access_specs/area='v10r'/access_specs
+load_mapfile/file='ta4_z'/dsr/xyz/variable=sr
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='ta4.sr'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10r'/access_specs
+load_mapfile/file='ta4_z'/dsr/xyz/variable=sf
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='ta4.sf'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10'/access_specs
+ta4.st = ta4.sr - ta4.sf
+ta4.st = max(0.0,ta4.st)
+closegrids
+ta4.md = ta3.sf - ta4.sr
+ta4.md = max(ta4.md,0)
+statistics
+access_specs/area='v10r'/access_specs
+load_mapfile/file='ta6_z'/dsr/xyz/variable=sr
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='ta6.sr'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10r'/access_specs
+load_mapfile/file='ta6_z'/dsr/xyz/variable=sf
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='ta6.sf'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10'/access_specs
+ta6.st = ta6.sr - ta6.sf
+ta6.st = max(0.0,ta6.st)
+closegrids
+ta6.md = ta4.sf - ta6.sr
+ta6.md = max(ta6.md,0)
+statistics
+access_specs/area='v10r'/access_specs
+load_mapfile/file='ta8_z'/dsr/xyz/variable=sr
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='ta8.sr'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10r'/access_specs
+load_mapfile/file='ta8_z'/dsr/xyz/variable=sf
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='ta8.sf'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10'/access_specs
+ta8.st = ta8.sr - ta8.sf
+ta8.st = max(0.0,ta8.st)
+closegrids
+ta8.md = ta6.sf - ta8.sr
+ta8.md = max(ta8.md,0)
+statistics
+access_specs/area='v10r'/access_specs
+load_mapfile/file='st1_z'/dsr/xyz/variable=sr
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='st1.sr'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10r'/access_specs
+load_mapfile/file='st1_z'/dsr/xyz/variable=sf
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='st1.sf'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10'/access_specs
+st1.st = st1.sr - st1.sf
+st1.st = max(0.0,st1.st)
+closegrids
+st1.md = ta8.sf - st1.sr
+st1.md = max(st1.md,0)
+statistics
+access_specs/area='v10r'/access_specs
+load_mapfile/file='st2_z'/dsr/xyz/variable=sr
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='st2.sr'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10r'/access_specs
+load_mapfile/file='st2_z'/dsr/xyz/variable=sf
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='st2.sf'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10'/access_specs
+st2.st = st2.sr - st2.sf
+st2.st = max(0.0,st2.st)
+closegrids
+st2.md = st1.sf - st2.sr
+st2.md = max(st2.md,0)
+statistics
+access_specs/area='v10r'/access_specs
+load_mapfile/file='tp1_z'/dsr/xyz/variable=sr
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='tp1.sr'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10r'/access_specs
+load_mapfile/file='tp1_z'/dsr/xyz/variable=sf
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='tp1.sf'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10'/access_specs
+tp1.st = tp1.sr - tp1.sf
+tp1.st = max(0.0,tp1.st)
+closegrids
+tp1.md = st2.sf - tp1.sr
+tp1.md = max(tp1.md,0)
+statistics
+access_specs/area='v10r'/access_specs
+load_mapfile/file='tp2_z'/dsr/xyz/variable=sr
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='tp2.sr'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10r'/access_specs
+load_mapfile/file='tp2_z'/dsr/xyz/variable=sf
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='tp2.sf'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10'/access_specs
+tp2.st = tp2.sr - tp2.sf
+tp2.st = max(0.0,tp2.st)
+closegrids
+tp2.md = tp1.sf - tp2.sr
+tp2.md = max(tp2.md,0)
+statistics
+access_specs/area='v10r'/access_specs
+load_mapfile/file='tp3_z'/dsr/xyz/variable=sr
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='tp3.sr'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10r'/access_specs
+load_mapfile/file='tp3_z'/dsr/xyz/variable=sf
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='tp3.sf'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10'/access_specs
+tp3.st = tp3.sr - tp3.sf
+tp3.st = max(0.0,tp3.st)
+closegrids
+tp3.md = tp2.sf - tp3.sr
+tp3.md = max(tp3.md,0)
+statistics
+access_specs/area='v10r'/access_specs
+load_mapfile/file='tp4_z'/dsr/xyz/variable=sr
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='tp4.sr'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10r'/access_specs
+load_mapfile/file='tp4_z'/dsr/xyz/variable=sf
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='tp4.sf'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10'/access_specs
+tp4.st = tp4.sr - tp4.sf
+tp4.st = max(0.0,tp4.st)
+closegrids
+tp4.md = tp3.sf - tp4.sr
+tp4.md = max(tp4.md,0)
+statistics
+access_specs/area='v10r'/access_specs
+load_mapfile/file='cn1_z'/dsr/xyz/variable=sr
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='cn1.sr'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10r'/access_specs
+load_mapfile/file='cn1_z'/dsr/xyz/variable=sf
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='cn1.sf'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10'/access_specs
+cn1.st = cn1.sr - cn1.sf
+cn1.st = max(0.0,cn1.st)
+closegrids
+cn1.md = tp4.sf - cn1.sr
+cn1.md = max(cn1.md,0)
+statistics
+access_specs/area='v10r'/access_specs
+load_mapfile/file='cn2_z'/dsr/xyz/variable=sr
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='cn2.sr'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10r'/access_specs
+load_mapfile/file='cn2_z'/dsr/xyz/variable=sf
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='cn2.sf'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10'/access_specs
+cn2.st = cn2.sr - cn2.sf
+cn2.st = max(0.0,cn2.st)
+closegrids
+cn2.md = cn1.sf - cn2.sr
+cn2.md = max(cn2.md,0)
+statistics
+access_specs/area='v10r'/access_specs
+load_mapfile/file='cn3u_z'/dsr/xyz/variable=sr
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='cn3u.sr'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10r'/access_specs
+load_mapfile/file='cn3u_z'/dsr/xyz/variable=sf
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='cn3u.sf'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10'/access_specs
+cn3u.st = cn3u.sr - cn3u.sf
+cn3u.st = max(0.0,cn3u.st)
+closegrids
+cn3u.md = cn2.sf - cn3u.sr
+cn3u.md = max(cn3u.md,0)
+statistics
+access_specs/area='v10r'/access_specs
+load_mapfile/file='cn3l_z'/dsr/xyz/variable=sr
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='cn3l.sr'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10r'/access_specs
+load_mapfile/file='cn3l_z'/dsr/xyz/variable=sf
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='cn3l.sf'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10'/access_specs
+cn3l.st = cn3l.sr - cn3l.sf
+cn3l.st = max(0.0,cn3l.st)
+closegrids
+cn3l.md = cn3u.sf - cn3l.sr
+cn3l.md = max(cn3l.md,0)
+statistics
+access_specs/area='v10r'/access_specs
+load_mapfile/file='waa_z'/dsr/xyz/variable=sr
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='waa.sr'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10r'/access_specs
+load_mapfile/file='waa_z'/dsr/xyz/variable=sf
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='waa.sf'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10'/access_specs
+waa.st = waa.sr - waa.sf
+waa.st = max(0.0,waa.st)
+closegrids
+waa.md = cn3l.sf - waa.sr
+waa.md = max(waa.md,0)
+statistics
+access_specs/area='v10r'/access_specs
+load_mapfile/file='bn1_z'/dsr/xyz/variable=sr
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='bn1.sr'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10r'/access_specs
+load_mapfile/file='bn1_z'/dsr/xyz/variable=sf
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='bn1.sf'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10'/access_specs
+bn1.st = bn1.sr - bn1.sf
+bn1.st = max(0.0,bn1.st)
+closegrids
+bn1.md = waa.sf - bn1.sr
+bn1.md = max(bn1.md,0)
+statistics
+access_specs/area='v10r'/access_specs
+load_mapfile/file='bn2_z'/dsr/xyz/variable=sr
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='bn2.sr'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10r'/access_specs
+load_mapfile/file='bn2_z'/dsr/xyz/variable=sf
+model/triangulation/grid_size=10/trend=0/smoothing=9
+unmask
+access_specs/close_current
+access_specs/area='v10'/access_specs
+save/use_spec_area_and_grid_size/nofault/variable='bn2.sf'
+closegrids
+clear_data
+access_specs/close_current
+access_specs/area='v10'/access_specs
+bn2.st = bn2.sr - bn2.sf
+bn2.st = max(0.0,bn2.st)
+closegrids
+bn2.md = bn1.sf - bn2.sr
+bn2.md = max(bn2.md,0)
+statistics
+closegrids
+access_specs/close_current
+exit
